@@ -2,9 +2,18 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
+
+    const blackLogo =     require('../../img/roc-logo.png');
+
     return (
-      <div id="Footer" className="bg-black-05">
-        <h1>Footer</h1>
+      <div id="Footer" className="pv4 black-30">
+        <img src={blackLogo} className="db h3 center mb3 tc"/>
+        <small className="f6 db tc">© 2017 <b className="ttu">Dennis Cortés</b>, All Rights Reserved</small>
+        <div className="tc mt3">
+          <a href="/language/" title="Language" className="f6 dib ph2 link black-60 b hover-red">Subscribe</a>
+          <a href="/terms/"    title="Terms" className="f6 dib ph2 link black-60 b hover-red">Sponsor</a>
+          <a href="/privacy/"  title="Privacy" className="f6 dib ph2 link black-60 b hover-red">Contact</a>
+        </div>
       </div>
     );
   }

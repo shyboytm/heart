@@ -7,10 +7,11 @@ import Footer from '../Footer';
 class Home extends Component {
   render() {
     return (
-      <div id="Home" className="bg-black-05">
+      <div id="Home" className="">
         <Header />
-        <h1>Home</h1>
-        <HomeFeed />
+        <div id="HomeFeed" className="bg-white br3">
+          <HomeFeed />
+        </div>
         <Footer />
       </div>
     );
