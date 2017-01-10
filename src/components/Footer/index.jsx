@@ -7,12 +7,12 @@ class Footer extends Component {
 
     return (
       <div id="Footer" className="pv4 black-30">
-        <img src={blackLogo} className="db h3 center mb3 tc"/>
-        <small className="f6 db tc">© 2017 <b className="ttu">Dennis Cortés</b>, All Rights Reserved</small>
+        <img src={blackLogo} alt="Rate of Change Logo" className="db h3 center mb3 tc"/>
+        <small className="f6 db tc">© 2017 <b>Dennis Cortés</b>, All Rights Reserved</small>
         <div className="tc mt3">
-          <a href="/language/" title="Language" className="f6 dib ph2 link black-60 b hover-red">Subscribe</a>
-          <a href="/terms/"    title="Terms" className="f6 dib ph2 link black-60 b hover-red">Sponsor</a>
-          <a href="/privacy/"  title="Privacy" className="f6 dib ph2 link black-60 b hover-red">Contact</a>
+          <a href="/language/" title="Language" className="f6 dib ph2 link blue b hover-light-blue">Subscribe</a>
+          <a href="/terms/"    title="Terms" className="f6 dib ph2 link blue b hover-light-blue">Sponsor</a>
+          <a href="/privacy/"  title="Privacy" className="f6 dib ph2 link blue b hover-light-blue">Contact</a>
         </div>
       </div>
     );
