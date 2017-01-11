@@ -19,15 +19,16 @@ class Header extends Component {
     const {
       size,
       color,
-      alignment,
+      tt,
       children
     } = this.props;
 
     var classes = ({
+      // Defaults
+      'lh-title': true,
+
       // Type Alignment
-      'text-center': alignment === 'center',
-      'text-right':  alignment === 'right',
-      'text-left':   alignment === 'left',
+      'ttu tracked': tt === 'u',
 
       // Type Color
       'blue':        color === 'blue',
