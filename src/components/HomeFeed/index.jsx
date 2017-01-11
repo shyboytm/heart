@@ -8,7 +8,9 @@ class HomeFeed extends Component {
   render() {
     return (
       <div id="HomeFeed" className="">
-        <H size={3} tt="u">Latest</H>
+        <H size={4} tt="u">Latest</H>
+        <HomeFeedItem />
+        <HomeFeedItem />
         <HomeFeedItem />
       </div>
     );

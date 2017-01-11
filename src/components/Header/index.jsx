@@ -10,7 +10,6 @@ class Header extends Component {
           <a href="http://cortes.us" className="link i blue hover-light-blue ph3">by Dennis Cortés</a>
           <a href="http://cortes.us" className="link red hover-light-red ph3">Subscribe ↗</a>
         </div>
-
       </div>
     );
   }
