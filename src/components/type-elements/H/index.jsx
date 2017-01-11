@@ -1,0 +1,52 @@
+import React, { Component } from 'react';
+import classNames from 'classnames';
+
+const  SIZE_TO_ELEMENT_MAP = {
+  1: 'h1',
+  2: 'h2',
+  3: 'h3',
+  4: 'h4',
+  5: 'h5',
+  6: 'h6'
+};
+
+function chooseHeaderTag(size) {
+  return SIZE_TO_ELEMENT_MAP[size] || 'h3';
+}
+
+class Header extends Component {
+  render() {
+    const {
+      size,
+      color,
+      alignment,
+      children
+    } = this.props;
+
+    var classes = ({
+      // Type Alignment
+      'text-center': alignment === 'center',
+      'text-right':  alignment === 'right',
+      'text-left':   alignment === 'left',
+
+      // Type Color
+      'blue':        color === 'blue',
+      'red':         color === 'red',
+      'green':       color === 'green',
+      'orange':      color === 'orange',
+      'white':       color === 'white',
+      'light-gray':  color === 'light-gray',
+      'black':       color === 'black',
+    });
+
+    this.headerTag = chooseHeaderTag(size);
+    return (
+      <this.headerTag
+          className={classNames(classes)}>
+        {children}
+      </this.headerTag>
+    );
+  }
+}
+
+export default Header;
