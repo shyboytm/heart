@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Header extends Component {
   render() {
     return (
       <div id="Header" className="tc mb5">
-        <h1 className="ttu tracked f2 fw9 lh-title">The Rate of Change</h1>
+        <Link to="/" className="link">
+          <h1 className="ttu tracked f2 fw9 lh-title black">The Rate of Change</h1>
+        </Link>
         <h2 className="black-60 fw4 f4 lh-copy">A blog about Design, Development, Business, and Life</h2>
         <div className="cf mt4">
           <a href="http://cortes.us" className="link i blue hover-light-blue ph3">by Dennis Cortés</a>

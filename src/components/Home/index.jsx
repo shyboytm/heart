@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div id="Home" className="">
         <Header />
-        <div id="HomeFeed" className="bg-white br3 ph4 pv3 shadow-custom">
+        <div id="HomeFeed" className="bg-white br3 ph5 pv4 shadow-custom">
           <HomeFeed />
         </div>
         <Footer />

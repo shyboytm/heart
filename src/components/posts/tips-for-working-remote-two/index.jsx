@@ -4,15 +4,32 @@ import { Link } from 'react-router';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
+import Blockquote from '../../type-elements/Blockquote';
 import H from '../../type-elements/H';
+import P from '../../type-elements/P';
 
 class tipsForWorkingRemoteTwo extends Component {
   render() {
+
+    const imgTipsForWorkingRemoteTwo = require('../../../img/roc-volume-18-cover.png');
+
     return (
-      <div className="db pointer link mb4">
+      <div className="">
         <Header />
-        <div id="HomeFeed" className="bg-white br3 ph4 pv3 shadow-custom">
-          <H size={1}>Tips</H>
+        <div id="HomeFeed" className="bg-white br3 ph5 pv4 shadow-custom">
+          <img src={imgTipsForWorkingRemoteTwo} alt="Tips for Working Remote 2" />
+          <div className="mb5 tc">
+            <H size={1}>Tips for Working Remote Part 2</H>
+            <span className="blue pr3">Volume 18</span>
+            <span className="black-50">Published Jan 12 2017</span>
+          </div>
+          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+          <Blockquote>
+            Love how clean it is, but it feels like a
+            tech start-up website as opposed to your go-to source
+            for design/lettering inspiration.
+          </Blockquote>
         </div>
         <Footer />
       </div>
