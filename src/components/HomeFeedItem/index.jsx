@@ -9,11 +9,12 @@ class HomeFeedItem extends Component {
     const {
       postTitle,
       volumeNumber,
-      publishedDate
+      publishedDate,
+      postLink
     } = this.props
 
     return (
-      <Link to="/" className="db pointer link mb4">
+      <Link to={postLink} className="db pointer link mb4">
         <hr className="b--black-05 mb3" />
         <div className="forward">
           <H size={1} color="black">{postTitle}</H>
