@@ -16,7 +16,7 @@ class tipsForWorkingRemoteTwo extends Component {
     return (
       <div className="">
         <Header />
-        <div id="HomeFeed" className="bg-white br3 ph5 pv4 shadow-custom">
+        <div id="HomeFeed" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
           <img src={imgTipsForWorkingRemoteTwo} alt="Tips for Working Remote 2" />
           <div className="mb5 tc">
             <H size={1}>Tips for Working Remote Part 2</H>

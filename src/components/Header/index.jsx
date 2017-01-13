@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="tc mb5">
+      <div id="Header" className="tc mb5 ph3">
         <Link to="/" className="link">
           <h1 className="ttu tracked f2 fw9 lh-title black">The Rate of Change</h1>
         </Link>
