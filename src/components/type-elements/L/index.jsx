@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class L extends Component {
   render() {
 
-    const { children } = this.props;
+    const { children, hrefLink } = this.props;
 
     return (
-      <a className="mv4 lh-paragraph black-70 fw4 f4-ns f5 leitura">
+      <a href={hrefLink} className="link system-sans-serif dib blue hover-light-blue fw7">
         {children}
       </a>
     );

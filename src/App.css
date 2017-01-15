@@ -1,17 +1,6 @@
 @import "tachyons.min.css";
 
-.system-sans-serif { font-family: -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
-               'avenir next', avenir, /* MacOS and iOS */
-               'Segoe UI', /* Windows */
-               'lucida grande', /* Older MacOS */
-               'helvetica neue', helvetica, /* Older MacOS */
-               'Fira Sans', /* Firefox OS */
-               roboto, noto, /* Google stuff */
-               'Droid Sans', /* Old Google stuff */
-               cantarell, oxygen, ubuntu, /* Linux stuff */
-               'franklin gothic medium', 'century gothic', /* Windows stuff */
-               'Liberation Sans', /* Linux */
-               sans-serif; /* Everything else */ }
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', Helvetica, sans-serif; }
 
 h1            { font-size: 1.75rem; }
 .leitura      { font-family: "leitura-news", 'Playfair Display', Georgia, serif; }
