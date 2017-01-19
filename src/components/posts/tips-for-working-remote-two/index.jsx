@@ -7,6 +7,7 @@ import Blockquote from '../../type-elements/Blockquote';
 import DropCap from '../../type-elements/DropCap';
 import H from '../../type-elements/H';
 import L from '../../type-elements/L';
+import LineBreak from '../../type-elements/LineBreak';
 import P from '../../type-elements/P';
 
 class Eighteen extends Component {
@@ -31,6 +32,8 @@ class Eighteen extends Component {
             tech start-up website as opposed to your go-to source
             for design/lettering inspiration.
           </Blockquote>
+          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <L hrefLink="http://cortes.us">tempor incididunt</L> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+          <LineBreak />
           <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <L hrefLink="http://cortes.us">tempor incididunt</L> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
         </div>
         <Footer />
