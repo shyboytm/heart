@@ -25,7 +25,7 @@ class Header extends Component {
 
     var classes = ({
       // Defaults
-      'lh-title': true,
+      'lh-copy': true,
 
       // Type Alignment
       'ttu tracked': tt === 'u',

@@ -6,7 +6,7 @@ class LineBreak extends Component {
     const { children, hrefLink } = this.props;
 
     return (
-      <span href={hrefLink} className="tc f1 black-20 db ">
+      <span href={hrefLink} className="tc f1 black-20 db nt2 pb2">
         . . .
       </span>
     );
