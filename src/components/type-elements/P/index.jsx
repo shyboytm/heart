@@ -6,7 +6,7 @@ class P extends Component {
     const { children } = this.props;
 
     return (
-      <p className="mv4 lh-paragraph black-70 fw4 f4-ns f5 leitura">
+      <p className="mv4 lh-paragraph black-70 f5">
         {children}
       </p>
     );

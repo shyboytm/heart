@@ -1,8 +1,7 @@
 @import "tachyons.min.css";
 
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', Helvetica, sans-serif; }
+.sans-serif { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
 
-h1            { font-size: 1.75rem; }
 .leitura      { font-family: "leitura-news", 'Playfair Display', Georgia, serif; }
 .lh-paragraph { line-height: 1.75; }
 
