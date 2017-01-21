@@ -21,3 +21,9 @@
  -webkit-transform: translateX(12px);
  transform: translateX(12px);
 }
+
+.social-box {
+  left: 13%;
+  top: 55%;
+  font-size: 12px;
+}

@@ -10,6 +10,7 @@ import Image from '../../type-elements/Image';
 import L from '../../type-elements/L';
 import LineBreak from '../../type-elements/LineBreak';
 import P from '../../type-elements/P';
+import Social from '../../type-elements/Social';
 
 class Eighteen extends Component {
   render() {
@@ -26,6 +27,10 @@ class Eighteen extends Component {
             <span className="blue pr3">Volume 18</span>
             <span className="black-50">Published Jan 12 2017</span>
           </div>
+          <Social
+            twitterLink="https://twitter.com/home?status=Tips%20for%20Working%20Remote%20Part%202%20http%3A//blog.cortes.us/tips-for-working-remote-two%20via%20%40fromcortes"
+            facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/tips-for-working-remote-two"
+            googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/tips-for-working-remote-two" />
           <P><DropCap>L</DropCap>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
           <H size={3}>You started your design career working with a lot of gaming companies. What’s your biggest takeaway from working in that industry?</H>
           <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
