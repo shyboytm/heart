@@ -33,6 +33,11 @@ class Eighteen extends Component {
           </div>
           <P>Welcome to Volume 18 of The Rate of Change. I hope you’re having an amazing week! As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before we get into this week’s article, here’s a quick update on my week.</P>
           <H size={3}>Side Projects at Quarry - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>No updates for Quarry this week, been a bit too busy with freelance work and getting accustomed to helping out the team at Design Inc. in my spare time. Drew has been working on learning code so we can work on building better, more useful things for you to use. More updates soon!</P>
+          <H size={3}>Personal Life</H>
+          <P>I’ve had my head down working on developing a native version of this blog in React for you to browse and enjoy with a better reading experience than here on Medium. Once it’s done I’ll let you know, but don’t worry, I’ll be posting them to Medium as well still so you can choose your reading experience.</P>
+          <P>Happy to say that next week I will be heading to Orange County in CA! Excited to visit for the first time and enjoy a little break with some warm weather. Let me know if there is anything specific I should check out there!</P>
+          <LineBreak />
         </div>
         <Footer />
       </div>

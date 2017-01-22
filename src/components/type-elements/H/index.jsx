@@ -16,6 +16,7 @@ function chooseHeaderTag(size) {
 
 class Header extends Component {
   render() {
+
     const {
       size,
       color,
@@ -39,6 +40,10 @@ class Header extends Component {
       'light-gray':  color === 'light-gray',
       'black':       color === 'black',
     });
+
+    if (size === 3) {
+      var classes = ({ 'mt4 pt3': true });
+    }
 
     this.headerTag = chooseHeaderTag(size);
     return (
