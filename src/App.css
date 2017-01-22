@@ -23,7 +23,10 @@
 }
 
 .social-box {
-  left: 13%;
-  top: 55%;
-  font-size: 12px;
+  left: 10%;
+  top: 50%;
 }
+
+.f7 { font-size: 12px; }
+
+.social-box .social-icon { fill: #B7B7B7; }

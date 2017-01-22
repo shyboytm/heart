@@ -6,7 +6,7 @@ class DropCap extends Component {
     const { children } = this.props;
 
     return (
-      <span className="fl lh-title relative tc pr3 top--1 black b f-headline-ns">
+      <span className="fl nt3 relative tc pr3 top--1 black b f-headline-ns">
         {children}
       </span>
     );

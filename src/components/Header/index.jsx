@@ -11,7 +11,7 @@ class Header extends Component {
         <h2 className="black-60 fw4 f4 lh-copy">A blog about Design, Development, Business, and Life</h2>
         <div className="cf mt4">
           <a href="http://cortes.us" className="link i blue hover-light-blue ph3">by Dennis Cortés</a>
-          <a href="http://cortes.us" className="link red hover-light-red ph3">Subscribe ↗</a>
+          <a href="http://cortes.us" className="link red hover-light-red ph3">Subscribe</a>
         </div>
       </div>
     );
