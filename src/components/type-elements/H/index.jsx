@@ -28,21 +28,16 @@ class Header extends Component {
       // Defaults
       'lh-copy': true,
 
-      // Type Alignment
+      // Type Style
       'ttu tracked': tt === 'u',
 
       // Type Color
       'blue':        color === 'blue',
-      'red':         color === 'red',
-      'green':       color === 'green',
-      'orange':      color === 'orange',
-      'white':       color === 'white',
-      'light-gray':  color === 'light-gray',
       'black':       color === 'black',
     });
 
-    if (size === 3) {
-      var classes = ({ 'mt4 pt3': true });
+    if (size === 2 || 3) {
+      var classes = ({'mt4 pt3 tracked-custom': true});
     }
 
     this.headerTag = chooseHeaderTag(size);

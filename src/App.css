@@ -2,8 +2,8 @@
 
 .sans-serif { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
 
-.leitura      { font-family: "leitura-news", 'Playfair Display', Georgia, serif; }
-.lh-paragraph { line-height: 1.75; }
+.leitura        { font-family: "leitura-news", 'Playfair Display', Georgia, serif; }
+.lh-paragraph   { line-height: 1.75; }
 
 .shadow-custom { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
 
