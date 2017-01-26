@@ -14,10 +14,10 @@ class HomeFeedItem extends Component {
     } = this.props
 
     return (
-      <Link to={postLink} className="db pointer link mb4">
+      <Link to={postLink} className="db pointer black link mb4">
         <hr className="b--black-05 mb3" />
         <div className="forward">
-          <H size={1} color="black">{postTitle}</H>
+          <H size={1} color="link">{postTitle}</H>
           <span className="blue pr3">Volume {volumeNumber}</span>
           <span className="black-50">Published {publishedDate}</span>
         </div>
