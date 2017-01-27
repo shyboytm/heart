@@ -28,9 +28,6 @@ class Header extends Component {
       // Defaults
       'lh-copy': true,
 
-      // Type Style
-      'ttu tracked': tt === 'u',
-
       // Type Color
       'blue':        color === 'blue',
       'black':       color === 'black',
@@ -38,6 +35,10 @@ class Header extends Component {
 
     if (size === 2 || 3) {
       var classes = ({'mt4 pt3 tracked-custom': true});
+    }
+
+    if (size === 4) {
+      var classes = ({'tracked ttu': true});
     }
 
     this.headerTag = chooseHeaderTag(size);
