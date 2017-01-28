@@ -8,7 +8,7 @@ class Social extends Component {
     return (
       <div className="fixed absolute social-box f7 z-0 mw3 w-80">
         <div className="tc pv2 dib-ns dn">
-          <p className="black-30 ttu lh-copy">
+          <p className="black-30 ttu tracked lh-copy">
             Share
           </p>
           <div className="w2 h2 center mv2 dim">

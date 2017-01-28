@@ -16,7 +16,7 @@ import Social from '../../type-elements/Social';
 class Eighteen extends Component {
   render() {
 
-    const imgTipsForWorkingRemoteTwo = require('../../../img/roc-volume-18-cover.png');
+    const imgEighteen = require('../../../img/roc-volume-18-cover.png');
 
     return (
       <div className="cf w-100">
@@ -26,7 +26,7 @@ class Eighteen extends Component {
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/tips-for-working-remote-two"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/tips-for-working-remote-two" />
         <div id="18" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
-          <Image imgSrc={imgTipsForWorkingRemoteTwo} imgAlt="Tips for Working Remote 2" />
+          <Image imgSrc={imgEighteen} imgAlt="Tips for Working Remote 2" />
           <div className="mb5 tc">
             <H size={1}>Tips for Working Remote Part 2</H>
             <span className="blue pr3">Volume 18</span>

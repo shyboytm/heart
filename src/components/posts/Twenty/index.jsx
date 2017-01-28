@@ -16,7 +16,7 @@ import Social from '../../type-elements/Social';
 class Twenty extends Component {
   render() {
 
-    const imgTipsForWorkingRemoteTwo = require('../../../img/roc-volume-18-cover.png');
+    const imgTwenty = require('../../../img/roc-volume-20-cover.png');
 
     return (
       <div className="cf w-100">
@@ -26,7 +26,7 @@ class Twenty extends Component {
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2"
           googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%2523.2iqcydlb2" />
         <div id="18" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
-          <Image imgSrc={imgTipsForWorkingRemoteTwo} imgAlt="The Key to Growing Your Social Media Presence" />
+          <Image imgSrc={imgTwenty} imgAlt="The Key to Growing Your Social Media Presence" />
           <div className="mb5 tc">
             <H size={1}>The Key to Growing Your Social Media Presence</H>
             <span className="blue pr3">Volume 20</span>
@@ -62,6 +62,9 @@ class Twenty extends Component {
             <span><b>Sogol </b>- Website, Facebook, Twitter</span><br />
             <span><b>Fieldy </b>- Website, Facebook Group with Field Notes fans</span><br />
           </P>
+
+          <P>As you can see, I’ve created a plethora of touch points over the years, with more in the works. Of course on top of that SEO, content, interaction, research, etc. is just as (or more) important as creating the outlets. But, a combination of all these is an incredible formula to setting yourself up for success on social media.</P>
+          <P>Hope this helps provide a foundation for you, more tips in the future. And between you and me, I’m working on a book focused on creatives building their presence on Instagram. Be on the lookout 👀</P>
 
           <PostEnd />
 
