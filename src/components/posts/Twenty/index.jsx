@@ -37,7 +37,7 @@ class Twenty extends Component {
           <P>This week has been mainly administrative work at Quarry, but one thing I will say is we are looking to bring someone else on the team soon! I’ll let you know how it pans out over the next few weeks.</P>
           <H size={2}>Personal Life</H>
           <P>In terms of any work, I’m still working on setting up my native blog for my website. I’ve been caught up in finishing the packaging freelance project I’ve mentioned in previous posts, so all my free time goes to that currently unfortunately. Hoping to get that wrapped up in the next month or so!</P>
-          <P>If you follow me on Twitter or Dribbble, you know I’ve been working on a couple stickers lately that people have really liked. (See a photo of the stickers here)I’m working on an ecommerce section on my website for you guys to pick a few up for yourself!</P>
+          <P>If you follow me on <L hrefLink="https://twitter.com/fromcortes">Twitter</L> or <L hrefLink="https://dribbble.com/fromcortes">Dribbble</L>, you know I’ve been working on a couple stickers lately that people have really liked (<L hrefLink="https://twitter.com/fromcortes/status/823662588345151488">See a photo of the stickers here</L>). I’m working on an ecommerce section on my website for you guys to pick a few up for yourself!</P>
           <P>I’m thinking about starting to stream myself when working in code and on design work on my <L hrefLink="https://www.twitch.tv/cortesarts">Twitch</L> account. What do you think?</P>
 
           <LineBreak />
@@ -46,8 +46,23 @@ class Twenty extends Component {
           <P>One thing I always get asked for is tips on growing your social media presence. Although this can vary widely depending on the platform, there is one thing that I always find holds true: creating a network of touch points across different social media and content outlets.</P>
           <P>What I mean by that is use and maintain accounts for different types of social media. Facebook, Twitter, Snapchat, Instagram, Medium, Pinterest, YouTube, Tumblr, etc. depending on what you are comfortable putting on you or your team’s plate. Make sure you keep them active and entertaining for your target audience. By having multiple, spread out touch points, you have more possible places to be found. And if you’ve done this well, the content you posted will be interacted with, you’ll get followers, your website will get more visits, etc.</P>
           <P><em>To help you better visualize, I will give a short overview of touch points I have created and maintain for personal and business entities:</em></P>
+
           <H size={2}>Personal Brand</H>
-          
+          <P>
+            <span><b>Social </b>- Twitter, Instagram, Dribbble, Pinterest, Github, Medium</span><br />
+            <span><b>Blog Content </b>- Medium, Native Blog, Newsletter</span><br />
+            <span><b>Fun Side Projects </b>- Pokém, Taste Notes, Cordio</span><br />
+            <span><b>Miscellaneous </b>- Multiple Slack channels for discussion and sharing work/blog posts, Connections w/ my jobs (Satchel Health, Design Inc, freelance clients)</span><br />
+          </P>
+          <H size={2}>Businesses</H>
+          <P>
+            <span><b>Quarry </b>- Website, Facebook, Twitter, Newsletter</span><br />
+            <span><b>Calligritype </b>- Website, Facebook, Twitter, Instagram</span><br />
+            <span><b>Illustree </b>- Instagram</span><br />
+            <span><b>Sogol </b>- Website, Facebook, Twitter</span><br />
+            <span><b>Fieldy </b>- Website, Facebook Group with Field Notes fans</span><br />
+          </P>
+
           <PostEnd />
 
         </div>
