@@ -25,13 +25,15 @@ class Twenty extends Component {
           twitterLink="https://twitter.com/home?status=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2%20via%20%40fromcortes"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2"
           googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%2523.2iqcydlb2" />
-        <div id="18" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <div id="20" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+
           <Image imgSrc={imgTwenty} imgAlt="The Key to Growing Your Social Media Presence" />
           <div className="mb5 tc">
             <H size={1}>The Key to Growing Your Social Media Presence</H>
             <span className="blue pr3">Volume 20</span>
             <span className="black-50">Published Jan 26 2017</span>
           </div>
+          
           <P>Welcome to Volume 20 of The Rate of Change. Can’t believe it’s been 20 weeks in a row that I’ve written to you! I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before we get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
           <P>This week has been mainly administrative work at Quarry, but one thing I will say is we are looking to bring someone else on the team soon! I’ll let you know how it pans out over the next few weeks.</P>

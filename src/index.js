@@ -7,14 +7,16 @@ import './index.css';
 import App from './App';
 import Home from './components/Home';
 
-import Twenty from './components/posts/Twenty';
 import Eighteen from './components/posts/Eighteen';
+import Nineteen from './components/posts/Nineteen';
+import Twenty from './components/posts/Twenty';
 
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/tips-for-working-remote-two" component={Eighteen}/>
+      <Route path="/how-come-up-side-project-ideas" component={Nineteen}/>
       <Route path="/key-growing-social-media-presence" component={Twenty}/>
     </Route>
   </Router>,

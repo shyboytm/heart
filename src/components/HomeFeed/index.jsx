@@ -17,7 +17,7 @@ class HomeFeed extends Component {
           postTitle="How to Come Up with Side Project Ideas"
           volumeNumber="19"
           publishedDate="Jan 19 2017"
-          postLink="tips-for-working-remote-two" />
+          postLink="how-come-up-side-project-ideas" />
         <HomeFeedItem
           postTitle="Tips for Working Remote (Part 2)"
           volumeNumber="18"

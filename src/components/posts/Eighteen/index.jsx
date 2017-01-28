@@ -26,12 +26,14 @@ class Eighteen extends Component {
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/tips-for-working-remote-two"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/tips-for-working-remote-two" />
         <div id="18" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+
           <Image imgSrc={imgEighteen} imgAlt="Tips for Working Remote 2" />
           <div className="mb5 tc">
             <H size={1}>Tips for Working Remote Part 2</H>
             <span className="blue pr3">Volume 18</span>
             <span className="black-50">Published Jan 12 2017</span>
           </div>
+          
           <P>Welcome to Volume 18 of The Rate of Change. I hope you’re having an amazing week! As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before we get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
           <P>No updates for Quarry this week, been a bit too busy with freelance work and getting accustomed to helping out the team at Design Inc. in my spare time. Drew has been working on learning code so we can work on building better, more useful things for you to use. More updates soon!</P>
