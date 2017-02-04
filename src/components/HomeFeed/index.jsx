@@ -26,7 +26,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Tips for Working Remote (Part 1)"
           volumeNumber="17"
-          publishedDate="Jan 5 2017" />
+          publishedDate="Jan 5 2017"
+          postLink="tips-for-working-remote-one" />
         <HomeFeedItem
           postTitle="My 2016"
           volumeNumber="16"

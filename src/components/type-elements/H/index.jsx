@@ -29,8 +29,8 @@ class Header extends Component {
       'lh-copy': true,
 
       // Type Color
-      'blue':        color === 'blue',
-      'black':       color === 'black',
+      'blue':    color === 'blue',
+      'black':   color === 'black',
     });
 
     if (size === 2 || 3 && !(1 || 5 || 6)) {
