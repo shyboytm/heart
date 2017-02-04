@@ -11,6 +11,7 @@ import Seventeen from './components/posts/Seventeen';
 import Eighteen from './components/posts/Eighteen';
 import Nineteen from './components/posts/Nineteen';
 import Twenty from './components/posts/Twenty';
+import TwentyOne from './components/posts/TwentyOne';
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Route path="/tips-for-working-remote-two" component={Eighteen}/>
       <Route path="/how-come-up-side-project-ideas" component={Nineteen}/>
       <Route path="/key-growing-social-media-presence" component={Twenty}/>
+      <Route path="/find-your-productivity-secret" component={TwentyOne}/>
     </Route>
   </Router>,
   document.getElementById('root')
