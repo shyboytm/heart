@@ -10,7 +10,7 @@ class HomeFeed extends Component {
         <H size={4} tt="u">Latest</H>
         <HomeFeedItem
           postTitle="Find Your Own Productivity Secret"
-          volumeNumber="20"
+          volumeNumber="21"
           publishedDate="Feb 2 2017"
           postLink="/find-your-productivity-secret" />
         <HomeFeedItem

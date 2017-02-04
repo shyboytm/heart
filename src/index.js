@@ -14,7 +14,7 @@ import Twenty from './components/posts/Twenty';
 import TwentyOne from './components/posts/TwentyOne';
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/tips-for-working-remote-one" component={Seventeen}/>
