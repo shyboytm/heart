@@ -36,7 +36,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="My 2016"
           volumeNumber="16"
-          publishedDate="Dec 29 2016" />
+          publishedDate="Dec 29 2016"
+          postLink="2016" />
         <HomeFeedItem
           postTitle="Distractions Provide Progress"
           volumeNumber="15"

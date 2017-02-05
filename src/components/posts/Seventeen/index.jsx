@@ -10,10 +10,10 @@ import Image from '../../type-elements/Image';
 import L from '../../type-elements/L';
 import LineBreak from '../../type-elements/LineBreak';
 import P from '../../type-elements/P';
-import PostEnd from '../../PostEnd';
+import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class Nineteen extends Component {
+class Seventeen extends Component {
   render() {
 
     const imgSeventeen = require('../../../img/roc-volume-17-cover.png');
@@ -25,7 +25,7 @@ class Nineteen extends Component {
           twitterLink="https://twitter.com/home?status=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2%20via%20%40fromcortes"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2"
           googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%2523.2iqcydlb2" />
-        <div id="19" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <div id="17" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgSeventeen} imgAlt="Tips for Working Remote (Part 1)" />
           <div className="mb5 tc">
@@ -87,4 +87,4 @@ class Nineteen extends Component {
   }
 }
 
-export default Nineteen;
+export default Seventeen;

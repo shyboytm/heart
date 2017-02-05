@@ -10,7 +10,7 @@ import Image from '../../type-elements/Image';
 import L from '../../type-elements/L';
 import LineBreak from '../../type-elements/LineBreak';
 import P from '../../type-elements/P';
-import PostEnd from '../../PostEnd';
+import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
 class Eighteen extends Component {
