@@ -21,6 +21,12 @@ class Sixteen extends Component {
     const imgMiloOne    = require('../../../img/postImgs/dog-milo-one.jpeg');
     const imgMiloTwo    = require('../../../img/postImgs/dog-milo-two.jpeg');
     const imgMiloThree  = require('../../../img/postImgs/dog-milo-three.jpeg');
+    const imgSFOne      = require('../../../img/postImgs/san-fran-2016-one.jpeg');
+    const imgSFTwo      = require('../../../img/postImgs/san-fran-2016-two.jpeg');
+    const imgSFThree    = require('../../../img/postImgs/san-fran-2016-three.jpeg');
+    const imgSFFour     = require('../../../img/postImgs/san-fran-2016-four.jpeg');
+    const imgSFFive     = require('../../../img/postImgs/san-fran-2016-five.jpeg');
+    const imgSFSix      = require('../../../img/postImgs/san-fran-2016-six.jpeg');
 
     return (
       <div className="cf w-100">
@@ -33,9 +39,9 @@ class Sixteen extends Component {
 
           <Image imgSrc={imgSixteen} imgAlt="Tips for Working Remote (Part 1)" />
           <div className="mb5 tc">
-            <H size={1}>How to Come Up with Side Project Ideas</H>
-            <span className="blue pr3">Volume 17</span>
-            <span className="black-50">Published Jan 5 2017</span>
+            <H size={1}>My 2016</H>
+            <span className="blue pr3">Volume 16</span>
+            <span className="black-50">Published Dec 29 2016</span>
           </div>
 
           <P>Hey there! Welcome to Volume 16 of The Rate of Change, hope you’re having a great week and an awesome holiday season. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before we get into this week’s article, here’s a quick update on my week.</P>
@@ -89,6 +95,14 @@ class Sixteen extends Component {
 
           <H size={2}>✈️ Traveled to San Francisco</H>
           <P>This year was the first year I went to San Francisco for no specific purpose and just to enjoy what the city has to offer. I went for a work vacation with one of my best friends that happens to be my boss and had a great time. We had a TON of amazing food and got to visit a few awesome places. You can see a couple of my photos on my Instagram and a few below.</P>
+          <GalleryThree
+            imgOne={imgSFOne}
+            imgTwo={imgSFTwo}
+            imgThree={imgSFThree} />
+          <GalleryThree
+            imgOne={imgSFFour}
+            imgTwo={imgSFFive}
+            imgThree={imgSFSix} />
 
           <PostEnd />
 
