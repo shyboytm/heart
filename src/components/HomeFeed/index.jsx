@@ -46,7 +46,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Distractions Provide Progress"
           volumeNumber="15"
-          publishedDate="Dec 22 2016" />
+          publishedDate="Dec 22 2016"
+          postLink="distractions-provide-progress" />
         <HomeFeedItem
           postTitle="How to Cure Creative Block"
           volumeNumber="14"
