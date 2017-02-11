@@ -51,7 +51,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="How to Cure Creative Block"
           volumeNumber="14"
-          publishedDate="Dec 15 2016" />
+          publishedDate="Dec 15 2016"
+          postLink="how-cure-creative-block" />
         <HomeFeedItem
           postTitle="People are More than Connections"
           volumeNumber="13"
@@ -88,10 +89,6 @@ class HomeFeed extends Component {
           postTitle="Budgeting Your Bandwidth"
           volumeNumber="5"
           publishedDate="Oct 13 2016" />
-        <HomeFeedItem
-          postTitle="Why You Should Seek Boredom"
-          volumeNumber="4"
-          publishedDate="Oct 6 2016" />
         <HomeFeedItem
           postTitle="Why You Should Seek Boredom"
           volumeNumber="4"

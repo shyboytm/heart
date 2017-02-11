@@ -31,7 +31,7 @@ class Sixteen extends Component {
           <Image imgSrc={imgFifteen} imgAlt="Distractions Provide Progress" />
           <div className="mb5 tc">
             <H size={1}>Distractions Provide Progress</H>
-            <span className="blue pr3">Volume 16</span>
+            <span className="blue pr3">Volume 15</span>
             <span className="black-50">Published Dec 22 2016</span>
           </div>
 
