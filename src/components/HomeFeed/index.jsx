@@ -66,7 +66,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Advantages of Side Projects"
           volumeNumber="11"
-          publishedDate="Nov 24 2016" />
+          publishedDate="Nov 24 2016"
+          postLink="advantages-of-side-projects" />
         <HomeFeedItem
           postTitle="Places to Help You Stay Inspired"
           volumeNumber="10"
