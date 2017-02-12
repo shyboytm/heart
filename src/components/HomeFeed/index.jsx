@@ -61,7 +61,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Less Perfection and More Iteration"
           volumeNumber="12"
-          publishedDate="Dec 1 2016" />
+          publishedDate="Dec 1 2016"
+          postLink="more-iteration-less-perfection" />
         <HomeFeedItem
           postTitle="Advantages of Side Projects"
           volumeNumber="11"
