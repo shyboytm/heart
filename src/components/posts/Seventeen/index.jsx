@@ -57,21 +57,21 @@ class Seventeen extends Component {
           <H size={2}>3. Have a Dedicated Workspace</H>
           <P>Separating the place you work and the place you live is important. If they bleed into one another, distractions can creep up on you easily. A few typical examples of thoughts you’ll have:</P>
           <ul className="list lh-copy black-60 f4">
-            <li className="black i mb3">I should really clean those dishes 🍽</li>
-            <li className="black i mb3">I can lay down for just a few minutes 🛏💤</li>
-            <li className="black i mb3">I can have Netflix on the TV in the background, that won’t distract me 📺</li>
+            <li className="black i mb4">I should really clean those dishes 🍽</li>
+            <li className="black i mb4">I can lay down for just a few minutes 🛏💤</li>
+            <li className="black i mb4">I can have Netflix on the TV in the background, that won’t distract me 📺</li>
           </ul>
           <P>Invest some money in getting yourself a great desk, a comfortable chair, maybe even a monitor or laptop stand. Make your workspace inspiring and comfortable for how you work best. The better you set yourself up for success, the less likely you are to get distracted.</P>
 
           <H size={2}>3. Limit Possible Distractions</H>
           <P>To go with #3, you need to be conscious about limiting the amount of possible distractions around you both physically and digitally. Here are a couple suggestions:</P>
           <ul className="list lh-copy black-60 f4">
-            <li className="black i mb3">Close the door to the room you are in while working.</li>
-            <li className="black i mb3">Turn off all notifications on your phone and computer.</li>
-            <li className="black i mb3">Block distracting websites you have a habit of going on.</li>
-            <li className="black i mb3">Don’t have any unnecessary screens nearby (tablet, phone, TV, etc.).</li>
-            <li className="black i mb3">Communicate your working times to others you live with.</li>
-            <li className="black i mb3">Filter Slack and Email notifications for only crucial ones.</li>
+            <li className="black i mb4">Close the door to the room you are in while working.</li>
+            <li className="black i mb4">Turn off all notifications on your phone and computer.</li>
+            <li className="black i mb4">Block distracting websites you have a habit of going on.</li>
+            <li className="black i mb4">Don’t have any unnecessary screens nearby (tablet, phone, TV, etc.).</li>
+            <li className="black i mb4">Communicate your working times to others you live with.</li>
+            <li className="black i mb4">Filter Slack and Email notifications for only crucial ones.</li>
           </ul>
 
           <H size={2}>5. Over Communicate and Ask Questions</H>

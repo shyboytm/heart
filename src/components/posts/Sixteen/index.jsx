@@ -85,12 +85,12 @@ class Sixteen extends Component {
           <H size={2}>☕️ Made 6 New Side Projects</H>
           <P>Although Quarry is something Drew and I collaborate on, I personally have built 8 different side projects this year. These have all been made in the last 6 months of the year so not too bad I’d say. Got a couple more coming in 2017, be on the lookout!</P>
           <ul className="list lh-copy black-60 f4">
-            <li className="black i mb3"><L hrefLink="http://sogol.co">Sogol</L> - Hand crafted and on-demand logos for your ideas</li>
-            <li className="black i mb3"><L hrefLink="http://calligritype.us">Calligritype 3.0</L> - A place for artists & designers</li>
-            <li className="black i mb3"><L hrefLink="http://fieldy.co">Fieldy</L> - Unofficial resources for lovers of Field Notes</li>
-            <li className="black i mb3"><L hrefLink="https://atom.io/users/fromcortes">Prisma</L> - A minimal and dark UI theme for Atom</li>
-            <li className="black i mb3"><L hrefLink="http://coffee.cortes.us">Taste Notes</L> - Coffee thoughts and reference</li>
-            <li className="black i mb3"><L hrefLink="http://blog.cortes.us">The Rate of Change</L> - A blog about Design, Development, Business, and Life</li>
+            <li className="black i mb4"><L hrefLink="http://sogol.co">Sogol</L> - Hand crafted and on-demand logos for your ideas</li>
+            <li className="black i mb4"><L hrefLink="http://calligritype.us">Calligritype 3.0</L> - A place for artists & designers</li>
+            <li className="black i mb4"><L hrefLink="http://fieldy.co">Fieldy</L> - Unofficial resources for lovers of Field Notes</li>
+            <li className="black i mb4"><L hrefLink="https://atom.io/users/fromcortes">Prisma</L> - A minimal and dark UI theme for Atom</li>
+            <li className="black i mb4"><L hrefLink="http://coffee.cortes.us">Taste Notes</L> - Coffee thoughts and reference</li>
+            <li className="black i mb4"><L hrefLink="http://blog.cortes.us">The Rate of Change</L> - A blog about Design, Development, Business, and Life</li>
           </ul>
 
           <H size={2}>✈️ Traveled to San Francisco</H>
