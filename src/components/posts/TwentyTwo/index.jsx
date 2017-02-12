@@ -44,7 +44,7 @@ class Twenty extends Component {
 
           <LineBreak />
 
-          <P>I’ve tried quite a few different areas of design during my career. The area that has always been constant for me is branding. The reason I started design was actually because I needed a logo for something I was making and couldn’t afford to hire someone else at the time. Branding design has always fascinated me; the way you can impact the entire company’s potential success and provide an incredible experience for customers with a system of work you create.</P>
+          <P><DropCap>I</DropCap>’ve tried quite a few different areas of design during my career. The area that has always been constant for me is branding. The reason I started design was actually because I needed a logo for something I was making and couldn’t afford to hire someone else at the time. Branding design has always fascinated me; the way you can impact the entire company’s potential success and provide an incredible experience for customers with a system of work you create.</P>
           <P>I am constantly asked about tips I have for those interested in logo design so I wanted to give my 3 best tips in this article for you. I think they’ll be helpful whether you are a beginner or experienced designer.</P>
           <P><em>At some point I’d love to make a guide on branding, but today I’d like to focus on logo design. Branding has multiple levels and factors of impact, hence why I’m breaking this article into a much smaller aspect.</em></P>
 

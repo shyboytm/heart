@@ -33,7 +33,7 @@ class Twenty extends Component {
             <span className="blue pr3">Volume 20</span>
             <span className="black-50">Published Jan 26 2017</span>
           </div>
-          
+
           <P>Welcome to Volume 20 of The Rate of Change. Can’t believe it’s been 20 weeks in a row that I’ve written to you! I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before we get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
           <P>This week has been mainly administrative work at Quarry, but one thing I will say is we are looking to bring someone else on the team soon! I’ll let you know how it pans out over the next few weeks.</P>
@@ -44,7 +44,7 @@ class Twenty extends Component {
 
           <LineBreak />
 
-          <P>Over the years I’ve been working on growing my social media outlets on my own. I’ve never paid for advertisements on the most recognizable brands I have and have amounted ~700k followers in total across social media networks. A few you may or may not recognize are <L hrefLink="https://www.instagram.com/calligritype/">Calligritype</L>, <L hrefLink="https://www.instagram.com/illustree/">Illustree</L>, <L hrefLink="https://www.instagram.com/muchclean/">Much Clean</L>, and my <L hrefLink="https://www.instagram.com/fromcortes/">personal account</L>. Now, I don’t state or show this to brag, more to show you I have experience in this realm.</P>
+          <P><DropCap>O</DropCap>ver the years I’ve been working on growing my social media outlets on my own. I’ve never paid for advertisements on the most recognizable brands I have and have amounted ~700k followers in total across social media networks. A few you may or may not recognize are <L hrefLink="https://www.instagram.com/calligritype/">Calligritype</L>, <L hrefLink="https://www.instagram.com/illustree/">Illustree</L>, <L hrefLink="https://www.instagram.com/muchclean/">Much Clean</L>, and my <L hrefLink="https://www.instagram.com/fromcortes/">personal account</L>. Now, I don’t state or show this to brag, more to show you I have experience in this realm.</P>
           <P>One thing I always get asked for is tips on growing your social media presence. Although this can vary widely depending on the platform, there is one thing that I always find holds true: creating a network of touch points across different social media and content outlets.</P>
           <P>What I mean by that is use and maintain accounts for different types of social media. Facebook, Twitter, Snapchat, Instagram, Medium, Pinterest, YouTube, Tumblr, etc. depending on what you are comfortable putting on you or your team’s plate. Make sure you keep them active and entertaining for your target audience. By having multiple, spread out touch points, you have more possible places to be found. And if you’ve done this well, the content you posted will be interacted with, you’ll get followers, your website will get more visits, etc.</P>
           <P><em>To help you better visualize, I will give a short overview of touch points I have created and maintain for personal and business entities:</em></P>

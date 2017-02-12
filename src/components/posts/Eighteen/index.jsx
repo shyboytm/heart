@@ -33,7 +33,7 @@ class Eighteen extends Component {
             <span className="blue pr3">Volume 18</span>
             <span className="black-50">Published Jan 12 2017</span>
           </div>
-          
+
           <P>Welcome to Volume 18 of The Rate of Change. I hope you’re having an amazing week! As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before we get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
           <P>No updates for Quarry this week, been a bit too busy with freelance work and getting accustomed to helping out the team at Design Inc. in my spare time. Drew has been working on learning code so we can work on building better, more useful things for you to use. More updates soon!</P>
@@ -43,7 +43,7 @@ class Eighteen extends Component {
 
           <LineBreak />
 
-          <P><em>I’ve been working remote for quite a while now. Whenever I tell people I work remote, they are always curious about how I can get stuff done and my recommended practices. If you work remote/work from home or are wanting to, this article is for you. This is part 2 of the series, so make sure you have read <L>part 1</L> before continuing. Enjoy!</em></P>
+          <P><DropCap>I</DropCap>’ve been working remote for quite a while now. Whenever I tell people I work remote, they are always curious about how I can get stuff done and my recommended practices. If you work remote/work from home or are wanting to, this article is for you. This is part 2 of the series, so make sure you have read <L>part 1</L> before continuing. Enjoy!</P>
 
           <H>6. Add Variety to Your Work Environment</H>
           <P>Limiting yourself to one work environment day in and day out is a quick way to limit your creativity. A lack of stimulating visual senses can put a dent on your work quality and productivity and I’ve had to learn how to deal with this the hard way.</P>

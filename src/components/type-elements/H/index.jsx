@@ -33,7 +33,7 @@ class Header extends Component {
       'black':   color === 'black',
     });
 
-    if (size === 2 || 3 && !(1 || 5 || 6)) {
+    if (size === 2 ) {
       var classes = ({'mt4 nb3 pt3 tracked-custom': true});
     }
 

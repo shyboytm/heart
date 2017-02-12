@@ -45,7 +45,7 @@ class Nineteen extends Component {
 
           <LineBreak />
 
-          <P>Projects outside of your full-time work is important, no matter what stage of life you are in. As I’ve mentioned in a previous article, side projects help build your skill set, can bring in extra income, and are a creative outlet. But, to create a side project, you first need an idea, right? I’ve made quite a few side projects that have helped and inspired others, all from using certain techniques to come up with their ideas.</P>
+          <P><DropCap>P</DropCap>rojects outside of your full-time work is important, no matter what stage of life you are in. As I’ve mentioned in a previous article, side projects help build your skill set, can bring in extra income, and are a creative outlet. But, to create a side project, you first need an idea, right? I’ve made quite a few side projects that have helped and inspired others, all from using certain techniques to come up with their ideas.</P>
           <P>One of the questions I get the most is how I am able to come up with these ideas. Forget actually building them, because without the initial idea there is of course nothing to build. So, I want to give away what I find most helpful when trying to come up with ideas.</P>
 
           <H size={2}>Tip 1: Observe</H>

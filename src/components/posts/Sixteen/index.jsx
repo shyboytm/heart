@@ -55,7 +55,7 @@ class Sixteen extends Component {
 
           <LineBreak />
 
-          <P>Starting last year, I write a post each year reflecting back on my major accomplishments of the year and this week I wanted to share my 2016 with you at 22 years old. I’d recommend doing the same if you have time, it’s a great way to reflect and keep record of major accomplishments in your life and a record of them.</P>
+          <P><DropCap>S</DropCap>tarting last year, I write a post each year reflecting back on my major accomplishments of the year and this week I wanted to share my 2016 with you at 22 years old. I’d recommend doing the same if you have time, it’s a great way to reflect and keep record of major accomplishments in your life and a record of them.</P>
 
           <H size={2}>🎓 Graduated College</H>
           <P>Probably one of my biggest accomplishments this year. I spent 17 years in school and finally finished with a BFA in Design Communications and a minor in Design Administration from Belmont University. College was touch the last 2 years since I was already working a professional design job and doing freelance while being a full-time student. It was a great experience, but I’m glad to have a much less stressful life now that I’m done. I may get a Masters and maybe a PhD at some point, but who knows.</P>

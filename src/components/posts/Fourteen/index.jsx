@@ -51,7 +51,7 @@ class Sixteen extends Component {
 
           <LineBreak />
 
-          <P>It’s easy to get stuck in your normal routine of inspiration. You wake up, browse the news, check Twitter, search Product Hunt, find cool new shots on Dribbble, pin some modern stuff on Pinterest, and go throughout your normal schedule. Creative block creeps up on you and it’s hard to know why, let alone fix it.</P>
+          <P><DropCap>I</DropCap>t’s easy to get stuck in your normal routine of inspiration. You wake up, browse the news, check Twitter, search Product Hunt, find cool new shots on Dribbble, pin some modern stuff on Pinterest, and go throughout your normal schedule. Creative block creeps up on you and it’s hard to know why, let alone fix it.</P>
           <P>In my experience, creative block comes from a lack of diversity in routine and inspiration fuel in life. When you get stuck in the same sources of visual and intellectual inspiration, there isn’t much to trigger your new ideas. Your brain is pulling in the same thing over and over instead of something it isn’t used to. Something that can make ideas click together that didn’t to make sense before.</P>
           <P><em>I recommend making small changes to your routine and places you look for inspiration as a good start. <strong>Here is a list of a few things you can start with:</strong></em></P>
           <ol className="lh-copy black-70 f4">

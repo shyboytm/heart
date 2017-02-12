@@ -45,7 +45,7 @@ class Seventeen extends Component {
 
           <LineBreak />
 
-          <P><em>I’ve been working remote for quite a while now. Whenever I tell people I work remote, they are always curious about how I can get stuff done and my recommended practices. So if you work remote/work from home or are wanting to, this article is for you. Enjoy!</em></P>
+          <P><DropCap>I</DropCap>’ve been working remote for quite a while now. Whenever I tell people I work remote, they are always curious about how I can get stuff done and my recommended practices. So if you work remote/work from home or are wanting to, this article is for you. Enjoy!</P>
 
           <H size={2}>1. Have a Routine</H>
           <P>Easily the most important tip I can give you is setting and maintaining a routine. Having a process you can stick to that your body can get used to makes your morning routine much easier. This will also help you separate your work and non-work life even while you are at home. Your body will get used to the time and actions associated with each other after some time, just be sure to stick with something that’s reasonable for you and your lifestyle.</P>
