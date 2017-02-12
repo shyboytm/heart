@@ -56,7 +56,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="People are More than Connections"
           volumeNumber="13"
-          publishedDate="Dec 8 2016" />
+          publishedDate="Dec 8 2016"
+          postLink="people-more-than-connections" />
         <HomeFeedItem
           postTitle="Less Perfection and More Iteration"
           volumeNumber="12"
