@@ -76,7 +76,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Why Vacations are Important"
           volumeNumber="9"
-          publishedDate="Nov 10 2016" />
+          publishedDate="Nov 10 2016"
+          postLink="why-vacations-are-important" />
         <HomeFeedItem
           postTitle="How to Get Better"
           volumeNumber="8"
