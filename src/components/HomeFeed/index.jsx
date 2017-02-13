@@ -81,7 +81,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="How to Get Better"
           volumeNumber="8"
-          publishedDate="Nov 3 2016" />
+          publishedDate="Nov 3 2016"
+          postLink="how-to-get-better" />
         <HomeFeedItem
           postTitle="How to Accept and Use Feedback"
           volumeNumber="7"
