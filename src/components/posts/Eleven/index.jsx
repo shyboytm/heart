@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
-import Blockquote from '../../type-elements/Blockquote';
 import DropCap from '../../type-elements/DropCap';
-import GalleryThree from '../../post-elements/GalleryThree';
 import H from '../../type-elements/H';
 import Image from '../../type-elements/Image';
 import L from '../../type-elements/L';
@@ -14,7 +12,7 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class Sixteen extends Component {
+class Eleven extends Component {
   render() {
 
     const imgEleven = require('../../../img/roc-volume-11-cover.png');
@@ -73,4 +71,4 @@ class Sixteen extends Component {
   }
 }
 
-export default Sixteen;
+export default Eleven;
