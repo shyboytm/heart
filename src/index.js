@@ -7,6 +7,7 @@ import './index.css';
 import App from './App';
 import Home from './components/Home';
 
+import Four from './components/posts/Four';
 import Five from './components/posts/Five';
 import Six from './components/posts/Six';
 import Seven from './components/posts/Seven';
@@ -30,6 +31,7 @@ ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
+      <Route path="/why-to-seek-boredom" component={Four}/>
       <Route path="/budgeting-your-bandwidth" component={Five}/>
       <Route path="/break-your-comfort-zone" component={Six}/>
       <Route path="/accept-and-use-feedback" component={Seven}/>

@@ -101,7 +101,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Why You Should Seek Boredom"
           volumeNumber="4"
-          publishedDate="Oct 6 2016" />
+          publishedDate="Oct 6 2016"
+          postLink="why-to-seek-boredom" />
         <HomeFeedItem
           postTitle="The Advantages of Failing"
           volumeNumber="3"
