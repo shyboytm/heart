@@ -86,7 +86,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="How to Accept and Use Feedback"
           volumeNumber="7"
-          publishedDate="Oct 27 2016" />
+          publishedDate="Oct 27 2016"
+          postLink="accept-and-use-feedback" />
         <HomeFeedItem
           postTitle="Break Your Comfort Zone"
           volumeNumber="6"
