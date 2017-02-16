@@ -96,7 +96,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Budgeting Your Bandwidth"
           volumeNumber="5"
-          publishedDate="Oct 13 2016" />
+          publishedDate="Oct 13 2016"
+          postLink="budgeting-your-bandwidth" />
         <HomeFeedItem
           postTitle="Why You Should Seek Boredom"
           volumeNumber="4"
