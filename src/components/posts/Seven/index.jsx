@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
-import Blockquote from '../../type-elements/Blockquote'
+import Blockquote from '../../type-elements/Blockquote';
 import DropCap from '../../type-elements/DropCap';
 import H from '../../type-elements/H';
 import Image from '../../type-elements/Image';

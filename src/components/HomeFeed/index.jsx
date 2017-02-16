@@ -91,7 +91,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Break Your Comfort Zone"
           volumeNumber="6"
-          publishedDate="Oct 20 2016" />
+          publishedDate="Oct 20 2016"
+          postLink="break-your-comfort-zone" />
         <HomeFeedItem
           postTitle="Budgeting Your Bandwidth"
           volumeNumber="5"
