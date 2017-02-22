@@ -12,7 +12,7 @@ class PostEnd extends Component {
         <b className="db f4 black tc">— Dennis Cortés</b><br/>
         <LineBreak />
         <div className="tc center">
-          <a className="mt4 f6 link hover-bg-light-red br3 ph3 pv2 mb2 dib white bg-red" href="#0">Subscribe to Newsletter</a>
+          <a className="mt4 f6 link hover-bg-light-red br3 ph3 pv2 mb2 dib white bg-red" href="http://eepurl.com/cgT2bD">Subscribe to Newsletter</a>
         </div>
         <P><em>I’d love for you to follow the blog on <L hrefLink="https://medium.com/the-rate-of-change">Medium</L> or join my personal newsletter. Feel free to reach out to me on <L hrefLink="https://twitter.com/fromcortes">Twitter</L> if you have any feedback, questions, or just to say hello!</em><br/>
 

@@ -26,6 +26,7 @@ import Nineteen from './components/posts/Nineteen';
 import Twenty from './components/posts/Twenty';
 import TwentyOne from './components/posts/TwentyOne';
 import TwentyTwo from './components/posts/TwentyTwo';
+import TwentyThree from './components/posts/TwentyThree';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -50,6 +51,7 @@ ReactDOM.render(
       <Route path="/key-growing-social-media-presence" component={Twenty}/>
       <Route path="/find-your-productivity-secret" component={TwentyOne}/>
       <Route path="/guidelines-great-logo-design" component={TwentyTwo}/>
+      <Route path="/how-sacrifices-provide-productivity" component={TwentyThree}/>
     </Route>
   </Router>,
   document.getElementById('root')

@@ -35,3 +35,25 @@ li     { margin-bottom: 2rem; }
 strong { color: black; }
 
 .social-box .social-icon { fill: #B7B7B7; }
+
+.troc-title {
+  color: #000000;
+  -webkit-animation: random 30s infinite;
+  animation: random 30s infinite;
+  transition: all 20s ease-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes random {
+    10% { background-color: #fbc2eb;  }
+    20% { background-color: #96e6a1; }
+    30% { background-color: #a6c1ee; }
+    40% { background-color: #f6d365; }
+    50% { background-color: #38f9d7; }
+    60% { background-color: #fda085; }
+    70% { background-color: #667eea; }
+    80% { background-color: #89f7fe; }
+    90% { background-color: #66a6ff; }
+    95%{ background-color: #2575fc; }
+}
