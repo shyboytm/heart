@@ -13,10 +13,10 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class Eight extends Component {
+class Two extends Component {
   render() {
 
-    const imgThree = require('../../../img/roc-volume-3-cover.png');
+    const imgTwo = require('../../../img/roc-volume-2-cover.png');
 
     return (
       <div className="cf w-100">
@@ -27,7 +27,7 @@ class Eight extends Component {
           googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%2523.2iqcydlb2" />
         <div id="2" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgThree} imgAlt="Trends Fade, Technique Does Not" />
+          <Image imgSrc={imgTwo} imgAlt="Trends Fade, Technique Does Not" />
           <div className="mb5 tc">
             <H size={1}>Trends Fade, Technique Does Not</H>
             <span className="blue pr3">Volume 2</span>
@@ -71,4 +71,4 @@ class Eight extends Component {
   }
 }
 
-export default Eight;
+export default Two;

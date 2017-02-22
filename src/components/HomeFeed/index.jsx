@@ -121,7 +121,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Introducing: The Rate of Change Blog"
           volumeNumber="1"
-          publishedDate="Sep 15 2016" />
+          publishedDate="Sep 15 2016"
+          postLink="/the-rate-of-change" />
       </div>
     );
   }
