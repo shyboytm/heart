@@ -116,7 +116,8 @@ class HomeFeed extends Component {
         <HomeFeedItem
           postTitle="Trends Fade, Technique Does Not"
           volumeNumber="2"
-          publishedDate="Sep 22 2016" />
+          publishedDate="Sep 22 2016"
+          postLink="/trends-fade-techniques-dont" />
         <HomeFeedItem
           postTitle="Introducing: The Rate of Change Blog"
           volumeNumber="1"

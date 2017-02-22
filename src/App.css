@@ -46,7 +46,7 @@ strong { color: black; }
 }
 
 @keyframes random {
-    10% { background-color: #fbc2eb; }
+    10% { background-color: #000000; }
     20% { background-color: #96e6a1; }
     30% { background-color: #a6c1ee; }
     40% { background-color: #f6d365; }
