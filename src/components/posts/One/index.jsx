@@ -46,7 +46,21 @@ class One extends Component {
           <P>This has been a struggle for me. I love sharing my work and solutions with others to help them learn and grow, especially because of the complex issues Satchel solves in healthcare.</P>
           <P>Because of this, a lot of aspects of my portfolio and work suffer. My portfolio is only what I <em>can</em> show, which is almost nothing currently from Satchel. I rely on side projects and freelance work to build my public portfolio, but I want to find a middle ground.</P>
           <P>Lastly, I just turned 22 last week (September 9th). People treasure memories more than anything when they get older. I want to get better at recording those thoughts and memories I have for myself as well as others to enjoy and learn from. I tried to do this previously in the form of video, but did not feel it was the right platform for my personality. I feel I express myself much better through something I have really missed, writing.</P>
-          <H size={1}>As a result, I have decided to start a new, weekly, personal blog called <L hrefLink="http://blog.cortes.us">The Rate of Change.</L></H>
+          <P><strong>As a result, I have decided to start a new, weekly, personal blog called <L hrefLink="http://blog.cortes.us">The Rate of Change.</L></strong></P>
+          <H size={2}>What to Expect</H>
+          <ul className="list lh-copy black-60 f4 mv5">
+            <li className="black i mb4">Thoughts and ideas I have relating to design and development.</li>
+            <li className="black i mb4">Answers to questions people ask.</li>
+            <li className="black i mb4">Advice for others centered around design and development.</li>
+            <li className="black i mb4">What I work on at my full-time job (that I can share).</li>
+            <li className="black i mb4">Updates and insights on side projects I have been working on.</li>
+            <li className="black i mb4">Personal life updates I feel comfortable sharing.</li>
+            <li className="black i mb4">Anything else I found that week or think is worth sharing.</li>
+          </ul>
+          <P>This blog solves a few issues I find myself having lately. It creates a platform to share my work in a way that I can not visually and becomes a compliment to my visual portfolio. This blog allows me to share personal thoughts on life and this industry in a better format than Twitter or video. It lets me have a record of my work and how I progress in design, development, and life. It helps me give advice and teach other designers what I didn’t know at their stage in their career. It will also (I hope) help me meet and connect with new, awesome people.</P>
+          <P><em>The Rate of Change</em> gives me a place to develop my creative skills in a format that I’m not used to (writing). I believe it will help me grow personally and professionally. I want it to be an informal place for me to express thoughts. A place to share my hard work from professional and personal work. A place to share my knowledge on the world of design while learning about life and work along the way.</P>
+          <P><em>The Rate of Change</em> name is inspired by a talk I had with a friend in relation to the rate of change phenomenon. Basically, if you want something to change in your life, make small changes that bring you closer and closer to the path you want to be on. Don’t approach the problem as one huge one. Break it into smaller, more approachable ones. I want this blog to be that for not only myself, but for you the reader.</P>
+          <P>And with that, I’ll end this introductory piece here. The first formatted piece will be released next Thursday (September 22nd). Future pieces will be released every Thursday there after through my personal newsletter and here on Medium.</P>
 
           <PostEnd />
 
