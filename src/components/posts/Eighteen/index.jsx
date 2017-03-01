@@ -27,9 +27,9 @@ class Eighteen extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/tips-for-working-remote-two" />
         <div id="18" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgEighteen} imgAlt="Tips for Working Remote 2" />
+          <Image imgSrc={imgEighteen} imgAlt="Tips for Working Remote (Part 2)" />
           <div className="mb5 tc">
-            <H size={1}>Tips for Working Remote Part 2</H>
+            <H size={1}>Tips for Working Remote (Part 2)</H>
             <span className="blue pr3">Volume 18</span>
             <span className="black-50">Published Jan 12 2017</span>
           </div>

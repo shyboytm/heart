@@ -21,9 +21,9 @@ class Nine extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2%20via%20%40fromcortes"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2"
-          googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%2523.2iqcydlb2" />
+          twitterLink="https://twitter.com/home?status=Why%20Vacations%20are%20Important%20by%20%40fromcortes%20http%3A//blog.cortes.us/why-vacations-are-important"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/why-vacations-are-important"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/why-vacations-are-important" />
         <div id="9" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgNine} imgAlt="Why Vacations are Important" />

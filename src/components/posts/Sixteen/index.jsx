@@ -32,12 +32,12 @@ class Sixteen extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2%20via%20%40fromcortes"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=https%3A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%23.2iqcydlb2"
-          googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=https%253A//medium.com/the-rate-of-change/the-key-to-growing-your-social-media-presence-89daec5043ab%2523.2iqcydlb2" />
+          twitterLink="https://twitter.com/home?status=My%202016%20by%20%40fromcortes%20http%3A//blog.cortes.us/2016"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/2016"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/2016" />
         <div id="16" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgSixteen} imgAlt="Tips for Working Remote (Part 1)" />
+          <Image imgSrc={imgSixteen} imgAlt="My 2016" />
           <div className="mb5 tc">
             <H size={1}>My 2016</H>
             <span className="blue pr3">Volume 16</span>
