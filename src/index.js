@@ -30,6 +30,8 @@ import Twenty from './components/posts/Twenty';
 import TwentyOne from './components/posts/TwentyOne';
 import TwentyTwo from './components/posts/TwentyTwo';
 import TwentyThree from './components/posts/TwentyThree';
+import TwentyFour from './components/posts/TwentyFour';
+import TwentyFive from './components/posts/TwentyFive';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -58,6 +60,8 @@ ReactDOM.render(
       <Route path="/find-your-productivity-secret" component={TwentyOne}/>
       <Route path="/guidelines-great-logo-design" component={TwentyTwo}/>
       <Route path="/how-sacrifices-provide-productivity" component={TwentyThree}/>
+      <Route path="/give-away-what-you-know" component={TwentyFour}/>
+      <Route path="/finding-comfort-identity-crisis" component={TwentyFive}/>
     </Route>
   </Router>,
   document.getElementById('root')

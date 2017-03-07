@@ -10,8 +10,8 @@ class Header extends Component {
         </Link>
         <h2 className="black-60 fw4 f4 lh-copy">A blog about Design, Development, Business, and Life</h2>
         <div className="cf mt4">
-          <a href="http://cortes.us" className="link i blue hover-light-blue ph3">by Dennis Cortés</a>
-          <a href="http://cortes.us" className="link blue hover-light-blue ph3 b">Subscribe</a>
+          <a href="http://cortes.us" target="_blank" className="link i blue hover-light-blue ph3">by Dennis Cortés</a>
+          <a href="http://eepurl.com/cgT2bD" target="_blank" className="link blue hover-light-blue ph3 b">Subscribe</a>
         </div>
       </div>
     );

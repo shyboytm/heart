@@ -38,9 +38,9 @@ strong { color: black; }
 
 .troc-title {
   color: #000000;
-  -webkit-animation: random 30s infinite;
-  animation: random 30s infinite;
-  transition: all 20s ease-out;
+  -webkit-animation: random 45s infinite;
+  animation: random 45s infinite;
+  transition: all 45s ease-out;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
