@@ -1,13 +1,22 @@
 @import "tachyons.min.css";
 
-.sans-serif { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
-
-.leitura        { font-family: "leitura-news", 'Playfair Display', Georgia, serif; }
+/* add-ons */
+.sans-serif     { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
 .lh-paragraph   { line-height: 1.75; }
+.f4             { font-size: 1.2rem; }
+.f7             { font-size: 12px; }
+.shadow-custom  { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
+.social-box     { left: 10%; top: 50%; }
+.social-box .social-icon { fill: #B7B7B7; }
 
-.shadow-custom { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
+/* elements */
+h1              { font-weight: 500; line-height: 2.5rem; }
+b               { color: rgba(0,0,0,0.5); }
+li              { margin-bottom: 2rem; }
+strong          { color: black; }
 
-/* forward */
+
+/* animations */
 .forward {
  -webkit-transform: perspective(1px) translateZ(0);
  transform: perspective(1px) translateZ(0);
@@ -21,20 +30,6 @@
  -webkit-transform: translateX(12px);
  transform: translateX(12px);
 }
-
-.social-box {
-  left: 10%;
-  top: 50%;
-}
-
-.f4    { font-size: 1.2rem; }
-.f7    { font-size: 12px; }
-h1     { font-weight: 500; line-height: 2.5rem; }
-b      { color: rgba(0,0,0,0.5); }
-li     { margin-bottom: 2rem; }
-strong { color: black; }
-
-.social-box .social-icon { fill: #B7B7B7; }
 
 .troc-title {
   color: #000000;
@@ -56,4 +51,26 @@ strong { color: black; }
     80% { background-color: #89f7fe; }
     90% { background-color: #66a6ff; }
     95% { background-color: #000000; }
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }

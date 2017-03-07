@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from "react-helmet";
 
 import Header from '../../Header';
 import Footer from '../../Footer';
@@ -20,6 +21,17 @@ class One extends Component {
 
     return (
       <div className="cf w-100">
+        <Helmet
+          title="Introducing: The Rate of Change Blog"
+          meta={[
+                  {property: "og:title", content: "Introducing: The Rate of Change Blog"},
+                  {property: "og:description", content: "I have been needing an outlet to share everything going on in my life. I feel my experiences can really help others on a personal and professional level. I need something"},
+                  {property: "og:site_name", content: "The Rate of Change by Dennis Cortes"},
+                  {property: "og:type", content: "article"},
+                  {property: "twitter:title", content: "Introducing: The Rate of Change Blog"},
+                  {property: "twitter:description", content: "I have been needing an outlet to share everything going on in my life. I feel my experiences can really help others on a personal and professional level. I need something"},
+                  {property: "twitter:image:alt", content: "The Rate of Change by Dennis Cortes"},
+                ]} />
         <Header />
         <Social
           twitterLink="https://twitter.com/home?status=Introducing%20The%20Rate%20of%20Change%20by%20%40fromcortes%20http%3A//blog.cortes.us/the-rate-of-change"

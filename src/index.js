@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 
 import './index.css';
 
@@ -33,7 +33,7 @@ import TwentyThree from './components/posts/TwentyThree';
 import TwentyFour from './components/posts/TwentyFour';
 import TwentyFive from './components/posts/TwentyFive';
 
-ReactDOM.render(
+render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
