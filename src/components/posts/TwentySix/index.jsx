@@ -23,9 +23,9 @@ class TwentySix extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=How%20to%20Keep%20Learning%20and%20Stay%20Fulfilled%20by%20%40fromcortes%20http%3A//blog.cortes.us/keep-learning-stay-fullfilled"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/keep-learning-stay-fullfilled"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/keep-learning-stay-fullfilled" />
         <div id="26" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgTwentySix} imgAlt="How to Keep Learning and Stay Fulfilled" />

@@ -2,6 +2,7 @@
   "name": "heart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://blog.cortes.us",
   "devDependencies": {
     "react-scripts": "0.8.4",
     "react-snapshot": "^1.0.4"

@@ -26,9 +26,9 @@ class TwentyNine extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=Apple%20LG%20Ultrafine%20Monitor%20Review%20by%20%40fromcortes%20http%3A//blog.cortes.us/apple-lg-ultrafine-review"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/apple-lg-ultrafine-review"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/apple-lg-ultrafine-review" />
         <div id="29" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgTwentyNine} imgAlt="Apple LG UltraFine Monitor Review" />

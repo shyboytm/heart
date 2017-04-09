@@ -22,9 +22,9 @@ class TwentyEight extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=How%20to%20Set%20Up%20Your%20Success%20Early%20Review%20by%20%40fromcortes%20http%3A//blog.cortes.us/set-up-your-success-early"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/set-up-your-success-early"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/set-up-your-success-early" />
         <div id="28" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgTwentyEight} imgAlt="How to Set Up Your Success Early" />

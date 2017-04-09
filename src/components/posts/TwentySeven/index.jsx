@@ -22,9 +22,9 @@ class TwentySeven extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=A%20Guide%20to%20a%20Healthy%20Work%20from%20Home%20Lifestyle%20by%20%40fromcortes%20http%3A//blog.cortes.us/guide-healthy-work-from-home-lifestyle"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/guide-healthy-work-from-home-lifestyle"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/guide-healthy-work-from-home-lifestyle" />
         <div id="27" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgTwentySeven} imgAlt="A Guide to a Healthy Work from Home Lifestyle" />
