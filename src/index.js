@@ -36,6 +36,7 @@ import TwentySix from './components/posts/TwentySix';
 import TwentySeven from './components/posts/TwentySeven';
 import TwentyEight from './components/posts/TwentyEight';
 import TwentyNine from './components/posts/TwentyNine';
+import Thirty from './components/posts/Thirty';
 
 render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -70,6 +71,7 @@ render(
       <Route path="/guide-healthy-work-from-home-lifestyle" component={TwentySeven}/>
       <Route path="/set-up-your-success-early" component={TwentyEight}/>
       <Route path="/apple-lg-ultrafine-review" component={TwentyNine}/>
+      <Route path="/making-success-sustainable" component={Thirty}/>
     </Route>
   </Router>,
   document.getElementById('root')
