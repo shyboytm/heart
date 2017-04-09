@@ -74,7 +74,7 @@ strong          { color: black; }
   animation-name: fadeIn;
 }
 
-/*Large*/
+/*Large Only*/
 @media only screen and (min-width: 60em) {
   .social-box { left: 10%; top: 50%; }
 }

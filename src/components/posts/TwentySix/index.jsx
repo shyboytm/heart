@@ -17,6 +17,7 @@ class TwentySix extends Component {
   render() {
 
     const imgTwentySix = require('../../../img/roc-volume-26-cover.png');
+    const imgUtility   = require('../../../img/postImgs/utility-fieldy.png');
 
     return (
       <div className="cf w-100">
@@ -37,6 +38,7 @@ class TwentySix extends Component {
           <P>Welcome to Volume 26 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
           <P>I updated Fieldy earlier this week now that Field Notes introduced their latest edition, <L hrefLink="https://fieldnotesbrand.com/products/utility">Utility</L>! I added the latest wallpaper that you can download for your phone or desktop if you’d like <L hrefLink="http://www.fieldy.co/">here</L>. I’m also thinking about making stickers available as well!</P>
+          <Image imgSrc={imgUtility} imgAlt="Fieldy Utility" />
           <H size={2}>Personal Life</H>
           <P>Now that I’m back home, I’m back to streaming on Twitch, and now I have a schedule! We’ve been working on some illustrations and coding my new personal site from scratch (all recorded on YouTube as well). I’m hoping to keep this up for a long time so I’d love to see you there to become a part of the community that hangs out with me when I work.</P>
           <P>I’m usually pretty good at keeping relatively healthy and working out, but this week I’ve started focusing a bit more on it again. It really helps me feel more relaxed and focused with my work and personal life. Can’t recommend keeping a healthy lifestyle enough!</P>

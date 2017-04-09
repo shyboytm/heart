@@ -9,6 +9,11 @@ class HomeFeed extends Component {
       <div id="HomeFeed" className="">
         <H size={4} tt="u">Latest</H>
         <HomeFeedItem
+          postTitle="A Guide to a Healthy Work from Home Lifestyle"
+          volumeNumber="27"
+          publishedDate="Mar 16 2017"
+          postLink="/guide-healthy-work-from-home-lifestyle" />
+        <HomeFeedItem
           postTitle="How to Keep Learning and Stay Fulfilled"
           volumeNumber="26"
           publishedDate="Mar 9 2017"
