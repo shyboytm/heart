@@ -32,6 +32,7 @@ import TwentyTwo from './components/posts/TwentyTwo';
 import TwentyThree from './components/posts/TwentyThree';
 import TwentyFour from './components/posts/TwentyFour';
 import TwentyFive from './components/posts/TwentyFive';
+import TwentySix from './components/posts/TwentySix';
 
 render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -62,6 +63,7 @@ render(
       <Route path="/how-sacrifices-provide-productivity" component={TwentyThree}/>
       <Route path="/give-away-what-you-know" component={TwentyFour}/>
       <Route path="/finding-comfort-identity-crisis" component={TwentyFive}/>
+      <Route path="/keep-learning-stay-fullfilled" component={TwentySix}/>
     </Route>
   </Router>,
   document.getElementById('root')

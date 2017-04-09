@@ -3,10 +3,9 @@
 /* add-ons */
 .sans-serif     { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
 .lh-paragraph   { line-height: 1.75; }
-.f4             { font-size: 1.2rem; }
 .f7             { font-size: 12px; }
 .shadow-custom  { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
-.social-box     { left: 10%; top: 50%; }
+.social-box     { left: 2%; top: 50%; }
 .social-box .social-icon { fill: #B7B7B7; }
 
 /* elements */
@@ -73,4 +72,14 @@ strong          { color: black; }
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+/*Large*/
+@media only screen and (min-width: 60em) {
+  .social-box { left: 10%; top: 50%; }
+}
+
+/*Not Small*/
+@media only screen and (min-width: 30em) {
+  .f4-ns { font-size: 1.2rem; }
 }

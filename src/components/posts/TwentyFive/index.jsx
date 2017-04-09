@@ -13,7 +13,7 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class TwentyFour extends Component {
+class TwentyFive extends Component {
   render() {
 
     const imgTwentyFive = require('../../../img/roc-volume-25-cover.png');
@@ -61,4 +61,4 @@ class TwentyFour extends Component {
   }
 }
 
-export default TwentyFour;
+export default TwentyFive;
