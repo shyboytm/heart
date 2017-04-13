@@ -17,15 +17,15 @@ import Social from '../../type-elements/Social';
 class ThirtyOne extends Component {
   render() {
 
-    const imgThirtyOne = require('../../../img/roc-volume-30-cover.png');
+    const imgThirtyOne = require('../../../img/roc-volume-31-cover.png');
 
     return (
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=Advantages%20of%20Working%20Remote%20by%20%40fromcortes%20http%3A//blog.cortes.us/advantages-of-working-remote"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/advantages-of-working-remote"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/advantages-of-working-remote" />
         <div id="30" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgThirtyOne} imgAlt="Advantages of Working Remote" />
