@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtyOne extends Component {
   render() {
 
-    const imgThirtyOne = require('../../../img/roc-volume-31-cover.png');
+    const imgThirtyOne = require('../../../img/roc-volume-31-cover.gif');
 
     return (
       <div className="cf w-100">
