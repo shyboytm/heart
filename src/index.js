@@ -38,6 +38,7 @@ import TwentyEight from './components/posts/TwentyEight';
 import TwentyNine from './components/posts/TwentyNine';
 import Thirty from './components/posts/Thirty';
 import ThirtyOne from './components/posts/ThirtyOne';
+import ThirtyTwo from './components/posts/ThirtyTwo';
 
 render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -74,6 +75,7 @@ render(
       <Route path="/apple-lg-ultrafine-review" component={TwentyNine}/>
       <Route path="/making-success-sustainable" component={Thirty}/>
       <Route path="/advantages-of-working-remote" component={ThirtyOne}/>
+      <Route path="/disadvantages-of-working-remote" component={ThirtyTwo}/>
     </Route>
   </Router>,
   document.getElementById('root')

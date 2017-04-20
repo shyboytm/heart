@@ -9,6 +9,11 @@ class HomeFeed extends Component {
       <div id="HomeFeed" className="">
         <H size={4} tt="u">Latest</H>
         <HomeFeedItem
+          postTitle="Disadvantages of Working Remote (and Their Fixes)"
+          volumeNumber="32"
+          publishedDate="Apr 20 2017"
+          postLink="/disadvantages-of-working-remote" />
+        <HomeFeedItem
           postTitle="Advantages of Working Remote"
           volumeNumber="31"
           publishedDate="Apr 13 2017"
