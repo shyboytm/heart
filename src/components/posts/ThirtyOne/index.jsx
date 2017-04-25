@@ -62,6 +62,8 @@ class ThirtyOne extends Component {
           <P>One of my favorite things about working remote is the fact that I can make my work environment exactly what I want it to be whenever I want. I can change up my desk, work on my couch, go to a place to eat and work, even go to the park and work if I really wanted. This is crucial for me as I’m admittedly pretty picky about my surroundings when I work. Having this control makes my OCD happy!</P>
           <P>That is a high-level look at some of the reasons I think remote work is effective and can suit certain lifestyles. Next week, I’m going to write about the disadvantages of working remote to give both sides of the story and maybe give some better perspective for those interested about remote work. Be sure to follow along and subscribe to my newsletter so you don’t miss out!</P>
 
+          <P><em>Featured image animated by </em><L hrefLink="https://twitter.com/dlvjose">@dlvjose</L></P>
+
           <PostEnd />
 
         </div>

@@ -32,7 +32,7 @@ class ThirtyTwo extends Component {
           <div className="mb5 tc">
             <H size={1}>Disadvantages of Working Remote (and Their Fixes)</H>
             <span className="blue pr3">Volume 32</span>
-            <span className="black-50">Published Apr 20 2017</span>
+            <span className="black-50 pr3">Published Apr 20 2017</span>
           </div>
 
           <P>Welcome to Volume 32 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
@@ -64,6 +64,8 @@ class ThirtyTwo extends Component {
           <P>Everyone I have come in contact with that works remotely has experienced this at one point or another. Being alone for most of your time and spending most of that time at home instigates feelings of loneliness and sometimes even depression. It happens more or less often depending on who you are, but working remote definitely requires a certain personality type to help with this.</P>
           <P>As an introvert, I enjoy being home and being alone most of the time. But, every couple of weeks these feelings creep up on me. Being able to keep myself in check with these feelings and cope with them in a healthy, productive way is something I keep as a top priority. Having people to talk to (online or in person), side projects, having hobbies to distract me, my dogs, and activities outside of my home are great coping methods for me. I recommend taking the time to figure out what works well for you in these situations and be self aware of when negative feelings start to creep up.</P>
           <P>One last touch point here, don’t feel ashamed to seek out professional help if you need it. Mental health is a very real and very important topic to be aware of. Therapy is a great way to help you overcome these feelings and set up your own methods for the future. It can be difficult to tackle negative feelings alone sometimes and if help is needed, be sure to seek out the help you need.</P>
+
+          <P><em>Featured image animated by </em><L hrefLink="https://twitter.com/dlvjose">@dlvjose</L></P>
 
           <PostEnd />
 
