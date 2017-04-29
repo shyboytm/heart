@@ -40,6 +40,7 @@ import Thirty from './components/posts/Thirty';
 import ThirtyOne from './components/posts/ThirtyOne';
 import ThirtyTwo from './components/posts/ThirtyTwo';
 import ThirtyThree from './components/posts/ThirtyThree';
+import ThirtyFour from './components/posts/ThirtyFour';
 
 render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -78,6 +79,7 @@ render(
       <Route path="/advantages-of-working-remote" component={ThirtyOne}/>
       <Route path="/disadvantages-of-working-remote" component={ThirtyTwo}/>
       <Route path="/do-you-need-degree-design" component={ThirtyThree}/>
+      <Route path="/subjective-versus-objective-design" component={ThirtyFour}/>
     </Route>
   </Router>,
   document.getElementById('root')
