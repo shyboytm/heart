@@ -23,9 +23,9 @@ class ThirtyFour extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=Subjective%20Versus%20Objective%20Design%20by%20%40fromcortes%20http%3A//blog.cortes.us/subjective-versus-objective-design"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/subjective-versus-objective-design"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/subjective-versus-objective-design" />
         <div id="33" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgThirtyFour} imgAlt="Subjective Versus Objective Design" />
@@ -37,7 +37,11 @@ class ThirtyFour extends Component {
 
           <P>Welcome to Volume 34 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>A large chunk of my work towards Livtra has been thinking and planning, but this week I started putting some of that work into effect. Included in that is the beginning of our landing page to start driving traffic and building a mailing list of awesome folks. I’m streaming myself designing and building the page on my <L hrefLink="https://twitch.tv/cortesarts">Twitch</L> if you’d like to come watch live. You can also watch previous recordings on <L hrefLink="https://youtube.com/cortesarts">YouTube</L>.</P>
+          <P>We also have a <L hrefLink="https://twitter.com/uselivtra">Twitter account for Livtra</L> if you want to follow along for important updates as the ball gets rolling!</P>
           <H size={2}>Personal Life</H>
+          <P>This week for me has been adjusting back to being at home. I’ve been traveling quite a bit the past few weeks for work and this is the first full week in a while where I am home. Feels great to be back and getting back into the swing of things in my normal routine.</P>
+          <P>I’m working on some new pages for my website that I think you will enjoy, including a list of books I recommend and a list of people that inspire me personally and professionally. The books page is a result of folks always asking for recommendations, while the people page is something I personally feel is needed because of how much the work of others inspires me.</P>
 
           <LineBreak />
 
