@@ -17,15 +17,15 @@ import Social from '../../type-elements/Social';
 class ThirtyThree extends Component {
   render() {
 
-    const imgThirtyThree = require('../../../img/roc-volume-33-cover.png');
+    const imgThirtyThree = require('../../../img/roc-volume-33-cover.gif');
 
     return (
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=Do%20You%20Need%20a%20Degree%20in%20Design?%20by%20%40fromcortes%20http%3A//blog.cortes.us/do-you-need-degree-design"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/do-you-need-degree-design"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/do-you-need-degree-design" />
         <div id="33" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgThirtyThree} imgAlt="Do You Need a Degree in Design?" />
