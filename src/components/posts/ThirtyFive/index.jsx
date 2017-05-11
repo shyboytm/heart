@@ -23,16 +23,16 @@ class ThirtyFive extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink=""
-          facebookLink=""
-          googleLink="" />
+          twitterLink="https://twitter.com/home?status=Stop%20Charging%20by%20the%20Hour%20by%20%40fromcortes%20http%3A//blog.cortes.us/stop-charging-hourly"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/stop-charging-hourly"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/stop-charging-hourly" />
         <div id="35" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgThirtyFive} imgAlt="Subjective Versus Objective Design" />
+          <Image imgSrc={imgThirtyFive} imgAlt="Stop Charging by the Hour" />
           <div className="mb5 tc">
-            <H size={1}>Subjective Versus Objective Design</H>
+            <H size={1}>Stop Charging by the Hour</H>
             <span className="blue pr3">Volume 35</span>
-            <span className="black-50 pr3">Published Apr 27 2017</span>
+            <span className="black-50 pr3">Published May 10 2017</span>
           </div>
 
           <P>Welcome to Volume 35 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
