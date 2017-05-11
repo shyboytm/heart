@@ -37,7 +37,10 @@ class ThirtyFive extends Component {
 
           <P>Welcome to Volume 35 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>It’s been a great week of progress for Livtra! I’ve been streaming myself designing and coding the landing page to start to build interest in the product and the work we are doing. Our mailing list is going to open here in the next week or so, I’ll be sure to update you so you can get your spot in for early beta access to the app.</P>
           <H size={2}>Personal Life</H>
+          <P>I’ve been taking it easy lately since I got back from my last Nashville trip after traveling so much lately. My girlfriend is going out of town this next week so I’m excited to do a lot of streaming, working, and spending time with some family while she’s away.</P>
+          <P>As you may or may not know, I collect Pokémon cards. I’ve never really been into strategy card games but I decided to give Pokémon a try since I’m a huge fan. I’ve been trying to learn how to play the Pokémon Online Card Game and have been pleasantly surprised by how much fun it is. The strategy and thought that goes into all the possibilities is intriguing to me. I recommend trying it out and if you want to see me play sometime, I’ve decided to start streaming it sometimes alongside my design streams some days on <L hrefLink="https://www.twitch.tv/cortesarts">Twitch</L>.</P>
 
           <LineBreak />
 
