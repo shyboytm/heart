@@ -61,6 +61,8 @@ class ThirtyFour extends Component {
           <P>I personally don’t believe anyone can be a great designer without both subjective and objective design. Sure, the percentages and pressure can fluctuate based on different scenarios, companies, and tasks, but in the end it’s a balancing act of both.</P>
           <P>An important note to make is keeping track of and considering different elements in work environment and which side of design they affect. Learning to refine and improve this process and balance is a core skill that will have a crucial impact on your work and level as a designer.</P>
 
+          <P><em>Featured image animated by </em><L hrefLink="https://dribbble.com/dlvjose">@dlvjose</L></P>
+
           <PostEnd />
 
         </div>
