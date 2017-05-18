@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtySix extends Component {
   render() {
 
-    const imgThirtySix = require('../../../img/roc-volume-35-cover.png');
+    const imgThirtySix = require('../../../img/roc-volume-36-cover.png');
 
     return (
       <div className="cf w-100">
@@ -37,7 +37,10 @@ class ThirtySix extends Component {
 
           <P>Welcome to Volume 36 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>This week I’ve been working on wrapping up Livtra’s landing page to start building interest and a mailing list for beta users. I’ll be wrapping it up this week and should be launching it early next week! Be on the lookout 👀.</P>
           <H size={2}>Personal Life</H>
+          <P>This week I have been taking a lot of time for myself and seeing my family while taking a few days off of work. I’ve also made a few great additions to my Pokémon card collection and have decided I’m going to start sending cards in to get graded next week. It’ll be a really awesome way to boost the value of my cards and also have a great way to display my main collection on my new place when I move in a few months.</P>
+          <P>Speaking of moving, I started looking at new places to live this week. I’m officially moving to Memphis, TN in a few months and am starting to get things in order for me to move. Moving is definitely never fun and movers are crazy expensive but hey, it’ll be worth it!</P>
 
           <LineBreak />
 
