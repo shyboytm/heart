@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtyFive extends Component {
   render() {
 
-    const imgThirtyFive = require('../../../img/roc-volume-35-cover.png');
+    const imgThirtyFive = require('../../../img/roc-volume-35-cover.gif');
 
     return (
       <div className="cf w-100">
@@ -49,6 +49,8 @@ class ThirtyFive extends Component {
           <P>Instead, try charging by the week or by the month for your services. Or even by the project if that’s better for your workflow. This is something I learned a while back from Dann Petty in <L hrefLink="https://crew.co/blog/dann-petty-interview/">his interview with Crew</L>. Dann also speaks about work outside of sitting at a desk. I’ve never met or heard of someone that charges for this time. When you’ve been designing for quite some time, your sub conscience autonomously thinks about problems you were working on. Breaks from work to clear your mind and get inspiration are part of the process too, but it feels weird to charge a client for the hour that you took a walk outside, right?</P>
           <P>Learn to value yourself and your time outside of what you do sitting at a desk. Find a better pattern for charging for projects (sometimes you may have to rely on hourly) and adjust accordingly to give your client the most value and giving you a more sustainable method of working at your best.</P>
           <P><strong>Note: I also came across a great interview that Dann Petty did with Jared Erondu on Dann’s new project Freelance TV. Jared does a great job going over this topic in a similar fashion. I recommend checking out the <L hrefLink="http://freelance.tv/jarederondu/">video</L>!</strong></P>
+
+          <P><em>Featured image animated by </em><L hrefLink="https://dribbble.com/dlvjose">@dlvjose</L></P>
 
           <PostEnd />
 
