@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtySeven extends Component {
   render() {
 
-    const imgThirtySeven = require('../../../img/roc-volume-36-cover.png');
+    const imgThirtySeven = require('../../../img/roc-volume-37-cover.png');
 
     return (
       <div className="cf w-100">
@@ -37,7 +37,10 @@ class ThirtySeven extends Component {
 
           <P>Welcome to Volume 37 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>I launched Livtra’s new landing page this week! For now it’s just a preview of what the tool will be but there is also a sign up section to get on the list for updates and when we release a beta version ready for you to use. Be sure to check it out and sign up for updates at <L hrefLink="http://www.livtra.co">www.livtra.co</L>!</P>
           <H size={2}>Personal Life</H>
+          <P>My girlfriend is back from her short vacation back in Nashville to visit family. Now that she’s on summer and doesn’t have classes, that means she’s going to start studying for the MCAT and we’re beginning to look for places in Memphis, TN for when we move. Should be an interesting couple of months since I’ll be working on Livtra and working still, but I’m excited to see what’s to come for us being back in Tennessee soon.</P>
+          <P>A little on the nerdier side of things, but this week I’m beginning to send off some of my Pokémon cards to PSA for grading. For those that don’t know what that is, it’s the Professional Sports Association that grades cards based on their condition and encases them for you and documents that grade. That way you can collect cards in a certain condition and also sell them for higher prices based on their grade. I’ve been wanting to do this for a few months and finally bit the bullet on it thinking it would be a good way to build the collection I want to have and also starting to create revenue that can pay for new cards. Again, sorry for geeking out here but thought I’d share!</P>
 
           <LineBreak />
 
