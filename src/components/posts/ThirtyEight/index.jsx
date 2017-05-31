@@ -38,7 +38,10 @@ class ThirtyEight extends Component {
 
           <P>Welcome to Volume 38 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>This past weekend I wrapped up the initial design work needed for <L hrefLink="http://livtra.co">Livtra</L>, my new project for tracking your life. The process was a tough one, but I really gave it my all and was able to get it done in about 2 weeks. Because of the nature of the application, there aren’t too many UX patterns I can reference to help me, so I had to spend a lot of time figuring out patterns and use cases for the application. I’m sure a lot of this work will change once we start getting beta users to help us with feedback, but we’re in a great spot now.</P>
+          <P>As a result of finishing the design work, my friend Aaron and I have started building out the application and will be where most of my free time goes over the next few months. We also added SSL to our landing page to provide a more secure feel signing up for updates on our site. Speaking of, be sure to sign up for updates <L hrefLink="http://livtra.co">here</L> if you haven’t already!</P>
           <H size={2}>Personal Life</H>
+          <P>This week I bought tickets to go home and visit my family in Florida finally in June. It’s been about 7 months since I’ve seen my immediate family and I have a bad habit of not visiting enough. I’m really hoping to break that habit and visit 3–4 times a year. I owe my parents everything and I need to do a better job of showing them I love and care for them. If you struggle with this too I highly recommend taking the time and invest the money to see your family. I’ll be going to Disney World in Florida with my little sister and my father, I’m super excited to go!</P>
 
           <LineBreak />
 
