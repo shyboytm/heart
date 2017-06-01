@@ -17,16 +17,16 @@ import Social from '../../type-elements/Social';
 class ThirtyEight extends Component {
   render() {
 
-    const imgThirtyEight          = require('../../../img/roc-volume-37-cover.png');
-    const imginspirationTimeline = require('../../../img/postImgs/inspiration-timeline.png');
+    const imgThirtyEight          = require('../../../img/roc-volume-38-cover.png');
+    const imginspirationTimeline  = require('../../../img/postImgs/inspiration-timeline.png');
 
     return (
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Design%20and%20Develop%20Smaller%20by%20%40fromcortes%20http%3A//blog.cortes.us/design-and-develop-smaller"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/design-and-develop-smaller"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/design-and-develop-smaller" />
+          twitterLink="https://twitter.com/home?status=When%20to%20Seek%20Inspiration%20by%20%40fromcortes%20http%3A//blog.cortes.us/when-to-seek-inspiration"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/when-to-seek-inspiration"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/when-to-seek-inspiration" />
         <div id="38" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgThirtyEight} imgAlt="When to Seek Inspiration" />

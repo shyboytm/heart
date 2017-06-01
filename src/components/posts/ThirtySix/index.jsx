@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtySix extends Component {
   render() {
 
-    const imgThirtySix = require('../../../img/roc-volume-36-cover.png');
+    const imgThirtySix = require('../../../img/roc-volume-36-cover.gif');
 
     return (
       <div className="cf w-100">
@@ -50,6 +50,8 @@ class ThirtySix extends Component {
           <P>Luckily, I met my (still current) girlfriend in college and had her to help me stay sane. I also met one of my best friends my second year of college. He was one of 4 roommates I had in a larger dorm and he introduced me to a lot of subjects and cultures I’m still a fan of today. Not only that, he was part of the reason I was able to learn to accept and be proud of my interests the way he was. Along with new friends and my new found love for design, I slowly but surely became more proud and open with who I was and what I enjoyed.</P>
           <P>A few years later, this has contributed to my overall happiness in life, feeling more comfortable with sharing openly. My taste in music, my love for video games, my obsession with Pokémon, all things I used to be embarrassed to say to anyone. Now I feel completely comfortable being open with my interests and have even found others who have similar interests that I never thought would.</P>
           <P>I think this applies to people on a large scale too. Being open with what you enjoy and care about and accepting others for the same is needed more and more these days. Give it a try and spread the same ideas to others, you owe it to yourself!</P>
+
+          <P><em>Featured image animated by </em><L hrefLink="https://dribbble.com/dlvjose">@dlvjose</L></P>
 
           <PostEnd />
 
