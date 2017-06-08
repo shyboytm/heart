@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtySeven extends Component {
   render() {
 
-    const imgThirtySeven = require('../../../img/roc-volume-37-cover.png');
+    const imgThirtySeven = require('../../../img/roc-volume-37-cover.gif');
 
     return (
       <div className="cf w-100">
@@ -50,6 +50,8 @@ class ThirtySeven extends Component {
           <P>Another way this helps me out is planning and work load. Starting on a new project from scratch is a daunting task. It feels like countless difficult tasks are thrown at you and you’re expected to know how to juggle all of those tasks at once. Working small first helped me find comfort in taking on and creating projects with a difficult problem to solve. I have actually started to relish in taking on and solving design problems that test my skills in this area.</P>
           <P>Managing multiple elements of large projects is what I do both at my full-time job and for my side projects. As the design lead at Satchel Health, having an overall plan, process, and communication is important. Starting small and expanding to larger functions has helped pull me out of stagnant situations and approach greater responsibilities on my own.</P>
           <P>Work small and expand. Then iterate, iterate, iterate.</P>
+
+          <P><em>Featured image animated by </em><L hrefLink="https://dribbble.com/dlvjose">@dlvjose</L></P>
 
           <PostEnd />
 

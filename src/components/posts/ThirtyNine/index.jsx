@@ -17,27 +17,31 @@ import Social from '../../type-elements/Social';
 class ThirtyNine extends Component {
   render() {
 
-    const imgThirtyNine          = require('../../../img/roc-volume-38-cover.png');
+    const imgThirtyNine          = require('../../../img/roc-volume-39-cover.png');
 
     return (
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Your%20Work%20is%20Not%20Hard%20by%20%40fromcortes%20http%3A//blog.cortes.us/your-work-is-not-hard"
+          twitterLink="https://twitter.com/home?status=Be%20Grateful,%20Your%20Work%20is%20Not%20Hard%20by%20%40fromcortes%20http%3A//blog.cortes.us/your-work-is-not-hard"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/your-work-is-not-hard"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/your-work-is-not-hard" />
-        <div id="38" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <div id="39" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgThirtyNine} imgAlt="Your Work is Not Hard" />
+          <Image imgSrc={imgThirtyNine} imgAlt="Be Grateful, Your Work is Not Hard" />
           <div className="mb5 tc">
-            <H size={1}>Your Work is Not Hard</H>
+            <H size={1}>Be Grateful, Your Work is Not Hard</H>
             <span className="blue pr3">Volume 39</span>
             <span className="black-50 pr3">Published June 8 2017</span>
           </div>
 
           <P>Welcome to Volume 39 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>This week I launched Quarry’s new website! It’s been exactly one year after launching Quarry with my friend Drew, and it seemed only fitting to launch the site on the same day just a year later. I had a lot of fun thinking through the site and making it a simple but enjoyable site to learn more about us and our projects. I’ll be adding a bit more to it over the next few weeks, but feels great to get it shipped and out in the wild. <L hrefLink="https://usequarry.com">Check out the site live here!</L></P>
+          <P>Aaron and I have been making some great progress on Livtra this week and are in the depths of coding the first version of the app. We definitely have a lot of work to do before I can get the app in your hands, but I’m super pumped about where it is headed! Be sure to sign up for updates <L hrefLink="https://livtra.co">here!</L></P>
           <H size={2}>Personal Life</H>
+          <P>This weekend I’m finally heading home after not seeing my family for almost 8 months. Excited to spend time with my family and some of my high school friends. I’ll also be making sure to use any free time I have to work on Livtra but I’m excited to take it relatively easy and catch up with everyone back home.</P>
+          <P>Although my progress will be broken with this upcoming trip 😅, this week marks a month of going to the gym every single weekday 💪.</P>
 
           <LineBreak />
 

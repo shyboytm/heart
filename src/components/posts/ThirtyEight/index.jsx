@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class ThirtyEight extends Component {
   render() {
 
-    const imgThirtyEight          = require('../../../img/roc-volume-38-cover.png');
+    const imgThirtyEight          = require('../../../img/roc-volume-38-cover.gif');
     const imginspirationTimeline  = require('../../../img/postImgs/inspiration-timeline.png');
 
     return (
@@ -53,6 +53,8 @@ class ThirtyEight extends Component {
           <P>After I work for a few hours in the morning, I take my lunch break around 12pm or so to refuel on inspiration. Again, this will vary depending on what I’m working on at work and how I am feeling. Sometimes I will completely take a break and read or watch videos while I eat, and sometimes I’ll be researching or browsing visual inspiration sites.</P>
           <P>I then repeat this process two more times; one to finish the day for my full-time work, and then another to work on freelance or side project work. Because of all the work I’m usually juggling, I’ve found this to be a great system for helping me be productive while having a high burnout tolerance. Like I previously mentioned, sometimes this will have to change depending on how I am feeling that day or deadlines that I have. But, having this system in place gives me a guideline to aim for each day.</P>
           <P>I can’t recommend having a system like this more as I’ve found it to be paramount in the way I work. Take some time to find a routine and schedule that works with your lifestyle and do your best to keep yourself accountable. No matter what you do for a living, I think this is applicable and crucial for keeping a balanced and productive lifestyle.</P>
+
+          <P><em>Featured image animated by </em><L hrefLink="https://dribbble.com/dlvjose">@dlvjose</L></P>
 
           <PostEnd />
 
