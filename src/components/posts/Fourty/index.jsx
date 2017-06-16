@@ -23,9 +23,9 @@ class Fourty extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Be%20Grateful,%20Your%20Work%20is%20Not%20Hard%20by%20%40fromcortes%20http%3A//blog.cortes.us/your-work-is-not-hard"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/your-work-is-not-hard"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/your-work-is-not-hard" />
+          twitterLink="https://twitter.com/home?status=Make%20Friends,%20Not%20Followers%20by%20%40fromcortes%20http%3A//blog.cortes.us/make-friends-not-followers"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/make-friends-not-followers"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/make-friends-not-followers" />
         <div id="40" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgFourty} imgAlt="Make Friends, Not Followers" />
