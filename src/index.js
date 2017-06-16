@@ -46,6 +46,7 @@ import ThirtySix from './components/posts/ThirtySix';
 import ThirtySeven from './components/posts/ThirtySeven';
 import ThirtyEight from './components/posts/ThirtyEight';
 import ThirtyNine from './components/posts/ThirtyNine';
+import Fourty from './components/posts/Fourty';
 
 render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -90,6 +91,7 @@ render(
       <Route path="/design-and-develop-smaller" component={ThirtySeven}/>
       <Route path="/when-to-seek-inspiration" component={ThirtyEight}/>
       <Route path="/your-work-is-not-hard" component={ThirtyNine}/>
+      <Route path="/make-friends-not-followers" component={Fourty}/>
     </Route>
   </Router>,
   document.getElementById('root')
