@@ -24,10 +24,10 @@ class FourtyOne extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Make%20Friends,%20Not%20Followers%20by%20%40fromcortes%20http%3A//blog.cortes.us/make-friends-not-followers"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/make-friends-not-followers"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/make-friends-not-followers" />
-        <div id="40" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+          twitterLink="https://twitter.com/home?status=Great%20Design,%20Brought%20to%20You%20By%20Caring%20by%20%40fromcortes%20http%3A//blog.cortes.us/great-design-by-caring"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/great-design-by-caring"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/great-design-by-caring" />
+        <div id="41" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgFourtyOne} imgAlt="Great Design, Brought to You by Caring" />
           <div className="mb5 tc">

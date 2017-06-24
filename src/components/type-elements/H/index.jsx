@@ -34,7 +34,7 @@ class Header extends Component {
     });
 
     if (size === 2 ) {
-      var classes = ({'mt4 nb3 pt3 tracked-custom': true});
+      var classes = ({'mt4 nb3 pt3 tracked-custom f3-ns f4': true});
     }
 
     if (size === 4) {
