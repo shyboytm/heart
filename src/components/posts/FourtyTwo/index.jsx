@@ -17,16 +17,15 @@ import Social from '../../type-elements/Social';
 class FourtyTwo extends Component {
   render() {
 
-    const imgFourtyTwo = require('../../../img/roc-volume-41-cover.png');
-    const psaGradedOne = require('../../../img/postImgs/psa-graded-one.jpg')
+    const imgFourtyTwo = require('../../../img/roc-volume-42-cover.png');
 
     return (
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Make%20Friends,%20Not%20Followers%20by%20%40fromcortes%20http%3A//blog.cortes.us/make-friends-not-followers"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/make-friends-not-followers"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/make-friends-not-followers" />
+          twitterLink="https://twitter.com/home?status=You%20Need%20to%20Work%20for%20Yourself%20More%20by%20%40fromcortes%20http%3A//blog.cortes.us/work-for-yourself-more"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/work-for-yourself-more"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/work-for-yourself-more" />
         <div id="42" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgFourtyTwo} imgAlt="You Need to Work for Yourself More" />
@@ -38,7 +37,11 @@ class FourtyTwo extends Component {
 
           <P>Welcome to Volume 42 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>This week I’ve been working on Livtra and Grids and Games quite a bit. My main focus has been getting a CMS up and running for Games and Grids so it is much easier to maintain. I started off with Ghost, but realized I wouldn’t be able to support the type of server I needed so have moved over to Jekyll and am currently learning how to use Jekyll as I’m building it. I’m excited to show off some sneak peeks soon and will be working on a landing page to subscribe for updates and a monthly newsletter. Be on the lookout!</P>
           <H size={2}>Personal Life</H>
+          <P>Not much to update life-wise, I’ve been focusing on working and starting to pack for my move in a few weeks. Reserving U-Hauls and moving help is not the most fun thing in the world. What I can say though is I’ve been looking at games to start playing to review on Games and Grids. If you have a recommendation, please let me know!</P>
+          <P>This week I’ve been spending a lot of time listening to music since I’ve been working so much on projects. I know, I know, too much time in front of a screen blah blah. But, I’m really motivated right now with the projects I’m working on so I’m making an exception. Anyways, I’m listening to <L hrefLink="https://itun.es/us/M2J0jb">Big Fish Theory by Vince Staples</L>, <L hrefLink="https://itun.es/us/Ohxkkb">Grateful by DJ Khaled</L>, and <L hrefLink="https://itun.es/us/reivz">Volume Alpha by C418</L> (sound and music for Minecraft).</P>
+          <P>Also, did you see that new video for Element by Kendrick Lamar? I can’t get over how incredible some of those scenes look. Check out the video <L hrefLink="https://www.youtube.com/watch?v=glaG64Ao7sM">here</L>.</P>
 
           <LineBreak />
 
