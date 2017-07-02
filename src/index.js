@@ -49,6 +49,7 @@ import ThirtyNine from './components/posts/ThirtyNine';
 import Fourty from './components/posts/Fourty';
 import FourtyOne from './components/posts/FourtyOne';
 import FourtyTwo from './components/posts/FourtyTwo';
+import FourtyThree from './components/posts/FourtyThree';
 
 render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -96,6 +97,7 @@ render(
       <Route path="/make-friends-not-followers" component={Fourty}/>
       <Route path="/great-design-by-caring" component={FourtyOne}/>
       <Route path="/work-for-yourself-more" component={FourtyTwo}/>
+      <Route path="/why-you-should-start-writing" component={FourtyThree}/>
     </Route>
   </Router>,
   document.getElementById('root')
