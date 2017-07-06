@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class FourtyThree extends Component {
   render() {
 
-    const imgFourtyThree = require('../../../img/roc-volume-42-cover.png');
+    const imgFourtyThree = require('../../../img/roc-volume-43-cover.png');
 
     return (
       <div className="cf w-100">
@@ -37,7 +37,11 @@ class FourtyThree extends Component {
 
           <P>Welcome to Volume 43 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>Over the weekend I worked on and wrapped up a landing page for Games and Grids, my new blog about the design decisions in the gaming world. Now you can get a sneak peek of what to expect and sign up for the newsletter for updates! It was a lot of fun to make something a little bit different. <L hrefLink="https://gamesandgrids.com">Check it out live here →</L></P>
           <H size={2}>Personal Life</H>
+          <P>In preparation for writing reviews for my new blog, I went ahead and got some new games to add to my review list. Currently, I am playing <L hrefLink="http://www.heart-machine.com/">Hyper Light Drifter</L>, an arcade type game about a character fighting a disease. Although it is incredibly difficult, the beautiful art style, music, sounds, and design work make it a wonderfully addicting game to play through. Of course you’ll have to wait to hear me go into detail about the game for when my blog launches, but if you haven’t played it yet you should definitely look into it.</P>
+          <P>Since I’ve been playing through Hyper Light Drifter, I’m absolutely in love with the soundtrack made for the game. Check out the ambient electronic style album by Disasterpeace <L hrefLink="https://medium.com/r/?url=https%3A%2F%2Fitun.es%2Fus%2Fv5W3bb">here →</L></P>
+          <P>I’ve also been playing a bit of the new DLCs that came out this week for Zelda BoTW and Rocket League. I’m still amazed at how I never get tired of either of these games after so many hours put into each. The DLCs are definitely both very much welcome and I’ve already gotten through most of the Zelda DLC 😅</P>
 
           <LineBreak />
 
