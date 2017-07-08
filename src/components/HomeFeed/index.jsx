@@ -9,6 +9,11 @@ class HomeFeed extends Component {
       <div id="HomeFeed" className="">
         <H size={4} tt="u">Latest</H>
         <HomeFeedItem
+          postTitle="How to Make Passive Social Media Traction"
+          volumeNumber="44"
+          publishedDate="July 13 2017"
+          postLink="/how-to-make-passive-social-media-traction" />
+        <HomeFeedItem
           postTitle="Why You Should Start Writing"
           volumeNumber="43"
           publishedDate="July 6 2017"
