@@ -6,7 +6,7 @@ class Image extends Component {
     const { imgSrc, imgAlt } = this.props;
 
     return (
-      <div className="w-80-l w-100 center mv5-ns mv3">
+      <div className="w-100 center mv5-ns mv3">
         <img src={imgSrc} alt={imgAlt} />
       </div>
     );
