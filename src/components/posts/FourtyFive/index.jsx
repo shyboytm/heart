@@ -17,7 +17,7 @@ import Social from '../../type-elements/Social';
 class FourtyFive extends Component {
   render() {
 
-    const imgFourtyFive = require('../../../img/roc-volume-44-cover.png');
+    const imgFourtyFive = require('../../../img/roc-volume-45-cover.png');
 
     const iphone7 = require('../../../img/postImgs/iphone7-in-hand.jpg')
     const nintendoSwitch = require('../../../img/postImgs/nintendo-switch.jpg')
@@ -45,7 +45,10 @@ class FourtyFive extends Component {
 
           <P>Welcome to Volume 45 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>This week I started writing some of the reviews for Games and Grids, I’m hoping to launch with 4, depending on how in depth I go with them, be sure to subscribe on the website to stay updated!</P>
+          <P>Aaron and I are of course still grinding away at building Livtra, I’ve been showing some small sneak peeks of some work we’re doing on Twitter if you’re into that.</P>
           <H size={2}>Personal Life</H>
+          <P>Unfortunately as of this week I am no longer working for Satchel Health anymore and currently on the search for my next opportunity. I was a bit worried about taking the leap to finding a new job opportunity but am extremely grateful for all the folks that showed me support online in helping me to try and find something new. I have a few calls lined up to see where will be a good fit for me, but please let me know if you or someone you know is looking to add someone to their team!</P>
 
           <LineBreak />
 
