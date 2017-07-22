@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
-import { render } from 'react-snapshot';
+import ReactDOM from 'react-dom';
 
 import './index.css';
 
@@ -52,8 +52,9 @@ import FourtyTwo from './components/posts/FourtyTwo';
 import FourtyThree from './components/posts/FourtyThree';
 import FourtyFour from './components/posts/FourtyFour';
 import FourtyFive from './components/posts/FourtyFive';
+import FourtySix from './components/posts/FourtySix';
 
-render(
+ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
@@ -102,6 +103,7 @@ render(
       <Route path="/why-you-should-start-writing" component={FourtyThree}/>
       <Route path="/how-to-make-passive-social-media-traction" component={FourtyFour}/>
       <Route path="/favorite-tech-purchases-this-year" component={FourtyFive}/>
+      <Route path="/help-people-help-you" component={FourtySix}/>
     </Route>
   </Router>,
   document.getElementById('root')

@@ -31,9 +31,9 @@ class FourtyFive extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=How%20to%20Make%20Passive%20Social%20Media%20Traction%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-to-make-passive-social-media-traction"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-to-make-passive-social-media-traction"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-to-make-passive-social-media-traction" />
+          twitterLink="https://twitter.com/home?status=My%20Favorite%20Tech%20Purchases%20This%20Year%20by%20%40fromcortes%20http%3A//blog.cortes.us/favorite-tech-purchases-this-year"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/favorite-tech-purchases-this-year"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/favorite-tech-purchases-this-year" />
         <div id="45" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgFourtyFive} imgAlt="My Favorite Tech Purchases This Year" />
