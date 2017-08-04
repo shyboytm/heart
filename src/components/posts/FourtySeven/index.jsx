@@ -23,9 +23,9 @@ class FourtySeven extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Help%20People%20Help%20You%20by%20%40fromcortes%20http%3A//blog.cortes.us/help-people-help-you"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/help-people-help-you"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/help-people-help-you" />
+          twitterLink="https://twitter.com/home?status=5%20Things%20I%20Learned%20Applying%20to%20Jobs%20in%20the%20Tech%20World%20by%20%40fromcortes%20http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech" />
         <div id="47" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
           <Image imgSrc={imgFourtySeven} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
