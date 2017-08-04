@@ -37,9 +37,7 @@ class FourtySix extends Component {
 
           <P>Welcome to Volume 46 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
-          <P>Not too much to update this week in terms of side projects. I’m taking a small hiatus this week to focus on moving to Memphis and continue my job hunt. I also had to get a new laptop and haven’t had a chance to set up my development environment. All in due time!</P>
           <H size={2}>Personal Life</H>
-          <P>This week I am moving from Saint Louis, MO to Memphis, TN as my girlfriend pursues her studies to become a doctor here. Luckily I have always worked remote so moving hasn’t had much effect on me besides having to take a few days off from work. I am nervous but excited for this transition, especially as I try and simultaneously find a new team fit for my career. Wish me luck! I’ll be sure to update you on how things go next week.</P>
 
           <LineBreak />
 

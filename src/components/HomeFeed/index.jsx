@@ -9,49 +9,54 @@ class HomeFeed extends Component {
       <div id="HomeFeed" className="">
         <H size={4} tt="u">Latest</H>
         <HomeFeedItem
+          postTitle="5 Things I Learned Applying to Jobs in the Tech World"
+          volumeNumber="47"
+          publishedDate="Aug 3 2017"
+          postLink="/5-things-i-learned-applying-to-jobs-in-tech" />
+        <HomeFeedItem
           postTitle="Help People Help You"
           volumeNumber="46"
-          publishedDate="July 27 2017"
+          publishedDate="Jul 27 2017"
           postLink="/help-people-help-you" />
         <HomeFeedItem
           postTitle="My Favorite Tech Purchases This Year"
           volumeNumber="45"
-          publishedDate="July 20 2017"
+          publishedDate="Jul 20 2017"
           postLink="/favorite-tech-purchases-this-year" />
         <HomeFeedItem
           postTitle="How to Make Passive Social Media Traction"
           volumeNumber="44"
-          publishedDate="July 13 2017"
+          publishedDate="Jul 13 2017"
           postLink="/how-to-make-passive-social-media-traction" />
         <HomeFeedItem
           postTitle="Why You Should Start Writing"
           volumeNumber="43"
-          publishedDate="July 6 2017"
+          publishedDate="Jul 6 2017"
           postLink="/why-you-should-start-writing" />
         <HomeFeedItem
           postTitle="You Need to Work for Yourself More"
           volumeNumber="42"
-          publishedDate="June 29 2017"
+          publishedDate="Jun 29 2017"
           postLink="/work-for-yourself-more" />
         <HomeFeedItem
           postTitle="Great Design, Brought to You by Caring"
           volumeNumber="41"
-          publishedDate="June 21 2017"
+          publishedDate="Jun 21 2017"
           postLink="/great-design-by-caring" />
         <HomeFeedItem
           postTitle="Make Friends, Not Followers"
           volumeNumber="40"
-          publishedDate="June 15 2017"
+          publishedDate="Jun 15 2017"
           postLink="/make-friends-not-followers" />
         <HomeFeedItem
           postTitle="Be Grateful, Your Work is Not Hard"
           volumeNumber="39"
-          publishedDate="June 8 2017"
+          publishedDate="Jun 8 2017"
           postLink="/your-work-is-not-hard" />
         <HomeFeedItem
           postTitle="When to Seek Inspiration"
           volumeNumber="38"
-          publishedDate="June 1 2017"
+          publishedDate="Jun 1 2017"
           postLink="/when-to-seek-inspiration" />
         <HomeFeedItem
           postTitle="Design and Develop Smaller"
