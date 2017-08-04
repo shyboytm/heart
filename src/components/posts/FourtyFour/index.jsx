@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,7 +27,7 @@ class FourtyFour extends Component {
           twitterLink="https://twitter.com/home?status=How%20to%20Make%20Passive%20Social%20Media%20Traction%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-to-make-passive-social-media-traction"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-to-make-passive-social-media-traction"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-to-make-passive-social-media-traction" />
-        <div id="44" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="44" >
 
           <Image imgSrc={imgFourtyFour} imgAlt="How to Make Passive Social Media Traction" />
           <div className="mb5 tc">
@@ -53,7 +54,7 @@ class FourtyFour extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

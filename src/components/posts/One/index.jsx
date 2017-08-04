@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -24,7 +25,7 @@ class One extends Component {
           twitterLink="https://twitter.com/home?status=Introducing%20The%20Rate%20of%20Change%20by%20%40fromcortes%20http%3A//blog.cortes.us/the-rate-of-change"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/the-rate-of-change"
           googleLink="https://plus.google.com/share?url=https%3A//www.facebook.com/sharer/sharer.php?u=http%253A//blog.cortes.us/the-rate-of-change" />
-        <div id="1" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="1" >
 
           <Image imgSrc={imgOne} imgAlt="Introducing: The Rate of Change Blog" />
           <div className="mb5 tc">
@@ -63,7 +64,7 @@ class One extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

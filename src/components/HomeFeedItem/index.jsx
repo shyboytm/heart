@@ -14,10 +14,9 @@ class HomeFeedItem extends Component {
     } = this.props
 
     return (
-      <Link to={postLink} className="db pointer black link hover-black-40 mb4">
-        <hr className="b--black-05 mb3" />
+      <Link to={postLink} className="db pointer black link hover-black-40 bb b--black-10 pv4">
         <div className="forward">
-          <H size={1} color="link">{postTitle}</H>
+          <h2 className="fw6 f3 lh-copy mt0">{postTitle}</h2>
           <span className="black-30 b pr3">Vol. {volumeNumber}</span>
           <span className="black-60">Published {publishedDate}</span>
         </div>

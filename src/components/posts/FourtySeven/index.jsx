@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,7 +27,7 @@ class FourtySix extends Component {
           twitterLink="https://twitter.com/home?status=Help%20People%20Help%20You%20by%20%40fromcortes%20http%3A//blog.cortes.us/help-people-help-you"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/help-people-help-you"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/help-people-help-you" />
-        <div id="47" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="47" >
 
           <Image imgSrc={imgFourtySix} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
           <div className="mb5 tc">
@@ -78,7 +79,7 @@ class FourtySix extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

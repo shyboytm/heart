@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -27,7 +28,7 @@ class Twelve extends Component {
           twitterLink="https://twitter.com/home?status=Less%20Perfection%20and%20More%20Iteration%20by%20%40fromcortes%20http%3A//blog.cortes.us/more-iteration-less-perfection"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/more-iteration-less-perfection"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/more-iteration-less-perfection" />
-        <div id="12" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="12" >
 
           <Image imgSrc={imgTwelve} imgAlt="Less Perfection and More Iteration" />
           <div className="mb5 tc">
@@ -57,7 +58,7 @@ class Twelve extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

@@ -4,14 +4,13 @@ import { Link } from 'react-router';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="tc mb5 ph3">
-        <Link to="/" className="link">
-          <h1 className="ttu tracked f2 fw9 lh-title troc-title">The Rate of Change</h1>
-        </Link>
-        <h2 className="black-60 fw4 f4-ns f4 lh-copy">A blog about Design, Development, Business, and Life</h2>
-        <div className="cf mt4">
-          <a href="http://cortes.us" target="_blank" className="link i blue hover-light-blue ph3">by Dennis Cortés</a>
-          <a href="http://eepurl.com/cgT2bD" target="_blank" className="link blue hover-light-blue ph3 b">Subscribe</a>
+      <div id="Header" className="flex-ns items-center justify-between w-100 pa4 tl-ns tc bb b--black-05 lh-copy">
+        <div className="flex-ns db">
+          <h1 className="troc-title dib f4 lh-title ttu fw9 tracked mv0-ns mb3">The Rate of Change</h1>
+        </div>
+        <div className="flex-ns db">
+          <a href="/" className="link black-60 mr3">by Dennis Cortés</a>
+          <a href="/" className="link blue">Subscribe</a>
         </div>
       </div>
     );

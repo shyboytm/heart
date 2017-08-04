@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,7 +27,7 @@ class ThirtyOne extends Component {
           twitterLink="https://twitter.com/home?status=Advantages%20of%20Working%20Remote%20by%20%40fromcortes%20http%3A//blog.cortes.us/advantages-of-working-remote"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/advantages-of-working-remote"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/advantages-of-working-remote" />
-        <div id="30" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="30" >
 
           <Image imgSrc={imgThirtyOne} imgAlt="Advantages of Working Remote" />
           <div className="mb5 tc">
@@ -66,7 +67,7 @@ class ThirtyOne extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

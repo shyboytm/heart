@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 
+import Content from '../Content'
 import Header from '../Header';
 import HomeFeed from '../HomeFeed';
 import Footer from '../Footer';
+
+import H from '../type-elements/H';
 
 class Home extends Component {
   render() {
     return (
       <div id="Home">
         <Header />
-        <div id="HomeFeed" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content>
           <HomeFeed />
-        </div>
+        </Content>
         <Footer />
       </div>
     );

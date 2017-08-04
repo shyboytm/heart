@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,7 +26,7 @@ class Two extends Component {
           twitterLink="https://twitter.com/home?status=Trends%20Fade,%20Technique%20Does%20Not%20by%20%40fromcortes%20http%3A//blog.cortes.us/trends-fade-techniques-dont"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/trends-fade-techniques-dont"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/trends-fade-techniques-dont" />
-        <div id="2" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="2" >
 
           <Image imgSrc={imgTwo} imgAlt="Trends Fade, Technique Does Not" />
           <div className="mb5 tc">
@@ -64,7 +65,7 @@ class Two extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

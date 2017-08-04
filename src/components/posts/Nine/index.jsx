@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -24,7 +25,7 @@ class Nine extends Component {
           twitterLink="https://twitter.com/home?status=Why%20Vacations%20are%20Important%20by%20%40fromcortes%20http%3A//blog.cortes.us/why-vacations-are-important"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/why-vacations-are-important"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/why-vacations-are-important" />
-        <div id="9" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="9" >
 
           <Image imgSrc={imgNine} imgAlt="Why Vacations are Important" />
           <div className="mb5 tc">
@@ -56,7 +57,7 @@ class Nine extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

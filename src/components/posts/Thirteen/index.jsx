@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -27,7 +28,7 @@ class Thirteen extends Component {
           twitterLink="https://twitter.com/home?status=People%20are%20More%20Than%20Connections%20by%20%40fromcortes%20http%3A//blog.cortes.us/people-more-than-connections"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/people-more-than-connections"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/people-more-than-connections" />
-        <div id="13" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="13" >
 
           <Image imgSrc={imgThirteen} imgAlt="People are More Than Connections" />
           <div className="mb5 tc">
@@ -57,7 +58,7 @@ class Thirteen extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

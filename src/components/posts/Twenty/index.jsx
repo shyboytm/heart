@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,7 +26,7 @@ class Twenty extends Component {
           twitterLink="https://twitter.com/home?status=The%20Key%20to%20Growing%20Your%20Social%20Media%20Presence%20by%20%40fromcortes%20http%3A//blog.cortes.us/key-growing-social-media-presence"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/key-growing-social-media-presence"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/key-growing-social-media-presence" />
-        <div id="20" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="20" >
 
           <Image imgSrc={imgTwenty} imgAlt="The Key to Growing Your Social Media Presence" />
           <div className="mb5 tc">
@@ -70,7 +71,7 @@ class Twenty extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );
