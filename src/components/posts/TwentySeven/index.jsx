@@ -29,7 +29,7 @@ class TwentySeven extends Component {
         <Content id="27" >
 
           <Image imgSrc={imgTwentySeven} imgAlt="A Guide to a Healthy Work from Home Lifestyle" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>A Guide to a Healthy Work from Home Lifestyle</H>
             <span className="blue pr3">Volume 27</span>
             <span className="black-50">Published Mar 16 2017</span>

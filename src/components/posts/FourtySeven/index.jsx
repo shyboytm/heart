@@ -30,7 +30,7 @@ class FourtySix extends Component {
         <Content id="47" >
 
           <Image imgSrc={imgFourtySix} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>5 Things I Learned Applying to Jobs in the Tech World</H>
             <span className="blue pr3">Volume 47</span>
             <span className="black-50 pr3">Published Aug 3 2017</span>

@@ -29,7 +29,7 @@ class TwentyThree extends Component {
         <Content id="23" >
 
           <Image imgSrc={imgTwentyThree} imgAlt="How Sacrifices Provide Productivity" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>How Sacrifices Provide Productivity</H>
             <span className="blue pr3">Volume 23</span>
             <span className="black-50">Published Feb 16 2017</span>

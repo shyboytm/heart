@@ -30,7 +30,7 @@ class ThirtySix extends Component {
         <Content id="36" >
 
           <Image imgSrc={imgThirtySix} imgAlt="The Best Thing I Learned as an Adult" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>The Best Thing I Learned as an Adult</H>
             <span className="blue pr3">Volume 36</span>
             <span className="black-50 pr3">Published May 18 2017</span>

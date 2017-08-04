@@ -30,7 +30,7 @@ class TwentySix extends Component {
         <Content id="26" >
 
           <Image imgSrc={imgTwentySix} imgAlt="How to Keep Learning and Stay Fulfilled" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>How to Keep Learning and Stay Fulfilled</H>
             <span className="blue pr3">Volume 26</span>
             <span className="black-50">Published Mar 9 2017</span>

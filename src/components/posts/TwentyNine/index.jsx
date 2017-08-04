@@ -33,7 +33,7 @@ class TwentyNine extends Component {
         <Content id="29" >
 
           <Image imgSrc={imgTwentyNine} imgAlt="Apple LG UltraFine Monitor Review" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Apple LG UltraFine Monitor Review</H>
             <span className="blue pr3">Volume 29</span>
             <span className="black-50">Published Mar 30 2017</span>

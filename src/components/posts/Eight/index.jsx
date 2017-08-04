@@ -28,7 +28,7 @@ class Eight extends Component {
         <Content id="8" >
 
           <Image imgSrc={imgEight} imgAlt="How to Get Better" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>How to Get Better</H>
             <span className="blue pr3">Volume 8</span>
             <span className="black-50">Published Nov 3 2016</span>

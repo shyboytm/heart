@@ -31,7 +31,7 @@ class ThirtyEight extends Component {
         <Content id="38" >
 
           <Image imgSrc={imgThirtyEight} imgAlt="When to Seek Inspiration" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>When to Seek Inspiration</H>
             <span className="blue pr3">Volume 38</span>
             <span className="black-50 pr3">Published June 1 2017</span>

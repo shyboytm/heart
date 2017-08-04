@@ -29,7 +29,7 @@ class Twenty extends Component {
         <Content id="20" >
 
           <Image imgSrc={imgTwenty} imgAlt="The Key to Growing Your Social Media Presence" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>The Key to Growing Your Social Media Presence</H>
             <span className="blue pr3">Volume 20</span>
             <span className="black-50">Published Jan 26 2017</span>

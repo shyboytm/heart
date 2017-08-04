@@ -29,7 +29,7 @@ class Eighteen extends Component {
         <Content id="18" >
 
           <Image imgSrc={imgEighteen} imgAlt="Tips for Working Remote (Part 2)" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Tips for Working Remote (Part 2)</H>
             <span className="blue pr3">Volume 18</span>
             <span className="black-50">Published Jan 12 2017</span>

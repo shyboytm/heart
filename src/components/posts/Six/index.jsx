@@ -28,7 +28,7 @@ class Six extends Component {
         <Content id="6" >
 
           <Image imgSrc={imgSix} imgAlt="Break Your Comfort Zone" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Break Your Comfort Zone</H>
             <span className="blue pr3">Volume 6</span>
             <span className="black-50">Published Oct 20 2016</span>

@@ -30,7 +30,7 @@ class Fifteen extends Component {
         <Content id="15" >
 
           <Image imgSrc={imgFifteen} imgAlt="Distractions Provide Progress" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Distractions Provide Progress</H>
             <span className="blue pr3">Volume 15</span>
             <span className="black-50">Published Dec 22 2016</span>

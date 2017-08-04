@@ -30,7 +30,7 @@ class Fourty extends Component {
         <Content id="40" >
 
           <Image imgSrc={imgFourty} imgAlt="Make Friends, Not Followers" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Make Friends, Not Followers</H>
             <span className="blue pr3">Volume 40</span>
             <span className="black-50 pr3">Published June 15 2017</span>

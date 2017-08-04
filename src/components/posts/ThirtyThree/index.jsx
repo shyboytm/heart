@@ -30,7 +30,7 @@ class ThirtyThree extends Component {
         <Content id="33" >
 
           <Image imgSrc={imgThirtyThree} imgAlt="Do You Need a Degree in Design?" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Do You Need a Degree in Design?</H>
             <span className="blue pr3">Volume 33</span>
             <span className="black-50 pr3">Published Apr 27 2017</span>

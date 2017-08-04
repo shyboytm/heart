@@ -28,7 +28,7 @@ class Ten extends Component {
         <Content id="10" >
 
           <Image imgSrc={imgTen} imgAlt="Places to Help You Stay Inspired" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Places to Help You Stay Inspired</H>
             <span className="blue pr3">Volume 10</span>
             <span className="black-50">Published Nov 17 2016</span>

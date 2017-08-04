@@ -29,7 +29,7 @@ class Four extends Component {
         <Content id="4" >
 
           <Image imgSrc={imgFour} imgAlt="Why You Should Seek Boredom" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Why You Should Seek Boredom</H>
             <span className="blue pr3">Volume 4</span>
             <span className="black-50">Published Oct 6 2016</span>

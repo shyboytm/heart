@@ -28,7 +28,7 @@ class Nine extends Component {
         <Content id="9" >
 
           <Image imgSrc={imgNine} imgAlt="Why Vacations are Important" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Why Vacations are Important</H>
             <span className="blue pr3">Volume 9</span>
             <span className="black-50">Published Nov 10 2016</span>

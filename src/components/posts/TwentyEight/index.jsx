@@ -29,7 +29,7 @@ class TwentyEight extends Component {
         <Content id="28" >
 
           <Image imgSrc={imgTwentyEight} imgAlt="How to Set Up Your Success Early" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>How to Set Up Your Success Early</H>
             <span className="blue pr3">Volume 28</span>
             <span className="black-50">Published Mar 23 2017</span>

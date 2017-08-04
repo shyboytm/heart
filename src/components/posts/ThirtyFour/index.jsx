@@ -30,7 +30,7 @@ class ThirtyFour extends Component {
         <Content id="33" >
 
           <Image imgSrc={imgThirtyFour} imgAlt="Subjective Versus Objective Design" />
-          <div className="mb5 tc">
+           <div className="mb5 tl measure">
             <H size={1}>Subjective Versus Objective Design</H>
             <span className="blue pr3">Volume 34</span>
             <span className="black-50 pr3">Published Apr 27 2017</span>

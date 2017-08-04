@@ -6,7 +6,7 @@ class Social extends Component {
     const { twitterLink, facebookLink, googleLink } = this.props;
 
     return (
-      <div className="fixed absolute social-box f7 z-0 mw3 w-80">
+      <div className="dn fixed absolute social-box f7 z-0 mw3 w-80">
         <div className="tc pv2 dib-ns dn">
           <p className="black-30 ttu tracked lh-copy">
             Share
