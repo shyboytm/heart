@@ -14,10 +14,10 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class FourtySix extends Component {
+class FourtySeven extends Component {
   render() {
 
-    const imgFourtySix = require('../../../img/roc-volume-46-cover.png');
+    const imgFourtySeven = require('../../../img/roc-volume-47-cover.png');
 
     return (
       <div className="cf w-100">
@@ -28,7 +28,7 @@ class FourtySix extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/help-people-help-you" />
         <div id="47" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgFourtySix} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
+          <Image imgSrc={imgFourtySeven} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
           <div className="mb5 tc">
             <H size={1}>5 Things I Learned Applying to Jobs in the Tech World</H>
             <span className="blue pr3">Volume 47</span>
@@ -85,4 +85,4 @@ class FourtySix extends Component {
   }
 }
 
-export default FourtySix;
+export default FourtySeven;
