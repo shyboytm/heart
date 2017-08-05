@@ -32,7 +32,7 @@ class TwentySix extends Component {
           <Image imgSrc={imgTwentySix} imgAlt="How to Keep Learning and Stay Fulfilled" />
            <div className="mb5 tl">
             <H size={1}>How to Keep Learning and Stay Fulfilled</H>
-            <span className="blue pr3">Volume 26</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 26</span>
             <span className="black-50">Published Mar 9 2017</span>
           </div>
 

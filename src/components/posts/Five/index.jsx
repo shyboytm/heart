@@ -39,7 +39,7 @@ class Five extends Component {
           <Image imgSrc={imgFive} imgAlt="Budgeting Your Bandwidth" />
            <div className="mb5 tl">
             <H size={1}>Budgeting Your Bandwidth</H>
-            <span className="blue pr3">Volume 5</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 5</span>
             <span className="black-50">Published Oct 13 2016</span>
           </div>
 

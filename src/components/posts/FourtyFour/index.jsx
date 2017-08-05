@@ -32,7 +32,7 @@ class FourtyFour extends Component {
           <Image imgSrc={imgFourtyFour} imgAlt="How to Make Passive Social Media Traction" />
            <div className="mb5 tl">
             <H size={1}>How to Make Passive Social Media Traction</H>
-            <span className="blue pr3">Volume 44</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 44</span>
             <span className="black-50 pr3">Published July 13 2017</span>
           </div>
 

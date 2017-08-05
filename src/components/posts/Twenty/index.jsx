@@ -31,7 +31,7 @@ class Twenty extends Component {
           <Image imgSrc={imgTwenty} imgAlt="The Key to Growing Your Social Media Presence" />
            <div className="mb5 tl">
             <H size={1}>The Key to Growing Your Social Media Presence</H>
-            <span className="blue pr3">Volume 20</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 20</span>
             <span className="black-50">Published Jan 26 2017</span>
           </div>
 

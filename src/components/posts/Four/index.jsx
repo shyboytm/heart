@@ -31,7 +31,7 @@ class Four extends Component {
           <Image imgSrc={imgFour} imgAlt="Why You Should Seek Boredom" />
            <div className="mb5 tl">
             <H size={1}>Why You Should Seek Boredom</H>
-            <span className="blue pr3">Volume 4</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 4</span>
             <span className="black-50">Published Oct 6 2016</span>
           </div>
 

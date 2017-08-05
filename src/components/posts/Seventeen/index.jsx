@@ -31,7 +31,7 @@ class Seventeen extends Component {
           <Image imgSrc={imgSeventeen} imgAlt="Tips for Working Remote (Part 1)" />
            <div className="mb5 tl">
             <H size={1}>Tips for Working Remote (Part 1)</H>
-            <span className="blue pr3">Volume 17</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 17</span>
             <span className="black-50">Published Jan 5 2017</span>
           </div>
 

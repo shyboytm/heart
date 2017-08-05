@@ -31,7 +31,7 @@ class Seven extends Component {
           <Image imgSrc={imgSeven} imgAlt="How to Accept and Use Feedback" />
            <div className="mb5 tl">
             <H size={1}>How to Accept and Use Feedback</H>
-            <span className="blue pr3">Volume 7</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 7</span>
             <span className="black-50">Published Oct 27 2016</span>
           </div>
 

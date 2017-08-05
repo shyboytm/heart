@@ -31,7 +31,7 @@ class TwentySeven extends Component {
           <Image imgSrc={imgTwentySeven} imgAlt="A Guide to a Healthy Work from Home Lifestyle" />
            <div className="mb5 tl">
             <H size={1}>A Guide to a Healthy Work from Home Lifestyle</H>
-            <span className="blue pr3">Volume 27</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 27</span>
             <span className="black-50">Published Mar 16 2017</span>
           </div>
 

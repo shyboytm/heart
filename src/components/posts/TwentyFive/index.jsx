@@ -31,7 +31,7 @@ class TwentyFive extends Component {
           <Image imgSrc={imgTwentyFive} imgAlt="Finding Comfort in Identity Crisis" />
            <div className="mb5 tl">
             <H size={1}>Finding Comfort in Identity Crisis</H>
-            <span className="blue pr3">Volume 25</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 25</span>
             <span className="black-50">Published Mar 2 2017</span>
           </div>
 

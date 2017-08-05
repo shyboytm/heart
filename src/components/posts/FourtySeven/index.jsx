@@ -32,7 +32,7 @@ class FourtySeven extends Component {
           <Image imgSrc={imgFourtySeven} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
           <div className="mb5 tc">
             <H size={1}>5 Things I Learned Applying to Jobs in the Tech World</H>
-            <span className="blue pr3">Volume 47</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 47</span>
             <span className="black-50 pr3">Published Aug 3 2017</span>
           </div>
 

@@ -31,7 +31,7 @@ class TwentyThree extends Component {
           <Image imgSrc={imgTwentyThree} imgAlt="How Sacrifices Provide Productivity" />
            <div className="mb5 tl">
             <H size={1}>How Sacrifices Provide Productivity</H>
-            <span className="blue pr3">Volume 23</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 23</span>
             <span className="black-50">Published Feb 16 2017</span>
           </div>
 

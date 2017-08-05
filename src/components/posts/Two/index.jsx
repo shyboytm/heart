@@ -31,7 +31,7 @@ class Two extends Component {
           <Image imgSrc={imgTwo} imgAlt="Trends Fade, Technique Does Not" />
            <div className="mb5 tl">
             <H size={1}>Trends Fade, Technique Does Not</H>
-            <span className="blue pr3">Volume 2</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 2</span>
             <span className="black-50">Published Sep 22 2016</span>
           </div>
 

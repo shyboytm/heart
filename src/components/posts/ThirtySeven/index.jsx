@@ -32,7 +32,7 @@ class ThirtySeven extends Component {
           <Image imgSrc={imgThirtySeven} imgAlt="Design and Develop Smaller" />
            <div className="mb5 tl">
             <H size={1}>Design and Develop Smaller</H>
-            <span className="blue pr3">Volume 37</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 37</span>
             <span className="black-50 pr3">Published May 25 2017</span>
           </div>
 
