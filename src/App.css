@@ -1,14 +1,16 @@
 @import "tachyons.min.css";
 
 /* add-ons */
-.sans-serif               { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
+.sans-serif               { font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
+.avenir                   { font-family: Avenir Pro, 'avenir', -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
+.georgia                  { font-family: Georgia, 'georgia', -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
 .lh-paragraph             { line-height: 1.75; }
 .f7                       { font-size: 12px; }
 .shadow-custom            { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.03); transition: box-shadow 0.5s;}
 .social-box               { right: -2%; top: 50%; }
 .social-box .social-icon  { fill: #B7B7B7; }
 .flex-basis               { flex-basis: 250%; }
-.bg-purple                { background-color: #B49AFE;}
+.bg-purple                { background-color: #B49AFE; }
 
 /* elements */
 h1              { font-weight: 500; line-height: 2.5rem; }
