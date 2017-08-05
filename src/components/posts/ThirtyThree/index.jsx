@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class ThirtyThree extends Component {
           twitterLink="https://twitter.com/home?status=Do%20You%20Need%20a%20Degree%20in%20Design?%20by%20%40fromcortes%20http%3A//blog.cortes.us/do-you-need-degree-design"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/do-you-need-degree-design"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/do-you-need-degree-design" />
-        <div id="33" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="33" >
 
           <Image imgSrc={imgThirtyThree} imgAlt="Do You Need a Degree in Design?" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Do You Need a Degree in Design?</H>
             <span className="blue pr3">Volume 33</span>
             <span className="black-50 pr3">Published Apr 27 2017</span>
@@ -70,7 +71,7 @@ class ThirtyThree extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

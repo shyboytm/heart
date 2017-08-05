@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,10 +26,10 @@ class TwentyFive extends Component {
           twitterLink="https://twitter.com/home?status=How%20Sacrifices%20Provide%20Productivity%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-sacrifices-provide-productivity"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-sacrifices-provide-productivity"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-sacrifices-provide-productivity" />
-        <div id="25" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="25" >
 
           <Image imgSrc={imgTwentyFive} imgAlt="Finding Comfort in Identity Crisis" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Finding Comfort in Identity Crisis</H>
             <span className="blue pr3">Volume 25</span>
             <span className="black-50">Published Mar 2 2017</span>
@@ -54,7 +55,7 @@ class TwentyFive extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

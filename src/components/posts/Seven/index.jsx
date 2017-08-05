@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,10 +26,10 @@ class Seven extends Component {
           twitterLink="https://twitter.com/home?status=How%20to%20Accept%20and%20Use%20Feedback%20by%20%40fromcortes%20http%3A//blog.cortes.us/accept-and-use-feedback"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/accept-and-use-feedback"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/accept-and-use-feedback" />
-        <div id="7" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="7" >
 
           <Image imgSrc={imgSeven} imgAlt="How to Accept and Use Feedback" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>How to Accept and Use Feedback</H>
             <span className="blue pr3">Volume 7</span>
             <span className="black-50">Published Oct 27 2016</span>
@@ -63,7 +64,7 @@ class Seven extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

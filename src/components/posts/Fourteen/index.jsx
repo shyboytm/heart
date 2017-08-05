@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -29,10 +30,10 @@ class Fourteen extends Component {
           twitterLink="https://twitter.com/home?status=Distractions%20Provide%20Progress%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-cure-creative-block"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-cure-creative-block"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-cure-creative-block" />
-        <div id="14" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="14" >
 
           <Image imgSrc={imgFourteen} imgAlt="How to Cure Creative Block" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>How to Cure Creative Block</H>
             <span className="blue pr3">Volume 14</span>
             <span className="black-50">Published Dec 15 2016</span>
@@ -69,7 +70,7 @@ class Fourteen extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

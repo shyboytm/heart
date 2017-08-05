@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -17,7 +18,7 @@ import Social from '../../type-elements/Social';
 class ThirtyNine extends Component {
   render() {
 
-    const imgThirtyNine          = require('../../../img/roc-volume-39-cover.png');
+    const imgThirtyNine = require('../../../img/roc-volume-39-cover.png');
 
     return (
       <div className="cf w-100">
@@ -26,10 +27,10 @@ class ThirtyNine extends Component {
           twitterLink="https://twitter.com/home?status=Be%20Grateful,%20Your%20Work%20is%20Not%20Hard%20by%20%40fromcortes%20http%3A//blog.cortes.us/your-work-is-not-hard"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/your-work-is-not-hard"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/your-work-is-not-hard" />
-        <div id="39" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="39" >
 
           <Image imgSrc={imgThirtyNine} imgAlt="Be Grateful, Your Work is Not Hard" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Be Grateful, Your Work is Not Hard</H>
             <span className="blue pr3">Volume 39</span>
             <span className="black-50 pr3">Published June 8 2017</span>
@@ -54,7 +55,7 @@ class ThirtyNine extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

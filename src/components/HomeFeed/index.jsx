@@ -7,7 +7,6 @@ class HomeFeed extends Component {
   render() {
     return (
       <div id="HomeFeed" className="">
-        <H size={4} tt="u">Latest</H>
         <HomeFeedItem
           postTitle="5 Things I Learned Applying to Jobs in the Tech World"
           volumeNumber="47"

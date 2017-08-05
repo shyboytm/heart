@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class ThirtyFive extends Component {
           twitterLink="https://twitter.com/home?status=Stop%20Charging%20by%20the%20Hour%20by%20%40fromcortes%20http%3A//blog.cortes.us/stop-charging-hourly"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/stop-charging-hourly"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/stop-charging-hourly" />
-        <div id="35" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="35" >
 
           <Image imgSrc={imgThirtyFive} imgAlt="Stop Charging by the Hour" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Stop Charging by the Hour</H>
             <span className="blue pr3">Volume 35</span>
             <span className="black-50 pr3">Published May 10 2017</span>
@@ -54,7 +55,7 @@ class ThirtyFive extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

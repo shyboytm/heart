@@ -7,7 +7,7 @@ class Image extends Component {
 
     return (
       <div className="w-100 center mv4">
-        <img src={imgSrc} alt={imgAlt} />
+        <img className="br2 shadow-custom" src={imgSrc} alt={imgAlt} />
       </div>
     );
   }

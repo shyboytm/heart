@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -34,10 +35,10 @@ class FourtyFive extends Component {
           twitterLink="https://twitter.com/home?status=My%20Favorite%20Tech%20Purchases%20This%20Year%20by%20%40fromcortes%20http%3A//blog.cortes.us/favorite-tech-purchases-this-year"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/favorite-tech-purchases-this-year"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/favorite-tech-purchases-this-year" />
-        <div id="45" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="45" >
 
           <Image imgSrc={imgFourtyFive} imgAlt="My Favorite Tech Purchases This Year" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>My Favorite Tech Purchases This Year</H>
             <span className="blue pr3">Volume 45</span>
             <span className="black-50 pr3">Published July 13 2017</span>
@@ -127,7 +128,7 @@ class FourtyFive extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

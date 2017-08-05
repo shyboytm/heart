@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,10 +26,10 @@ class Four extends Component {
           twitterLink="https://twitter.com/home?status=The%20Advantages%20of%20Failing%20by%20%40fromcortes%20http%3A//blog.cortes.us/the-advantages-of-failing"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/why-to-seek-boredom"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/why-to-seek-boredom" />
-        <div id="4" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="4" >
 
           <Image imgSrc={imgFour} imgAlt="Why You Should Seek Boredom" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Why You Should Seek Boredom</H>
             <span className="blue pr3">Volume 4</span>
             <span className="black-50">Published Oct 6 2016</span>
@@ -58,7 +59,7 @@ class Four extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

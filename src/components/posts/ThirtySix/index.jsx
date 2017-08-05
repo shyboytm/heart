@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class ThirtySix extends Component {
           twitterLink="https://twitter.com/home?status=The%20Best%20Thing%20I%20Learned%20as%20an%20Adult%20by%20%40fromcortes%20http%3A//blog.cortes.us/best-thing-learned-as-adult"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/best-thing-learned-as-adult"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/best-thing-learned-as-adult" />
-        <div id="36" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="36" >
 
           <Image imgSrc={imgThirtySix} imgAlt="The Best Thing I Learned as an Adult" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>The Best Thing I Learned as an Adult</H>
             <span className="blue pr3">Volume 36</span>
             <span className="black-50 pr3">Published May 18 2017</span>
@@ -55,7 +56,7 @@ class ThirtySix extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

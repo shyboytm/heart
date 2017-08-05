@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class ThirtyTwo extends Component {
           twitterLink="https://twitter.com/home?status=Disadvantages%20of%20Working%20Remote%20by%20%40fromcortes%20http%3A//blog.cortes.us/disadvantages-of-working-remote"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/disadvantages-of-working-remote"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/disadvantages-of-working-remote" />
-        <div id="32" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="32" >
 
           <Image imgSrc={imgThirtyTwo} imgAlt="Disadvantages of Working Remote" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Disadvantages of Working Remote (and Their Fixes)</H>
             <span className="blue pr3">Volume 32</span>
             <span className="black-50 pr3">Published Apr 20 2017</span>
@@ -69,7 +70,7 @@ class ThirtyTwo extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

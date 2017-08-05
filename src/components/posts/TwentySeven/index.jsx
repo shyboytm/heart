@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,10 +26,10 @@ class TwentySeven extends Component {
           twitterLink="https://twitter.com/home?status=A%20Guide%20to%20a%20Healthy%20Work%20from%20Home%20Lifestyle%20by%20%40fromcortes%20http%3A//blog.cortes.us/guide-healthy-work-from-home-lifestyle"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/guide-healthy-work-from-home-lifestyle"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/guide-healthy-work-from-home-lifestyle" />
-        <div id="27" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="27" >
 
           <Image imgSrc={imgTwentySeven} imgAlt="A Guide to a Healthy Work from Home Lifestyle" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>A Guide to a Healthy Work from Home Lifestyle</H>
             <span className="blue pr3">Volume 27</span>
             <span className="black-50">Published Mar 16 2017</span>
@@ -96,7 +97,7 @@ class TwentySeven extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

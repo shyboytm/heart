@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class Fourty extends Component {
           twitterLink="https://twitter.com/home?status=Make%20Friends,%20Not%20Followers%20by%20%40fromcortes%20http%3A//blog.cortes.us/make-friends-not-followers"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/make-friends-not-followers"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/make-friends-not-followers" />
-        <div id="40" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="40" >
 
           <Image imgSrc={imgFourty} imgAlt="Make Friends, Not Followers" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Make Friends, Not Followers</H>
             <span className="blue pr3">Volume 40</span>
             <span className="black-50 pr3">Published June 15 2017</span>
@@ -52,7 +53,7 @@ class Fourty extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

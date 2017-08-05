@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -24,10 +25,10 @@ class Six extends Component {
           twitterLink="https://twitter.com/home?status=Break%20Your%20Comfort%20Zone%20by%20%40fromcortes%20http%3A//blog.cortes.us/break-your-comfort-zone"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/break-your-comfort-zone"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/break-your-comfort-zone" />
-        <div id="6" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="6" >
 
           <Image imgSrc={imgSix} imgAlt="Break Your Comfort Zone" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Break Your Comfort Zone</H>
             <span className="blue pr3">Volume 6</span>
             <span className="black-50">Published Oct 20 2016</span>
@@ -55,7 +56,7 @@ class Six extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

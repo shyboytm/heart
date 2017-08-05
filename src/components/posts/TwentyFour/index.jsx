@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,10 +26,10 @@ class TwentyFour extends Component {
           twitterLink="https://twitter.com/home?status=How%20Sacrifices%20Provide%20Productivity%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-sacrifices-provide-productivity"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-sacrifices-provide-productivity"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-sacrifices-provide-productivity" />
-        <div id="24" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="24" >
 
           <Image imgSrc={imgTwentyFour} imgAlt="Why You Should Give Away What You Know" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Why You Should Give Away What You Know</H>
             <span className="blue pr3">Volume 24</span>
             <span className="black-50">Published Feb 23 2017</span>
@@ -58,7 +59,7 @@ class TwentyFour extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

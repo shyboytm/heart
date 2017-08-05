@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -24,10 +25,10 @@ class Eleven extends Component {
           twitterLink="https://twitter.com/home?status=Advantages%20of%20Side%20Projects%20by%20%40fromcortes%20http%3A//blog.cortes.us/advantages-of-side-projects"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/advantages-of-side-projects"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/advantages-of-side-projects" />
-        <div id="11" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="11" >
 
           <Image imgSrc={imgEleven} imgAlt="Advantages of Side Projects" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Advantages of Side Projects</H>
             <span className="blue pr3">Volume 11</span>
             <span className="black-50">Published Nov 24 2016</span>
@@ -64,7 +65,7 @@ class Eleven extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

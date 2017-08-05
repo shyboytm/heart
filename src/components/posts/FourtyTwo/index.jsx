@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class FourtyTwo extends Component {
           twitterLink="https://twitter.com/home?status=You%20Need%20to%20Work%20for%20Yourself%20More%20by%20%40fromcortes%20http%3A//blog.cortes.us/work-for-yourself-more"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/work-for-yourself-more"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/work-for-yourself-more" />
-        <div id="42" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="42" >
 
           <Image imgSrc={imgFourtyTwo} imgAlt="You Need to Work for Yourself More" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>You Need to Work for Yourself More</H>
             <span className="blue pr3">Volume 42</span>
             <span className="black-50 pr3">Published June 22 2017</span>
@@ -54,7 +55,7 @@ class FourtyTwo extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

@@ -4,9 +4,10 @@
 .sans-serif               { font-family: -apple-system,BlinkMacSystemFont,Roboto,"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
 .lh-paragraph             { line-height: 1.75; }
 .f7                       { font-size: 12px; }
-.shadow-custom            { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
-.social-box               { left: 2%; top: 50%; }
+.shadow-custom            { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.03); transition: box-shadow 0.5s;}
+.social-box               { right: -2%; top: 50%; }
 .social-box .social-icon  { fill: #B7B7B7; }
+.flex-basis               { flex-basis: 250%; }
 
 /* elements */
 h1              { font-weight: 500; line-height: 2.5rem; }
@@ -76,10 +77,10 @@ strong          { color: black; }
 
 /*Large Only*/
 @media only screen and (min-width: 60em) {
-  .social-box { left: 10%; top: 50%; }
+  .social-box { right: -10%; top: 50%; }
 }
 
 /*Not Small*/
 @media only screen and (min-width: 30em) {
-  .f4-ns { font-size: 1.2rem; }
+  .f4-ns { font-size: 1.1rem; }
 }

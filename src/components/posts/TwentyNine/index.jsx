@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -29,10 +30,10 @@ class TwentyNine extends Component {
           twitterLink="https://twitter.com/home?status=Apple%20LG%20Ultrafine%20Monitor%20Review%20by%20%40fromcortes%20http%3A//blog.cortes.us/apple-lg-ultrafine-review"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/apple-lg-ultrafine-review"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/apple-lg-ultrafine-review" />
-        <div id="29" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="29" >
 
           <Image imgSrc={imgTwentyNine} imgAlt="Apple LG UltraFine Monitor Review" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Apple LG UltraFine Monitor Review</H>
             <span className="blue pr3">Volume 29</span>
             <span className="black-50">Published Mar 30 2017</span>
@@ -90,7 +91,7 @@ class TwentyNine extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

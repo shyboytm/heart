@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -25,10 +26,10 @@ class Three extends Component {
           twitterLink="https://twitter.com/home?status=The%20Advantages%20of%20Failing%20by%20%40fromcortes%20http%3A//blog.cortes.us/the-advantages-of-failing"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/the-advantages-of-failing"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/trends-fade-techniques-dont" />
-        <div id="3" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="3" >
 
           <Image imgSrc={imgThree} imgAlt="The Advantages of Failing" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>The Advantages of Failing</H>
             <span className="blue pr3">Volume 3</span>
             <span className="black-50">Published Sep 29 2016</span>
@@ -59,7 +60,7 @@ class Three extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );

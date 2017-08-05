@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Content from '../../Content';
 import Header from '../../Header';
 import Footer from '../../Footer';
 
@@ -26,10 +27,10 @@ class FourtyThree extends Component {
           twitterLink="https://twitter.com/home?status=Why%20You%20Should%20Start%20Writing%20by%20%40fromcortes%20http%3A//blog.cortes.us/why-you-should-start-writing"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/why-you-should-start-writing"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/why-you-should-start-writing" />
-        <div id="43" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="43" >
 
           <Image imgSrc={imgFourtyThree} imgAlt="Why You Should Start Writing" />
-          <div className="mb5 tc">
+           <div className="mb5 tl">
             <H size={1}>Why You Should Start Writing</H>
             <span className="blue pr3">Volume 43</span>
             <span className="black-50 pr3">Published July 6 2017</span>
@@ -53,7 +54,7 @@ class FourtyThree extends Component {
 
           <PostEnd />
 
-        </div>
+        </Content>
         <Footer />
       </div>
     );
