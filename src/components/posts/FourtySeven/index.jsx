@@ -15,22 +15,22 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class FourtySix extends Component {
+class FourtySeven extends Component {
   render() {
 
-    const imgFourtySix = require('../../../img/roc-volume-46-cover.png');
+    const imgFourtySeven = require('../../../img/roc-volume-47-cover.png');
 
     return (
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Help%20People%20Help%20You%20by%20%40fromcortes%20http%3A//blog.cortes.us/help-people-help-you"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/help-people-help-you"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/help-people-help-you" />
-        <Content id="47" >
+          twitterLink="https://twitter.com/home?status=5%20Things%20I%20Learned%20Applying%20to%20Jobs%20in%20the%20Tech%20World%20by%20%40fromcortes%20http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech" />
+        <div id="47" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
 
-          <Image imgSrc={imgFourtySix} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
-           <div className="mb5 tl">
+          <Image imgSrc={imgFourtySeven} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
+          <div className="mb5 tc">
             <H size={1}>5 Things I Learned Applying to Jobs in the Tech World</H>
             <span className="blue pr3">Volume 47</span>
             <span className="black-50 pr3">Published Aug 3 2017</span>
@@ -86,4 +86,4 @@ class FourtySix extends Component {
   }
 }
 
-export default FourtySix;
+export default FourtySeven;
