@@ -31,7 +31,7 @@ class Twenty extends Component {
           <Image imgSrc={imgTwentyOne} imgAlt="Find Your Own Productivity Secret" />
            <div className="mb5 tl">
             <H size={1}>Find Your Own Productivity Secret</H>
-            <span className="blue pr3">Volume 21</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 21</span>
             <span className="black-50">Published Feb 2 2017</span>
           </div>
 

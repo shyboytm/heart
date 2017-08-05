@@ -31,7 +31,7 @@ class Three extends Component {
           <Image imgSrc={imgThree} imgAlt="The Advantages of Failing" />
            <div className="mb5 tl">
             <H size={1}>The Advantages of Failing</H>
-            <span className="blue pr3">Volume 3</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 3</span>
             <span className="black-50">Published Sep 29 2016</span>
           </div>
 

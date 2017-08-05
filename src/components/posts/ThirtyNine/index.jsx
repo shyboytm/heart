@@ -32,7 +32,7 @@ class ThirtyNine extends Component {
           <Image imgSrc={imgThirtyNine} imgAlt="Be Grateful, Your Work is Not Hard" />
            <div className="mb5 tl">
             <H size={1}>Be Grateful, Your Work is Not Hard</H>
-            <span className="blue pr3">Volume 39</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 39</span>
             <span className="black-50 pr3">Published June 8 2017</span>
           </div>
 

@@ -30,7 +30,7 @@ class Eight extends Component {
           <Image imgSrc={imgEight} imgAlt="How to Get Better" />
            <div className="mb5 tl">
             <H size={1}>How to Get Better</H>
-            <span className="blue pr3">Volume 8</span>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 8</span>
             <span className="black-50">Published Nov 3 2016</span>
           </div>
 
