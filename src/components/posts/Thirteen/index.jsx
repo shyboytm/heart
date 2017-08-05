@@ -31,7 +31,7 @@ class Thirteen extends Component {
         <Content id="13" >
 
           <Image imgSrc={imgThirteen} imgAlt="People are More Than Connections" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>People are More Than Connections</H>
             <span className="blue pr3">Volume 13</span>
             <span className="black-50">Published Dec 8 2016</span>

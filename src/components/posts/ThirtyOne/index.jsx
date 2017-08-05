@@ -30,7 +30,7 @@ class ThirtyOne extends Component {
         <Content id="30" >
 
           <Image imgSrc={imgThirtyOne} imgAlt="Advantages of Working Remote" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Advantages of Working Remote</H>
             <span className="blue pr3">Volume 31</span>
             <span className="black-50">Published Apr 12 2017</span>

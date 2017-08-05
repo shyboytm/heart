@@ -28,7 +28,7 @@ class Eleven extends Component {
         <Content id="11" >
 
           <Image imgSrc={imgEleven} imgAlt="Advantages of Side Projects" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Advantages of Side Projects</H>
             <span className="blue pr3">Volume 11</span>
             <span className="black-50">Published Nov 24 2016</span>

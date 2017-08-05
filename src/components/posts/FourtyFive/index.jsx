@@ -38,7 +38,7 @@ class FourtyFive extends Component {
         <Content id="45" >
 
           <Image imgSrc={imgFourtyFive} imgAlt="My Favorite Tech Purchases This Year" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>My Favorite Tech Purchases This Year</H>
             <span className="blue pr3">Volume 45</span>
             <span className="black-50 pr3">Published July 13 2017</span>

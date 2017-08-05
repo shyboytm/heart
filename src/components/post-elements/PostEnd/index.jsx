@@ -9,8 +9,7 @@ class PostEnd extends Component {
   render() {
     return (
       <div id="PostEnd" className="mt5">
-        <span className="mt4 mb0 db f4 black-70 tc">Thanks for reading!</span><br/>
-        <b className="db f4 black tc">— Dennis Cortés</b><br/>
+        <P className="mt4 mb0 db f5 black-70">Thanks for reading, <b className="db f5 black">Dennis Cortés</b></P><br/>
         <LineBreak />
         <div className="tc center">
           <a className="mt4 f6 link hover-bg-light-red br2 ph3 pv2 mb2 dib white bg-red mr3-ns" href="http://eepurl.com/cgT2bD">Subscribe to Newsletter</a>

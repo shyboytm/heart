@@ -30,7 +30,7 @@ class FourtySix extends Component {
         <Content id="46" >
 
           <Image imgSrc={imgFourtySix} imgAlt="Help People Help You" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Help People Help You</H>
             <span className="blue pr3">Volume 46</span>
             <span className="black-50 pr3">Published July 13 2017</span>

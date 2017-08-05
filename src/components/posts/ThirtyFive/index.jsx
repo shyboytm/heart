@@ -30,7 +30,7 @@ class ThirtyFive extends Component {
         <Content id="35" >
 
           <Image imgSrc={imgThirtyFive} imgAlt="Stop Charging by the Hour" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Stop Charging by the Hour</H>
             <span className="blue pr3">Volume 35</span>
             <span className="black-50 pr3">Published May 10 2017</span>

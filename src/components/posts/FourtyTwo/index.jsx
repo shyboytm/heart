@@ -30,7 +30,7 @@ class FourtyTwo extends Component {
         <Content id="42" >
 
           <Image imgSrc={imgFourtyTwo} imgAlt="You Need to Work for Yourself More" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>You Need to Work for Yourself More</H>
             <span className="blue pr3">Volume 42</span>
             <span className="black-50 pr3">Published June 22 2017</span>

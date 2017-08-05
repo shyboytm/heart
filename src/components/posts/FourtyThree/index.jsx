@@ -30,7 +30,7 @@ class FourtyThree extends Component {
         <Content id="43" >
 
           <Image imgSrc={imgFourtyThree} imgAlt="Why You Should Start Writing" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Why You Should Start Writing</H>
             <span className="blue pr3">Volume 43</span>
             <span className="black-50 pr3">Published July 6 2017</span>

@@ -29,7 +29,7 @@ class TwentyFour extends Component {
         <Content id="24" >
 
           <Image imgSrc={imgTwentyFour} imgAlt="Why You Should Give Away What You Know" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Why You Should Give Away What You Know</H>
             <span className="blue pr3">Volume 24</span>
             <span className="black-50">Published Feb 23 2017</span>

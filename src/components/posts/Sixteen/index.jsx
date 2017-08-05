@@ -39,7 +39,7 @@ class Sixteen extends Component {
         <Content id="16" >
 
           <Image imgSrc={imgSixteen} imgAlt="My 2016" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>My 2016</H>
             <span className="blue pr3">Volume 16</span>
             <span className="black-50">Published Dec 29 2016</span>

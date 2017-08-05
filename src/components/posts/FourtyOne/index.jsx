@@ -31,7 +31,7 @@ class FourtyOne extends Component {
         <Content id="41" >
 
           <Image imgSrc={imgFourtyOne} imgAlt="Great Design, Brought to You by Caring" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Great Design, Brought to You by Caring</H>
             <span className="blue pr3">Volume 41</span>
             <span className="black-50 pr3">Published June 22 2017</span>

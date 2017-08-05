@@ -33,7 +33,7 @@ class Fourteen extends Component {
         <Content id="14" >
 
           <Image imgSrc={imgFourteen} imgAlt="How to Cure Creative Block" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>How to Cure Creative Block</H>
             <span className="blue pr3">Volume 14</span>
             <span className="black-50">Published Dec 15 2016</span>

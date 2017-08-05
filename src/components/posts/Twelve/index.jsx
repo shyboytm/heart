@@ -31,7 +31,7 @@ class Twelve extends Component {
         <Content id="12" >
 
           <Image imgSrc={imgTwelve} imgAlt="Less Perfection and More Iteration" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Less Perfection and More Iteration</H>
             <span className="blue pr3">Volume 12</span>
             <span className="black-50">Published Dec 1 2016</span>

@@ -30,7 +30,7 @@ class Thirty extends Component {
         <Content id="30" >
 
           <Image imgSrc={imgThirty} imgAlt="Making Success Sustainable" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Making Success Sustainable</H>
             <span className="blue pr3">Volume 30</span>
             <span className="black-50">Published Apr 30 2017</span>

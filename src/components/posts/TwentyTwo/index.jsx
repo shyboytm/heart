@@ -29,7 +29,7 @@ class Twenty extends Component {
         <Content id="22" >
 
           <Image imgSrc={imgTwentyTwo} imgAlt="Guidelines to Great Logo Design" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Guidelines to Great Logo Design</H>
             <span className="blue pr3">Volume 22</span>
             <span className="black-50">Published Feb 9 2017</span>

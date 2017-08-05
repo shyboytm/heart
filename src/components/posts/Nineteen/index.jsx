@@ -29,7 +29,7 @@ class Nineteen extends Component {
         <Content id="19" >
 
           <Image imgSrc={imgNineteen} imgAlt="How to Come Up with Side Project Ideas" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>How to Come Up with Side Project Ideas</H>
             <span className="blue pr3">Volume 19</span>
             <span className="black-50">Published Jan 19 2017</span>

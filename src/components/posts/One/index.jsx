@@ -28,7 +28,7 @@ class One extends Component {
         <Content id="1" >
 
           <Image imgSrc={imgOne} imgAlt="Introducing: The Rate of Change Blog" />
-           <div className="mb5 tl measure">
+           <div className="mb5 tl">
             <H size={1}>Introducing: The Rate of Change Blog</H>
             <span className="blue pr3">Volume 1</span>
             <span className="black-50">Published Sep 15 2016</span>
