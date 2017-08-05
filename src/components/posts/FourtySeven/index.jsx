@@ -27,10 +27,10 @@ class FourtySeven extends Component {
           twitterLink="https://twitter.com/home?status=5%20Things%20I%20Learned%20Applying%20to%20Jobs%20in%20the%20Tech%20World%20by%20%40fromcortes%20http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech" />
-        <div id="47" className="bg-white br3 ph5-l pv4-l ph4 pv3 shadow-custom">
+        <Content id="47">
 
           <Image imgSrc={imgFourtySeven} imgAlt="5 Things I Learned Applying to Jobs in the Tech World" />
-          <div className="mb5 tc">
+          <div className="mb5">
             <H size={1}>5 Things I Learned Applying to Jobs in the Tech World</H>
             <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 47</span>
             <span className="black-50 pr3">Published Aug 3 2017</span>

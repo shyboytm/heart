@@ -6,7 +6,12 @@ import H from '../type-elements/H';
 class HomeFeed extends Component {
   render() {
     return (
-      <div id="HomeFeed" className="">
+      <div id="HomeFeed">
+        <HomeFeedItem
+          postTitle="Your Workflow is Not Important"
+          volumeNumber="48"
+          publishedDate="Aug 10 2017"
+          postLink="/your-workflow-is-not-important" />
         <HomeFeedItem
           postTitle="5 Things I Learned Applying to Jobs in the Tech World"
           volumeNumber="47"
