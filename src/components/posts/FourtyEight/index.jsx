@@ -18,7 +18,7 @@ import Social from '../../type-elements/Social';
 class FourtyEight extends Component {
   render() {
 
-    const imgFourtyEight = require('../../../img/roc-volume-47-cover.png');
+    const imgFourtyEight = require('../../../img/roc-volume-48-cover.png');
 
     return (
       <div className="cf w-100">
@@ -38,7 +38,12 @@ class FourtyEight extends Component {
 
           <P>Welcome to Volume 48 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>If you are reading this on my website, you probably noticed my blog has a brand new design! I’m very pleased to launch this and put a lot of focus on an easier read with better typography, layout, and load times. I also made some small improvements such as better use of color throughout and even remade The Rate of Change’s logo in code in a brand new header and footer. Hope you enjoy it and let me know what you think!</P>
           <H size={2}>Personal Life</H>
+          <P>This week I had an interview with one of my top choices for a new full-time opportunity. While waiting to hear back on next steps, I have been making quite a bit of progress on personal projects.</P>
+          <P>I’ve reworked my idea for <L hrefLink="https://gamesandgrids.com">Games and Grids</L> and am able to start writing reviews finally. Hoping to launch with 4 reviews written for you to read. 1 of them is done, 3 to go!</P>
+          <P>Like I mentioned, I wrapped up the new version of my blog which you are hopefully reading this article on!</P>
+          <P>I also started and finished a new little project over the weekend that I am launching next week. Probably the quickest I have made a project, stay tuned!</P>
 
           <LineBreak />
 
