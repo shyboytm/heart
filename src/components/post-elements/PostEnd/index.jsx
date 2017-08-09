@@ -7,9 +7,16 @@ import P from '../../type-elements/P';
 
 class PostEnd extends Component {
   render() {
+
+    const dennisCortes = require('../../../img/dennis-cortes.jpg');
+
     return (
       <div id="PostEnd" className="mt5">
-        <P className="mt4 mb0 db f5 black-70">Thanks for reading, <b className="db f5 black">Dennis Cortés</b></P><br/>
+        <P className="mt4 mb0 db f5 black-70">Thanks for reading, <b className="db f5 black">Dennis Cortés</b></P>
+        <div className="flex items-center">
+          <img src={dennisCortes} className="w3 h3 br-pill bg-black-05 shadow-custom mr3" />
+          <span className="f2">✌️</span>
+        </div>
         <LineBreak />
         <div className="tc center">
           <a className="mt4 f6 link hover-bg-light-red br2 ph3 pv2 mb2 dib white bg-red mr3-ns" href="http://eepurl.com/cgT2bD">Subscribe to Newsletter</a>
