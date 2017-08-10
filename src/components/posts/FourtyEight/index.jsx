@@ -24,9 +24,9 @@ class FourtyEight extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=5%20Things%20I%20Learned%20Applying%20to%20by%20%40fromcortes%20http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech" />
+          twitterLink="https://twitter.com/home?status=Your%20Workflow%20is%20Not%20Important%20by%20%40fromcortes%20http%3A//blog.cortes.us/your-workflow-is-not-important"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/your-workflow-is-not-important"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/your-workflow-is-not-important" />
         <Content id="48">
 
           <Image imgSrc={imgFourtyEight} imgAlt="Your Workflow is Not Important" />
