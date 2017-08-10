@@ -13,9 +13,9 @@ class Content extends Component {
           <div className="flex-auto br2 pa3 ba b--black-05 f6">
             <p className="lh-copy mt0">
               The Rate of Change is a weekly blog about Design, Development, Business, and Life
-              written by <a href="https://cortes.us" className="link blue dim">Dennis Cortés</a>.
+              written by <a target="_blank" rel="nofollow" href="https://cortes.us" className="link blue dim">Dennis Cortés</a>.
             </p>
-            <a className="f7 link bg-animate hover-bg-light-blue br2 pa2 dib white bg-blue" href="https://twitter.com/fromcortes">
+            <a className="f7 link bg-animate hover-bg-light-blue br2 pa2 dib white bg-blue" target="_blank" rel="nofollow" href="https://twitter.com/fromcortes">
               Follow @fromcortes
             </a>
           </div>

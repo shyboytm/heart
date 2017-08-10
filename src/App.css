@@ -11,6 +11,7 @@
 .social-box .social-icon  { fill: #B7B7B7; }
 .flex-basis               { flex-basis: 250%; }
 .bg-purple                { background-color: #B49AFE; }
+.no-outline:focus         { outline: 0; }
 
 /* elements */
 h1              { font-weight: 500; line-height: 2.5rem; }
