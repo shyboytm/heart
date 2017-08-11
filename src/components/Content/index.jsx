@@ -5,7 +5,7 @@ import P from '../type-elements/P';
 class Content extends Component {
   render() {
     return (
-      <div id={this.props.id} className="flex-l w-80-ns w-90 center pv5-ns pv3">
+      <div id={this.props.id} className="mw9 flex-l w-80-ns w-90 center pv5-ns pv3">
         <div className="flex-auto-l flex-basis db w-100 pr4-l">
           {this.props.children}
         </div>
