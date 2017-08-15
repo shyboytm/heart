@@ -46,7 +46,10 @@ class FourtyNine extends Component {
 
           <P>Welcome to Volume 49 of The Rate of Change. I hope you’re having an amazing week. As I promised, each of these will have a main blog post, and an update about my professional and personal life for this week. So before I get into this week’s article, here’s a quick update on my week.</P>
           <H size={2}>Side Projects - <L hrefLink="http://usequarry.com">usequarry.com</L></H>
+          <P>As you may know, I launched my new version of this blog at blog.cortes.us last week. What I didn’t tell you is this is more of a version 1.5 than a version 2.0. I have some big things planned and some big changes coming to this blog in a few weeks. Much more organized with much more variety in content is on the horizon. While waiting to start my new job I’ve been working hard to get the next version up and running. More on this soon!</P>
+          <P>As usual, Aaron and I have been working day in and day out on our new project <L hrefLink="https://livtra.co">Livtra</L> and I must say it is coming along beautifully. Everything looks and feels great as we’re building out new features. You will finally have a more detailed place to keep track of your life here soon. We’re planning to launch a private Beta towards the end of next month!</P>
           <H size={2}>Personal Life</H>
+          <P>I am happy to announce that I have accepted a job offer and will be starting the next step in my career next week! I will be joining the team over at <L hrefLink="https://madebyspeak.com">Speak</L> as a web designer and developer, making and implementing awesome stuff for clients. I’ll be working on-site at their HQ in Memphis and I’m excited to learn and grow my career here for the foreseeable future!</P>
 
           <LineBreak />
 
