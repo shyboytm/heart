@@ -11,13 +11,13 @@ class GalleryThree extends Component {
     return (
       <div className="w-100 cf">
         <div className="fl w-33-l w-100 dib ph2 pb3">
-          <img src={imgOne} alt="The Rate of Change Content" />
+          <img className="br2 shadow-custom" src={imgOne} alt="The Rate of Change Content" />
         </div>
         <div className="fl w-33-l w-100 dib ph2 pb3">
-          <img src={imgTwo} alt="The Rate of Change Content" />
+          <img className="br2 shadow-custom" src={imgTwo} alt="The Rate of Change Content" />
         </div>
         <div className="fl w-33-l w-100 dib ph2 pb3">
-          <img src={imgThree} alt="The Rate of Change Content" />
+          <img className="br2 shadow-custom" src={imgThree} alt="The Rate of Change Content" />
         </div>
       </div>
     );

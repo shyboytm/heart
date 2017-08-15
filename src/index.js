@@ -55,6 +55,7 @@ import FourtyFive from './components/posts/FourtyFive';
 import FourtySix from './components/posts/FourtySix';
 import FourtySeven from './components/posts/FourtySeven';
 import FourtyEight from './components/posts/FourtyEight';
+import FourtyNine from './components/posts/FourtyNine';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -108,6 +109,7 @@ ReactDOM.render(
       <Route path="/help-people-help-you" component={FourtySix}/>
       <Route path="/5-things-i-learned-applying-to-jobs-in-tech" component={FourtySeven}/>
       <Route path="/your-workflow-is-not-important" component={FourtyEight}/>
+      <Route path="/beatsx-earphones-review" component={FourtyNine}/>
     </Route>
   </Router>,
   document.getElementById('root')
