@@ -32,9 +32,9 @@ class FourtyNine extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Your%20Workflow%20is%20Not%20Important%20by%20%40fromcortes%20http%3A//blog.cortes.us/your-workflow-is-not-important"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/your-workflow-is-not-important"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/your-workflow-is-not-important" />
+          twitterLink="https://twitter.com/home?status=BeatsX%20Headphones%20Review%20by%20%40fromcortes%20http%3A//blog.cortes.us/beatsx-earphones-review"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/beatsx-earphones-review"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/beatsx-earphones-review" />
         <Content id="49">
 
           <Image imgSrc={imgFourtyNine} imgAlt="BeatsX Headphones Review" />
