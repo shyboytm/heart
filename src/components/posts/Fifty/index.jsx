@@ -6,6 +6,7 @@ import Footer from '../../Footer';
 
 import DropCap from '../../type-elements/DropCap';
 import H from '../../type-elements/H';
+import Image from '../../type-elements/Image';
 import L from '../../type-elements/L';
 import LineBreak from '../../type-elements/LineBreak';
 import P from '../../type-elements/P';
@@ -21,10 +22,17 @@ class Fifty extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=BeatsX%20Headphones%20Review%20by%20%40fromcortes%20http%3A//blog.cortes.us/beatsx-earphones-review"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/beatsx-earphones-review"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/beatsx-earphones-review" />
+          twitterLink="https://twitter.com/home?status=How%20I%20Learned%20to%20Code%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-i-learned-to-code"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-i-learned-to-code"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-i-learned-to-code" />
         <Content id="50">
+
+          <Image imgSrc={imgFifty} imgAlt="How I Learned to Code and How You Can Too" />
+          <div className="mb5">
+            <H size={1}>How I Learned to Code and How You Can Too</H>
+            <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 50</span>
+            <span className="black-50 pr3">Published Aug 23 2017</span>
+          </div>
 
           <P><DropCap>W</DropCap>ith these articles, I enjoy answering questions that I see come up often from friends and acquaintances. While looking for my next job opportunity, I’ve been ramping up my work and releases of new and updated projects. I’ve also been working a lot on a major project called Livtra. During this time I have had people ask everything from what languages I code certain projects in, if I use a CMS for projects, and mainly questions about how I learned code on my own. So, this week I wanted to give the short version of how I learned to code.</P>
 
@@ -38,6 +46,7 @@ class Fifty extends Component {
 
           <H size={2}>How Can You Learn</H>
           <P>Enough about me, how can you learn code? While I don’t have all the answers for every aspect of code, I’m going to list resources that I use/have used to learn code that I recommend. Hope this helps!</P>
+          <L hrefLink="https://medium.com/the-rate-of-change/how-i-learned-to-code-and-how-you-can-too-18a57eca728c">Read the rest on Medium</L>
 
           <PostEnd />
 
