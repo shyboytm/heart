@@ -16,7 +16,7 @@ import Social from '../../type-elements/Social';
 class Fifty extends Component {
   render() {
 
-    const imgFifty = require('../../../img/roc-volume-49-cover.png');
+    const imgFifty = require('../../../img/roc-volume-50-cover.png');
 
     return (
       <div className="cf w-100">
@@ -31,7 +31,7 @@ class Fifty extends Component {
           <div className="mb5">
             <H size={1}>How I Learned to Code and How You Can Too</H>
             <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 50</span>
-            <span className="black-50 pr3">Published Aug 23 2017</span>
+            <span className="black-50 pr3">Published Aug 25 2017</span>
           </div>
 
           <P><DropCap>W</DropCap>ith these articles, I enjoy answering questions that I see come up often from friends and acquaintances. While looking for my next job opportunity, I’ve been ramping up my work and releases of new and updated projects. I’ve also been working a lot on a major project called Livtra. During this time I have had people ask everything from what languages I code certain projects in, if I use a CMS for projects, and mainly questions about how I learned code on my own. So, this week I wanted to give the short version of how I learned to code.</P>
@@ -46,7 +46,7 @@ class Fifty extends Component {
 
           <H size={2}>How Can You Learn</H>
           <P>Enough about me, how can you learn code? While I don’t have all the answers for every aspect of code, I’m going to list resources that I use/have used to learn code that I recommend. Hope this helps!</P>
-          <L hrefLink="https://medium.com/the-rate-of-change/how-i-learned-to-code-and-how-you-can-too-18a57eca728c">Read the rest on Medium</L>
+          <L hrefLink="https://medium.com/the-rate-of-change/how-i-learned-to-code-and-how-you-can-too-18a57eca728c">Read the links on Medium!</L>
 
           <PostEnd />
 
