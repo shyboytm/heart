@@ -16,7 +16,7 @@ import Social from '../../type-elements/Social';
 class FiftyTwo extends Component {
   render() {
 
-    const imgFiftyTwo = require('../../../img/roc-volume-51-cover.png');
+    const imgFiftyTwo = require('../../../img/roc-volume-52-cover.png');
 
     return (
       <div className="cf w-100">
