@@ -16,7 +16,7 @@ import Social from '../../type-elements/Social';
 class FiftyFour extends Component {
   render() {
 
-    const imgFiftyFour = require('../../../img/roc-volume-53-cover.png');
+    const imgFiftyFour = require('../../../img/roc-volume-54-cover.png');
 
     return (
       <div className="cf w-100">
@@ -34,7 +34,7 @@ class FiftyFour extends Component {
             <span className="black-50 pr3">Published Sep 22 2017</span>
           </div>
 
-          <P><DropCap>A</DropCap>ne of my biggest passions in my work is learning about systems and processes in the ways that individuals and teams work. I love finding where others struggle and figuring out solutions to help the process and/or individual improve. I’ve worked on teams, led my own teams, and worked on my own in various instances for the past 5+ years.</P>
+          <P><DropCap>O</DropCap>ne of my biggest passions in my work is learning about systems and processes in the ways that individuals and teams work. I love finding where others struggle and figuring out solutions to help the process and/or individual improve. I’ve worked on teams, led my own teams, and worked on my own in various instances for the past 5+ years.</P>
           <P>A pattern I have noticed time and time again is the obsession with additional before necessary in design and/or development.</P>
           <P>Obsession with the extra bells and whistles before even getting the experience correct. From the outside it makes complete sense, right? But think about your process. How many times are you figuring out the foundations for your product, and are distracted by a feature or visual that doesn’t contribute to the core experience?</P>
           <P>Sure, these bells and whistles are important. One could argue that “the details are the design”, but I think there is a time and place for these. The point here is to not let these distract from the foundational experience of what you are making. No matter how amazing this extra detail is, no one will even have a chance to use it if the core workflow isn’t where it needs to be.</P>
