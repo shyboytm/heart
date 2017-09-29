@@ -61,6 +61,7 @@ import FiftyOne from './components/posts/FiftyOne';
 import FiftyTwo from './components/posts/FiftyTwo';
 import FiftyThree from './components/posts/FiftyThree';
 import FiftyFour from './components/posts/FiftyFour';
+import FiftyFive from './components/posts/FiftyFive';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -120,6 +121,7 @@ ReactDOM.render(
       <Route path="/one-year-of-weekly-writing" component={FiftyTwo}/>
       <Route path="/real-reason-i-love-apple-events" component={FiftyThree}/>
       <Route path="/additional-before-necessary-patterns" component={FiftyFour}/>
+      <Route path="/marketing-yourself-as-designer-or-developer" component={FiftyFive}/>
     </Route>
   </Router>,
   document.getElementById('root')
