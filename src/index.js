@@ -63,6 +63,7 @@ import FiftyThree from './components/posts/FiftyThree';
 import FiftyFour from './components/posts/FiftyFour';
 import FiftyFive from './components/posts/FiftyFive';
 import FiftySix from './components/posts/FiftySix';
+import FiftySeven from './components/posts/FiftySeven';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -124,6 +125,7 @@ ReactDOM.render(
       <Route path="/additional-before-necessary-patterns" component={FiftyFour}/>
       <Route path="/marketing-yourself-as-designer-or-developer" component={FiftyFive}/>
       <Route path="/ebb-and-flow-of-design-process" component={FiftySix}/>
+      <Route path="/hyper-light-drifter-design-review" component={FiftySeven}/>
     </Route>
   </Router>,
   document.getElementById('root')

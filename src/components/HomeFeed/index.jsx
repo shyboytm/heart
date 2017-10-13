@@ -8,6 +8,11 @@ class HomeFeed extends Component {
     return (
       <div id="HomeFeed">
         <HomeFeedItem
+          postTitle="Hyper Light Drifter Guidance Design Review and Analysis"
+          volumeNumber="57"
+          publishedDate="Oct 13 2017"
+          postLink="/hyper-light-drifter-design-review" />
+        <HomeFeedItem
           postTitle="The Ebb and Flow of the Design Process"
           volumeNumber="56"
           publishedDate="Oct 6 2017"
