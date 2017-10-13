@@ -29,9 +29,9 @@ class FiftySeven extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=The%20Ebb%20and%20Flow%20of%20the%20Design%20Process?%20by%20%40fromcortes%20http%3A//blog.cortes.us/ebb-and-flow-of-design-process"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/ebb-and-flow-of-design-process"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/ebb-and-flow-of-design-process" />
+          twitterLink="https://twitter.com/home?status=Hyper%20Light%20Drifter%20Guidance%20Design%20Review%20and%20Analysis%20by%20%40fromcortes%20http%3A//blog.cortes.us/hyper-light-drifter-design-review"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/hyper-light-drifter-design-review"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/hyper-light-drifter-design-review" />
         <Content id="57">
 
           <Image imgSrc={imgFiftySeven} imgAlt="Hyper Light Drifter Guidance Design Review and Analysis" />
