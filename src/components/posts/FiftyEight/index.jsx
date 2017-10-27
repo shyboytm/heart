@@ -27,7 +27,7 @@ class FiftyEight extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/ebb-and-flow-of-design-process" />
         <Content id="58">
 
-          <Image imgSrc={imgFiftyEight} imgAlt="The Ebb and Flow of the Design Process" />
+          <Image imgSrc={imgFiftyEight} imgAlt="The Mistake I Make that Kills My Productivity" />
           <div className="mb5">
             <H size={1}>The Mistake I Make that Kills My Productivity</H>
             <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 58</span>

@@ -65,6 +65,7 @@ import FiftyFive from './components/posts/FiftyFive';
 import FiftySix from './components/posts/FiftySix';
 import FiftySeven from './components/posts/FiftySeven';
 import FiftyEight from './components/posts/FiftyEight';
+import FiftyNine from './components/posts/FiftyNine';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -128,6 +129,7 @@ ReactDOM.render(
       <Route path="/ebb-and-flow-of-design-process" component={FiftySix}/>
       <Route path="/hyper-light-drifter-design-review" component={FiftySeven}/>
       <Route path="/mistake-i-make-that-kills-my-productivity" component={FiftyEight}/>
+      <Route path="/how-to-work-after-a-full-time-job" component={FiftyNine}/>
     </Route>
   </Router>,
   document.getElementById('root')
