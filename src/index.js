@@ -66,6 +66,7 @@ import FiftySix from './components/posts/FiftySix';
 import FiftySeven from './components/posts/FiftySeven';
 import FiftyEight from './components/posts/FiftyEight';
 import FiftyNine from './components/posts/FiftyNine';
+import Sixty from './components/posts/Sixty';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -130,6 +131,7 @@ ReactDOM.render(
       <Route path="/hyper-light-drifter-design-review" component={FiftySeven}/>
       <Route path="/mistake-i-make-that-kills-my-productivity" component={FiftyEight}/>
       <Route path="/how-to-work-after-a-full-time-job" component={FiftyNine}/>
+      <Route path="/removing-choice-from-productivity-equation" component={Sixty}/>
     </Route>
   </Router>,
   document.getElementById('root')

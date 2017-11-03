@@ -8,6 +8,11 @@ class HomeFeed extends Component {
     return (
       <div id="HomeFeed">
         <HomeFeedItem
+          postTitle="Removing Choice from the Productivity Equation"
+          volumeNumber="60"
+          publishedDate="Nov 3 2017"
+          postLink="/removing-choice-from-productivity-equation" />
+        <HomeFeedItem
           postTitle="How to Work on Personal Projects after a Long Full-Time Job"
           volumeNumber="59"
           publishedDate="Oct 27 2017"
