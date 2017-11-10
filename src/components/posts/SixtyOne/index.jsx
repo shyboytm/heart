@@ -22,9 +22,9 @@ class SixtyOne extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=A%20Peek%20Into%20my%20of%20Illustration%20Process?%20by%20%40fromcortes%20http%3A//blog.cortes.us/how-to-work-after-a-full-time-job"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/how-to-work-after-a-full-time-job"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-to-work-after-a-full-time-job" />
+          twitterLink="https://twitter.com/home?status=A%20Peek%20Into%20my%20of%20Illustration%20Process?%20by%20%40fromcortes%20http%3A//blog.cortes.us/peek-into-my-illustration-process"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/peek-into-my-illustration-process"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/peek-into-my-illustration-process" />
         <Content id="61">
 
           <Image imgSrc={imgSixtyOne} imgAlt="A Peek into my Illustration Process" />
