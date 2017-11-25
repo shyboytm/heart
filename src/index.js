@@ -69,6 +69,7 @@ import FiftyNine from './components/posts/FiftyNine';
 import Sixty from './components/posts/Sixty';
 import SixtyOne from './components/posts/SixtyOne';
 import SixtyTwo from './components/posts/SixtyTwo';
+import SixtyThree from './components/posts/SixtyThree';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -136,6 +137,7 @@ ReactDOM.render(
       <Route path="/removing-choice-from-productivity-equation" component={Sixty}/>
       <Route path="/peek-into-my-illustration-process" component={SixtyOne}/>
       <Route path="/how-to-come-up-with-writing-topics" component={SixtyTwo}/>
+      <Route path="/making-the-most-of-your-time-off" component={SixtyThree}/>
     </Route>
   </Router>,
   document.getElementById('root')

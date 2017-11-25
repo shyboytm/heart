@@ -8,6 +8,11 @@ class HomeFeed extends Component {
     return (
       <div id="HomeFeed">
         <HomeFeedItem
+          postTitle="Making the Most of Your Time Off"
+          volumeNumber="63"
+          publishedDate="Nov 24 2017"
+          postLink="/making-the-most-of-your-time-off" />
+        <HomeFeedItem
           postTitle="How to Come Up with Writing Topics"
           volumeNumber="62"
           publishedDate="Nov 17 2017"

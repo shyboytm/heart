@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 
 import Content from '../../Content';
@@ -13,10 +14,10 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class SixtyOne extends Component {
+class SixtyTwo extends Component {
   render() {
 
-    const imgSixtyOne = require('../../../img/roc-volume-62-cover.png');
+    const imgSixtyTwo = require('../../../img/roc-volume-62-cover.png');
 
     return (
       <div className="cf w-100">
@@ -27,7 +28,7 @@ class SixtyOne extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/how-to-come-up-with-writing-topics" />
         <Content id="62">
 
-          <Image imgSrc={imgSixtyOne} imgAlt="How to Come Up with Writing Topics" />
+          <Image imgSrc={imgSixtyTwo} imgAlt="How to Come Up with Writing Topics" />
           <div className="mb5">
             <H size={1}>How to Come Up with Writing Topics</H>
             <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 62</span>
@@ -61,4 +62,4 @@ class SixtyOne extends Component {
   }
 }
 
-export default SixtyOne;
+export default SixtyTwo;
