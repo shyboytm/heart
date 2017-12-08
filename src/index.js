@@ -70,6 +70,8 @@ import Sixty from './components/posts/Sixty';
 import SixtyOne from './components/posts/SixtyOne';
 import SixtyTwo from './components/posts/SixtyTwo';
 import SixtyThree from './components/posts/SixtyThree';
+import SixtyFour from './components/posts/SixtyFour';
+import SixtyFive from './components/posts/SixtyFive';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -138,6 +140,8 @@ ReactDOM.render(
       <Route path="/peek-into-my-illustration-process" component={SixtyOne}/>
       <Route path="/how-to-come-up-with-writing-topics" component={SixtyTwo}/>
       <Route path="/making-the-most-of-your-time-off" component={SixtyThree}/>
+      <Route path="/questions-to-ask-employers-hiring-remotely" component={SixtyFour}/>
+      <Route path="/tips-to-make-better-design-moodboards" component={SixtyFive}/>
     </Route>
   </Router>,
   document.getElementById('root')

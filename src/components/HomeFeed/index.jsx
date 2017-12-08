@@ -8,6 +8,16 @@ class HomeFeed extends Component {
     return (
       <div id="HomeFeed">
         <HomeFeedItem
+          postTitle="Tips to Make Better Design Moodboards"
+          volumeNumber="65"
+          publishedDate="Dec 8 2017"
+          postLink="/tips-to-make-better-design-moodboards" />
+        <HomeFeedItem
+          postTitle="Questions to Ask Employers Hiring Remotely"
+          volumeNumber="64"
+          publishedDate="Dec 1 2017"
+          postLink="/questions-to-ask-employers-hiring-remotely" />
+        <HomeFeedItem
           postTitle="Making the Most of Your Time Off"
           volumeNumber="63"
           publishedDate="Nov 24 2017"
