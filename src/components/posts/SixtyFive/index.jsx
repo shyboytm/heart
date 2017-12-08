@@ -18,7 +18,7 @@ import Social from '../../type-elements/Social';
 class SixtyFive extends Component {
   render() {
 
-    const imgSixtyFive = require('../../../img/roc-volume-64-cover.png');
+    const imgSixtyFive = require('../../../img/roc-volume-65-cover.png');
 
     const consistencyOne = require('../../../img/postImgs/moodboard-consistency-1.jpeg')
     const consistencyTwo = require('../../../img/postImgs/moodboard-consistency-2.jpeg')
