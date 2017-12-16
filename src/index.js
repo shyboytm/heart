@@ -72,6 +72,7 @@ import SixtyTwo from './components/posts/SixtyTwo';
 import SixtyThree from './components/posts/SixtyThree';
 import SixtyFour from './components/posts/SixtyFour';
 import SixtyFive from './components/posts/SixtyFive';
+import SixtySix from './components/posts/SixtySix';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -142,6 +143,7 @@ ReactDOM.render(
       <Route path="/making-the-most-of-your-time-off" component={SixtyThree}/>
       <Route path="/questions-to-ask-employers-hiring-remotely" component={SixtyFour}/>
       <Route path="/tips-to-make-better-design-moodboards" component={SixtyFive}/>
+      <Route path="/a-global-rule-for-your-work" component={SixtySix}/>
     </Route>
   </Router>,
   document.getElementById('root')

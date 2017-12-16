@@ -8,6 +8,11 @@ class HomeFeed extends Component {
     return (
       <div id="HomeFeed">
         <HomeFeedItem
+          postTitle="A Global Rule for Your Work"
+          volumeNumber="66"
+          publishedDate="Dec 15 2017"
+          postLink="/a-global-rule-for-your-work" />
+        <HomeFeedItem
           postTitle="Tips to Make Better Design Moodboards"
           volumeNumber="65"
           publishedDate="Dec 8 2017"
