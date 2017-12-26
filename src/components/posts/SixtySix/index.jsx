@@ -32,7 +32,7 @@ class SixtySix extends Component {
           <div className="mb5">
             <H size={1}>A Global Rule for Your Work</H>
             <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 66</span>
-            <span className="black-50 pr3">Published Dec 8 2017</span>
+            <span className="black-50 pr3">Published Dec 15 2017</span>
           </div>
 
           <P><DropCap>R</DropCap>egardless of how many topics I think about around the tech and design industry, a global theme that always comes to mind for me is being a genuinely nice human being. I mean this in every aspect you can think of; how you communicate with others and even how you design or write copy.</P>
