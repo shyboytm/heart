@@ -73,6 +73,78 @@ class SixtySix extends Component {
             </li>
           </ul>
 
+          <H size={2}>Portfolio and Personal Websites</H>
+          <P>Websites of creators and people I admire for their content, their design, or both.</P>
+          <ul className="list lh-copy black-60 f4 mv5 pl4-l pl3">
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://mrmrs.cc">http://mrmrs.cc</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://julianbialowas.com">http://julianbialowas.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://nicolefenton.com">http://nicolefenton.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.fullstopnewparagraph.co.uk">http://www.fullstopnewparagraph.co.uk</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://nerval.ch">http://nerval.ch</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://danielmackeyart.com">http://danielmackeyart.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://helentran.com">http://helentran.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.samuel-medvedowsky.com">http://www.samuel-medvedowsky.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://scottdejonge.com">https://scottdejonge.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://ivomynttinen.com">https://ivomynttinen.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.vanschneider.com/bio">http://www.vanschneider.com/bio</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://milosz.is">http://milosz.is</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://guglieri.com">https://guglieri.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://sebastien-gabriel.com">http://sebastien-gabriel.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://kylemeyer.com">http://kylemeyer.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://byalicelee.com">http://byalicelee.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.yasly.com">http://www.yasly.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.richiestewart.com">http://www.richiestewart.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.baptisteringot.com">http://www.baptisteringot.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://heckhouse.com">http://heckhouse.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.oursroux.com">http://www.oursroux.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="h">h</L>
+            </li>
+
+          </ul>
+
           <PostEnd />
 
         </Content>
