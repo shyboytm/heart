@@ -436,6 +436,47 @@ class SixtySix extends Component {
             </li>
           </ul>
 
+          <H size={2}>Blog Websites</H>
+          <P>Websites that really know how to tell a story and arrange text.</P>
+          <ul className="list lh-copy black-60 f4 mv5 pl4-l pl3">
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://wayswework.io">http://wayswework.io</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://interfacelovers.com">https://interfacelovers.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.wethepeoplestyle.com">https://www.wethepeoplestyle.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://readcereal.com">https://readcereal.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.curiousclub.co">http://www.curiousclub.co</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://thegreatdiscontent.com">http://thegreatdiscontent.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.technologyreview.com">https://www.technologyreview.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://99u.com">http://99u.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://kinfolk.com">https://kinfolk.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://bitsofco.de">https://bitsofco.de</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.mcsweeneys.net">https://www.mcsweeneys.net</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://theoutline.com">https://theoutline.com</L>
+            </li>
+          </ul>
+
           <PostEnd />
 
         </Content>
