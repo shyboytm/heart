@@ -530,6 +530,51 @@ class SixtySix extends Component {
             </li>
           </ul>
 
+          <H size={2}>Case Studies</H>
+          <P>Well designed and thought out ways of presenting work.</P>
+          <ul className="list lh-copy black-60 f4 mv5 pl4-l pl3">
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://michaelevensen.com">http://michaelevensen.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://zeusjones.com/work/totinos">http://zeusjones.com/work/totinos</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://heckhouse.com/works/the-eephus-league">http://heckhouse.com/works/the-eephus-league</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.desktopneo.com">https://www.desktopneo.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://mrwhite.space">http://mrwhite.space</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://yourmajesty.co/work/netflix">https://yourmajesty.co/work/netflix</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.uber.design">https://www.uber.design</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://bit.ly/2CcVsBA">http://bit.ly/2CcVsBA</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://arias.ca/work/the-polly-fox">http://arias.ca/work/the-polly-fox</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://www.ericrmortensen.com/#/identity">http://www.ericrmortensen.com/#/identity</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://roomfive.net/plasma-design-system">http://roomfive.net/plasma-design-system</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://studiomast.co/projects/loyal-coffee">http://studiomast.co/projects/loyal-coffee</L>
+            </li>
+          </ul>
+
+          <LineBreak />
+
+          <P><strong>I’m genuinely curious if this does help you, please reach out to me on <L hrefLink="https://twitter.com/fromcortes">Twitter</L> or send me an <L hrefLink="mailto:hi@cortes.us">email</L> if you find this useful at all and I will try to create more articles like this.</strong></P>
+
           <PostEnd />
 
         </Content>
