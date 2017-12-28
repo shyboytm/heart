@@ -23,9 +23,9 @@ class SixtySix extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=A%20Global%20Rule%20for%20Your%20Work%20by%20%40fromcortes%20http%3A//blog.cortes.us/a-global-rule-for-your-work"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/a-global-rule-for-your-work"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/a-global-rule-for-your-work" />
+          twitterLink="https://twitter.com/home?status=Here's%20a%20Giatn%20List%20of%20Design%20Inspiration%20for%20You%20to%20Use%20by%20%40fromcortes%20http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use" />
         <Content id="67">
 
           <Image imgSrc={imgSixtySix} imgAlt="Here’s a Giant List of Design Inspiration for You to Use" />
