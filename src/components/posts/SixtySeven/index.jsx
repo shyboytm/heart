@@ -477,6 +477,59 @@ class SixtySix extends Component {
             </li>
           </ul>
 
+          <H size={2}>Shop Websites</H>
+          <P>Some of my favorite ecommerce and similar sites.</P>
+          <ul className="list lh-copy black-60 f4 mv5 pl4-l pl3">
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://milknsugar.com">https://milknsugar.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.odetothings.com">https://www.odetothings.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://store.leibal.com">https://store.leibal.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.hardgraft.com">https://www.hardgraft.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.everlane.com">https://www.everlane.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://rodengray.com/collections/herschel-supply-co">https://rodengray.com/collections/herschel-supply-co</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.stampd.com">https://www.stampd.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.dotgrid.co">https://www.dotgrid.co</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.ochsundjunior.swiss">https://www.ochsundjunior.swiss</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://store.moma.org">https://store.moma.org</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://topodesigns.com">https://topodesigns.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.suprgood.com">https://www.suprgood.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://goodfuckingdesignadvice.com/products">https://goodfuckingdesignadvice.com/products</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.presentandcorrect.com">https://www.presentandcorrect.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="http://eephusleague.com">http://eephusleague.com</L>
+            </li>
+            <li className="mb4 f4-l f5">
+              <L hrefLink="https://www.neuegoods.com/home">https://www.neuegoods.com/home</L>
+            </li>
+          </ul>
+
           <PostEnd />
 
         </Content>
