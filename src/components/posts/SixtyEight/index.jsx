@@ -58,6 +58,55 @@ class SixtyEight extends Component {
           <P>Creating music has been such a wonderful creative outlet for me and has assisted with growing my creative mind outside of my full-time work. Making music has played a part in keeping me fulfilled with what I do for a living to keep myself from being drained while feeling productive.</P>
           <P><strong>P.S.</strong> For those that have asked, I use Ableton 9 with a <L hrefLink="http://amzn.to/2ArOjs2">Korg Nano keyboard</L> mainly and sometimes my old <L hrefLink="http://amzn.to/2E7dyCe">Maschine MK2</L>. Most of the sounds you hear in my music are heavily altered (reversed, chopped, multiple effects) samples of everything from my own voice and life, samples from popular Rap, R&B, and Ambient music, and even sections from random Anime episodes that no one watches. I like to make music that sounds weird and unique, yet calming and thought-inducing.</P>
 
+          <H size={2}>🎨 Started my Design Studio Off Gray</H>
+          <P>Although I haven’t officially announced it and I’m not pushing this project currently, I decided to start my own design studio focusing on branding and illustration projects this year. Like I said earlier, I figured out the things I want to focus on in my personal and professional work. I’d like for my full-time to be primarily Product Design and/or code and have Off Gray as my freelance outlet for my love of branding and illustration projects. This was my first effort at making this a reality for myself and am excited to focus on this at some time in the next year to get things going.</P>
+
+          <H size={2}>🚀 Shipped 14 Side Projects</H>
+          <ul className="list lh-copy black-60 f4 mv5 pl4-l pl3">
+            <li className="mb4 f4-l f5">
+              <P><strong>Pokem</strong> - Was a place for me to keep track of Pokémon games I play but for now it is archived. I wish Nintendo would release an API to access game data!</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://github.com/fromcortes/encounter">Encounter Counter</L> - A React counter for tracking shiny Pokémon chains.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://cortes.us">New Personal Website</L> - This should count for like 5 since I re-did it that many times. Whoops.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://blog.cortes.us">Native Blog</L></P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://livtra.co">Livtra’s Landing Page</L></P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://usequarry.com">New Quarry Site</L></P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://gamesandgrids.com">Games and Grids Landing Page</L></P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://blog.cortes.us">Native Blog V2</L> - Faster, prettier, easier to use. Then I started on a V3 about two weeks after. Whoops again.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://prompter.cortes.us">Prompter</L> - A tool that creates randomized prompts for artists and illustrators to use.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://cortes.us">Personal Site News Layout</L> - When I created a newspaper style layout for my personal site.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://www.cortes.us/tools">Tools Personal Site</L> - I finally shipped a collection of everything I use in my work and personal life. Everything from setup to video games to coffee.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://www.cortes.us/mentoring">Mentorship Personal Site</L> - After many requests for a mentorship service from me and my own personal views on the value of mentoring, you can now book a 1-on-1 45-minute chat with me.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Degrees of Separation - Along with some friends of mine, I created a small community for some of my close friends to support each other, share things, and keep ourselves accountable in life.</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P><L hrefLink="https://www.offgray.co">Off Gray Landing Page</L></P>
+            </li>
+          </ul>
+
 
           <PostEnd />
 
