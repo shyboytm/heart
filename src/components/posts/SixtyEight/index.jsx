@@ -23,9 +23,9 @@ class SixtyEight extends Component {
       <div className="cf w-100">
         <Header />
         <Social
-          twitterLink="https://twitter.com/home?status=Here's%20a%20Giatn%20List%20of%20Design%20Inspiration%20for%20You%20to%20Use%20by%20%40fromcortes%20http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use"
-          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use"
-          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use" />
+          twitterLink="https://twitter.com/home?status=My%202017%20by%20%40fromcortes%20http%3A//blog.cortes.us/2017"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//blog.cortes.us/2017"
+          googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/2017" />
         <Content id="68">
 
           <Image imgSrc={imgSixtyEight} imgAlt="Here’s a Giant List of Design Inspiration for You to Use" />
@@ -100,13 +100,57 @@ class SixtyEight extends Component {
               <P><L hrefLink="https://www.cortes.us/mentoring">Mentorship Personal Site</L> - After many requests for a mentorship service from me and my own personal views on the value of mentoring, you can now book a 1-on-1 45-minute chat with me.</P>
             </li>
             <li className="mb4 f4-l f5">
-              <P>Degrees of Separation - Along with some friends of mine, I created a small community for some of my close friends to support each other, share things, and keep ourselves accountable in life.</P>
+              <P><strong>Degrees of Separation</strong> - Along with some friends of mine, I created a small community for some of my close friends to support each other, share things, and keep ourselves accountable in life.</P>
             </li>
             <li className="mb4 f4-l f5">
               <P><L hrefLink="https://www.offgray.co">Off Gray Landing Page</L></P>
             </li>
           </ul>
 
+          <H size={2}>📝 Released 52 Blog Articles</H>
+          <P>After starting my blog (that you are currently reading), this is the first full year I have had to post articles. Following what I said I would do, I released a new article every single week this past year. I wrote about everything from design, development, business, personal life, job hunting, product reviews, and even giving away my own resources for others.</P>
+          <P>Writing and releasing an article every single week wasn’t an easy task I’ll admit. It has required discipline and sacrifice in multiple parts of my life, but has overall been one of the biggest accomplishments for me this year. Each release on it’s own feels like a small release, but looking back it’s quite a lot of work that I shipped and put out into the world. On top of writing each, I have to create an illustration for the featured image, transfer from Medium to my native React blog, and then publish those at the same time on one day each week. I wish I could see how many words I’ve written over this past year, I’m sure it’s close to 100,000 on just blog posts!</P>
+          <P>I appreciate all the support, shares, and kind words from you. I don’t plan to stop writing any time soon and am excited for all the things I’ll be able to write about, document, and share about my personal and professional life. Cheers to another year of writing!</P>
+
+          <H size={2}>⚡️ Made Many New Friends</H>
+          <P>This year has also been a big year for people I’ve met. Ever since I was young it was difficult for me to make new friends, I’ve always been pretty introverted and kept to myself both physically and digitally.</P>
+          <P>This year, that changed. Between streaming my work (this will be coming back soon if all goes as planned), being more intentional with reaching out to people, trying to find a new job, and being an overall nicer and more polite person, I’ve made a lot of new friends this year. Some of these folks I’d even call best friends. This has really helped me solidify how important the people around you are and their friendship attributes to a good portion of my success this past year. Thanks to all of you, you know who you are!</P>
+
+          <H size={1}>Looking to 2018</H>
+          <P>I’m not one for strict planning of my life, let alone New Year’s resolutions. I do however like to at least have a general direction in my life constantly, 2018 being no different.</P>
+          <P>I plan to ship a lot of side projects (mainly updates) this year. I have quite the backlog of things I want to build and update, just haven’t been able to do much these past few months due to outside forces. I’ve started and will continue to get back to where I was of shipping things every month and am excited to show what I’ve been working on.</P>
+          <P><strong>A list of other plans for this year:</strong></P>
+          <ul className="lh-copy black f4 mv5 pl4-l pl3">
+            <li className="mb4 f4-l f5">
+              <P>Post more personal and meaningful things on social media</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Support others in their endeavors even more</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Embrace my inner nerd and doing what makes me happy there</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Travel more and seeing my family more</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Ship v1 of Livtra</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Fix my working situation to where I’m comfortable with it</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Spend less time on devices</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Read more books instead of articles</P>
+            </li>
+            <li className="mb4 f4-l f5">
+              <P>Be consistent with music and release a lot of it this year</P>
+            </li>
+          </ul>
+
+          <P>Thanks for reading all this, and I wish you the best for this new year! 🎉</P>
 
           <PostEnd />
 

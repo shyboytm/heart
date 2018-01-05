@@ -12,6 +12,7 @@
 .flex-basis               { flex-basis: 250%; }
 .bg-purple                { background-color: #B49AFE; }
 .no-outline:focus         { outline: 0; }
+.tracked-tiny             { letter-spacing: .03rem; }
 
 /* elements */
 h1              { font-weight: 500; line-height: 2.5rem; }
