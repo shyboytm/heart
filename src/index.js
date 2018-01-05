@@ -74,6 +74,7 @@ import SixtyFour from './components/posts/SixtyFour';
 import SixtyFive from './components/posts/SixtyFive';
 import SixtySix from './components/posts/SixtySix';
 import SixtySeven from './components/posts/SixtySeven';
+import SixtyEight from './components/posts/SixtyEight';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -146,6 +147,7 @@ ReactDOM.render(
       <Route path="/tips-to-make-better-design-moodboards" component={SixtyFive}/>
       <Route path="/a-global-rule-for-your-work" component={SixtySix}/>
       <Route path="/giant-list-of-design-inspiration-to-use" component={SixtySeven}/>
+      <Route path="/2017" component={SixtyEight}/>
     </Route>
   </Router>,
   document.getElementById('root')

@@ -14,10 +14,10 @@ import P from '../../type-elements/P';
 import PostEnd from '../../post-elements/PostEnd';
 import Social from '../../type-elements/Social';
 
-class SixtySix extends Component {
+class SixtySeven extends Component {
   render() {
 
-    const imgSixtySix = require('../../../img/roc-volume-67-cover.png');
+    const imgSixtySeven = require('../../../img/roc-volume-67-cover.png');
 
     return (
       <div className="cf w-100">
@@ -28,7 +28,7 @@ class SixtySix extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//blog.cortes.us/giant-list-of-design-inspiration-to-use" />
         <Content id="67">
 
-          <Image imgSrc={imgSixtySix} imgAlt="Here’s a Giant List of Design Inspiration for You to Use" />
+          <Image imgSrc={imgSixtySeven} imgAlt="Here’s a Giant List of Design Inspiration for You to Use" />
           <div className="mb5">
             <H size={1}>Here’s a Giant List of Design Inspiration for You to Use</H>
             <span className="f7 pv1 ph2 br-pill bg-purple white b mr3">Volume 67</span>
@@ -584,4 +584,4 @@ class SixtySix extends Component {
   }
 }
 
-export default SixtySix;
+export default SixtySeven;
