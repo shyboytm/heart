@@ -76,6 +76,7 @@ import SixtySix from './components/posts/SixtySix';
 import SixtySeven from './components/posts/SixtySeven';
 import SixtyEight from './components/posts/SixtyEight';
 import SixtyNine from './components/posts/SixtyNine';
+import Seventy from './components/posts/Seventy';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -150,6 +151,7 @@ ReactDOM.render(
       <Route path="/giant-list-of-design-inspiration-to-use" component={SixtySeven}/>
       <Route path="/2017" component={SixtyEight}/>
       <Route path="/here-is-my-illustration-process" component={SixtyNine}/>
+      <Route path="/how-to-take-and-edit-photos-on-your-phone" component={Seventy}/>
     </Route>
   </Router>,
   document.getElementById('root')
